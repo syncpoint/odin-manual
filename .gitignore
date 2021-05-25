@@ -1,4 +1,9 @@
-# Logs
+#
+# OSX
+.DS_Store
+
+#
+## Logs
 logs
 *.log
 npm-debug.log*
@@ -102,3 +107,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+### Hugo files
+
+public
+
+

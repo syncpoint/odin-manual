@@ -1,0 +1,21 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "ODIN - Handbuch"
+ 
+ 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+[menu]
+#[[menu.main]]
+#    identifier = "manual"
+#    name = "manual"
+#    pre = "<i class='fa fa-heart'></i>"
+#    url = "/manual/"
+#    weight = -110

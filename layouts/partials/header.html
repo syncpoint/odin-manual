@@ -1,0 +1,13 @@
+<header class="fixed bg-white shadow-md  z-50 w-full px-5 py-2 flex justify-between items-center">
+	<a href="https://odin.syncpoint.io">ODIN</a>
+	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+	{{ with .Site.Menus.main }}
+	<nav>
+		<ul>
+			{{ range . }}
+			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			{{ end }}
+		</ul>
+	</nav>
+	{{ end }}
+</header>
