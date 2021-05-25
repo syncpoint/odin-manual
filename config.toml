@@ -1,4 +1,4 @@
-#baseURL = "https://syncpoint.github.io/odin-manual"
+baseURL = "https://syncpoint.github.io/odin-manual"
 languageCode = "en-us"
 title = "ODIN - Handbuch"
  
