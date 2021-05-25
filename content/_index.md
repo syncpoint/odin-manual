@@ -1,3 +1,8 @@
+---
+weight: 1
+draft: false
+---
+
 # Inhalt
 
 [Vorwort](./00_deckblatt_vorwort/   )

@@ -1,3 +1,9 @@
+---
+weight: 99
+draft: false
+---
+
+
 # Tastaturkürzel
 
 Dieses Blatt beschreibt viele nützliche Tastenkombinationen für **ODIN**. Einige dieser Tastaturkürzel entsprechen den Kurzbefehlen anderer Programme (zum Beispiel <kbd>Strg</kbd>+<kbd>C</kbd>bzw.<kbd>Cmd</kbd>+<kbd>C</kbd>für das Kopieren). 

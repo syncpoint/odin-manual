@@ -1,3 +1,7 @@
+---
+weight: 2
+draft: false
+---
 
 # Vorwort
 
@@ -13,7 +17,7 @@ Uns ist bewusst, dass dies noch ein weiter Weg ist, um unser großes Ziel zu err
 
 
 
-**Grunddaten zu ODIN:**
+**Grunddaten zu ODIN**
 
 -   **Open source-Produkt** und somit für alle **kostenfrei nutzbar** („MIT Lizenz“);
 -   Nutzung von **verschiedenen Onlinekarten** (inkl. deren „überlagerten“ Darstellung);
@@ -26,7 +30,7 @@ Uns ist bewusst, dass dies noch ein weiter Weg ist, um unser großes Ziel zu err
 
 
 
-**„MIT-Lizenz“:**
+**„MIT-Lizenz“**
 
 Das bedeutet, dass jede/r die Software in beliebigen Kontexten verwenden darf. Der Quellcode darf beliebig verändert werden und diese Änderungen müssen nicht veröffentlicht werden. Selbst eine kommerzielle Nutzung von ODIN durch Dritte ist zulässig.
 
@@ -34,7 +38,7 @@ Der oft zitierte „vendor lock-in“ ist bei ODIN ebenfalls kein Thema.
 
 Die Entscheidung für Open Source ist für uns aber primär eine Entscheidung für maximale Transparenz. Unsere Kunden und Partner können ODIN begutachten, mögliche Einsatzbereiche ausloten und die Kompatibilität mit bestehender Infrastruktur bewerten und dies alles ohne „die Katze im Sack“ kaufen zu müssen.
 
-**Feedback:**
+**Feedback**
 
 Um nicht Features oder andere „Spielereien“ zu implementieren, welche für die Operatoren oder Taktiker nicht sinnvoll sind oder kein Bedarf einer Nutzung besteht bzw. die bestehenden Features hinsichtlich Bedienung, Bearbeitung etc. weiter verbessern zu können, würden wir uns über Feedback zu ODIN freuen!
 

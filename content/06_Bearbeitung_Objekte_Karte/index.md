@@ -1,10 +1,10 @@
- 
+---
+weight: 16
+draft: false
+---
 
 
-
-
-
-# **Bearbeitung von Objekten auf der Karte:**
+# **Bearbeitung von Objekten auf der Karte**
 
 
 
@@ -16,7 +16,7 @@ Auch wurden in ODIN **Objekte** dann **anderes umgesetzt** zu den Vorgaben gem. 
 
 
 
-## **Allgemeines:**
+## **Allgemeines**
 
 
 
@@ -34,7 +34,7 @@ Im zweiten Teil erfolgt die Beschreibung der Eingabemöglichkeiten (Modifier gem
 
 
 
-## **Grundsätzlicher Ablauf bei der Erstellung:**
+## **Grundsätzlicher Ablauf bei der Erstellung**
 
 
 
@@ -51,11 +51,11 @@ folgender:
 
 
 
-## **Erstellung aufgrund Geometrie des Objektes:**
+## **Erstellung aufgrund Geometrie des Objektes**
 
 
 
-### **Punktobjekte:**
+### **Punktobjekte**
 
 
 
@@ -80,7 +80,7 @@ Um die "Offset Location" **wieder aufzuheben**, hält Ihr die `ALT-Taste` gedrü
 
 
 
-### **Linienobjekte:**
+### **Linienobjekte**
 
 
 
@@ -106,7 +106,7 @@ Um einen **einzelnen Punkt** zu **löschen** müsst Ihr die `ALT-Taste` gedrück
 
 
 
-### **Flächenobjekte:**
+### **Flächenobjekte**
 
 
 
@@ -132,7 +132,7 @@ Um einen **einzelnen Punkt** zu **löschen** müsst Ihr die `ALT-Taste` gedrück
 
 
 
-### **Korridorobjekte:**
+### **Korridorobjekte**
 
 
 

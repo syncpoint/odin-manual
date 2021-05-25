@@ -1,6 +1,9 @@
+---
+weight: 15
+draft: false
+---
+
 # **Activity Bar**
-
-
 
 Die Activity Bar ist in folgende Bereiche gegliedert:
 
@@ -8,7 +11,7 @@ Die Activity Bar ist in folgende Bereiche gegliedert:
 
 
 
-## **Basiskarten:**
+## **Basiskarten**
 
 
 
@@ -44,7 +47,7 @@ Im rechten unteren Bereich der Karte könnt ihr die von Euch **genutzten Karten 
 
 
 
-## **Layermanagement:**
+## **Layermanagement**
 
 
 
@@ -109,7 +112,7 @@ Die **Anzeige** der **Namen** der **Objekte** im „Layerbaum“ erfolgt aufgrun
 
 
 
-## **Map-Palette:**
+## **Map-Palette**
 
 
 
@@ -160,7 +163,7 @@ Jene **taktischen Grafiksymbole** gem. MIL-STD 2525C, die wir noch **nicht umges
 
 
 
-## **Werkzeuge:**
+## **Werkzeuge**
 
 
 
@@ -178,7 +181,7 @@ Zu beachten ist, dass die **GIS-Funktionalitäten** in ODIN **nicht gespeichert*
 
 
 
-### **Entfernung/Richtung messen:**
+### **Entfernung/Richtung messen**
 
 ![](images/Entfernung_messen.png)
 
@@ -203,7 +206,7 @@ Ihr könnt dabei jederzeit die Strecke wie folgt verändern (die Änderung werde
 
 
 
-### **Fläche messen:**
+### **Fläche messen**
 
 
 
@@ -223,7 +226,7 @@ Das Verändern der Fläche erfolgt analog wie bei Entfernung/Richtung messen.
 
 
 
-## **„Windows“-Funktionalitäten:**
+## **„Windows“-Funktionalitäten**
 
 
 
@@ -243,7 +246,7 @@ Ergänzend ist hinzufügen, dass Ihr durch Halten der `STRG-Taste` und **„Aufz
 
 
 
-## **Aktuellen Kartenausschnitt als PNG exportieren:**
+## **Aktuellen Kartenausschnitt als PNG exportieren**
 
 
 

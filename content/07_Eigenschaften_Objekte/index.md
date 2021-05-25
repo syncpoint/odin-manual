@@ -1,10 +1,10 @@
+---
+weight: 17
+draft: false
+---
 
 
-
-
-
-
-# **Eigenschaftsfenster der Objekte:**
+# **Eigenschaftsfenster der Objekte**
 
 
 
@@ -18,7 +18,7 @@ Sobald Ihr im Eigenschaftsfenster eine Eingabe bestätigt oder ein anderes Feld 
 
 
 
-## **Eingabefelder die für verschiedene Objektbereiche gleich sind:**
+## **Eingabefelder die für verschiedene Objektbereiche gleich sind**
 
 
 
@@ -69,7 +69,7 @@ Beim Feld **„Operational Conditions“** könnt Ihr folgende Angaben für das 
 
 
 
-## **Einheiten (Units):**
+## **Einheiten (Units)**
 
 
 
@@ -142,7 +142,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Waffen, Fahrzeuge und Gerät (Equipments):**
+## **Waffen, Fahrzeuge und Gerät (Equipments)**
 
 
 
@@ -199,7 +199,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Einrichtungen (Installation):**
+## **Einrichtungen (Installation)**
 
 
 
@@ -250,7 +250,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Aktivitäten (Activities):**
+## **Aktivitäten (Activities)**
 
 
 
@@ -295,7 +295,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Symbole ohne Modifier gem. MIL-STD 2525C:**
+## **Symbole ohne Modifier gem. MIL-STD 2525C**
 
 
 
@@ -340,7 +340,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Taktische Grafiken - Punktobjekte:**
+## **Taktische Grafiken - Punktobjekte**
 
 
 
@@ -379,7 +379,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Taktische Grafiken - Linienobjekte:**
+## **Taktische Grafiken - Linienobjekte**
 
 
 
@@ -422,7 +422,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Taktische Grafiken – Linienobjekte (Grenzen):**
+## **Taktische Grafiken – Linienobjekte (Grenzen)**
 
 
 
@@ -477,7 +477,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Taktische Grafiken - Flächenobjekte:**
+## **Taktische Grafiken - Flächenobjekte**
 
 
 
@@ -529,7 +529,7 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
-## **Bereich Links/WebLinks:**
+## **Bereich Links/WebLinks**
 
 
 

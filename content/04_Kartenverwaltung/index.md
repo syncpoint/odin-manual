@@ -1,4 +1,7 @@
- 
+ ---
+weight: 14
+draft: false
+---
 
 
 
@@ -18,7 +21,7 @@ Die Kartenverwaltung ist über die **„Menüleiste – Register Verwaltung – 
 
 
 
-## **Inhalt Kartenverwaltung:**
+## **Inhalt Kartenverwaltung**
 
 
 
@@ -56,7 +59,7 @@ Die **Open Street Map** scheint **nicht in der Kartenverwaltung** auf, da diese 
 
 
 
-## **Neue Karte in ODIN einbinden:**
+## **Neue Karte in ODIN einbinden**
 
 
 
@@ -64,7 +67,7 @@ Für die Einbindung einer neuen Online-/Offline-Karte in ODIN sind folgende vier
 
 
 
-### **Schritt 1 – URL bereitstellen:**
+### **Schritt 1 – URL bereitstellen**
 
 ![](images/Schritt_1_URL_1.png)
 
@@ -94,7 +97,7 @@ Wird im Bereich **„URL der Karte“** eine **Karten-URL eingegeben**, erfolgt 
 
 
 
-### **Schritt 2 – Optionen wählen:**
+### **Schritt 2 – Optionen wählen**
 
 ![](images/Schritt_2_Optionen _1.png)
 
@@ -134,7 +137,7 @@ Durch die **Eingabe** der maximal unterstützten **Zoom-Stufe** (für jene Karte
 
 
 
-### **Schritt 3 – Mit Vorschau überprüfen:**
+### **Schritt 3 – Mit Vorschau überprüfen**
 
 ![](images/Schritt_3_Vorschau_1.png)
 
@@ -161,7 +164,7 @@ Hier könnt Ihr im Bereich der Kartenvorschau durch Zoomen und Verschieben der K
 <img src="images/Schritt_3_Vorschau_2.png" style="zoom:80%;" />
 
 
-### **Schritt 4– Benennen und Speichern:**
+### **Schritt 4– Benennen und Speichern**
 
 ![](images/Schritt_4_Benennen.png)
 

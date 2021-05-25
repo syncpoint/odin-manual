@@ -1,3 +1,8 @@
+---
+weight: 99
+draft: false
+---
+
 # Keyboard shortcuts
 
 This sheet lists some useful keyboard shortcuts in ODIN. Many of the shortcuts are the same as those that you use in other apps (such as <kbd>Strg</kbd>+<kbd>C</kbd>or<kbd>Cmd</kbd>+<kbd>C</kbd>  to copy).

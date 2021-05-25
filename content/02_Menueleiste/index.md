@@ -1,8 +1,7 @@
- 
-
-
-
-
+---
+weight: 4
+draft: false
+---
 
 # Menüleiste
 
@@ -15,8 +14,7 @@ Die Menüleiste besteht derzeit aus nachstehenden Registern:
 ![](images/Menueleiste.png)
 
 
-
-## **odin-c2is:**
+## **ODIN-C2IS**
 
 ![](images/odin_c2is.png)
 
@@ -48,7 +46,7 @@ Mit Auswahl von **„Basiskarten“** öffnet ihr die „Kartenverwaltung“, in
 
 
 
-## **Bearbeiten:**
+## **Bearbeiten**
 
 ![](images/Bearbeiten.png)
 
@@ -58,7 +56,7 @@ Hier sind die typischen Windowsfunktionalitäten abgebildet. Diese sind auch üb
 
 
 
-## **Anzeige:**
+## **Anzeige**
 
 ![](images/Anzeige_1.png)
 
@@ -93,13 +91,13 @@ Mit der Funktion **„Labels“** könnt Ihr in ODIN  wählen, ob die Modifier b
 
 
 
-## **Fenster:**
+## **Fenster**
 
 ![](images/Fenster.png)
 
 
 
-## **Sprache:**
+## **Sprache**
 
 ![](images/Sprache.png)
 
