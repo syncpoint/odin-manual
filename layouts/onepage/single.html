@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<main class="container mx-auto prose prose-sm sm:prose lg:prose-lg xl:prose-xl pt-24">
+    <article class="prose lg:prose-xl">
+
+        {{ range .Site.Pages.ByWeight }}
+            {{ if ne .File.LogicalName  "onepage.md"  }}
+            {{ if ne .File.LogicalName  "_index.md"  }}
+            <section class="container mx-auto">
+                {{ .TableOfContents }}
+            </section>
+            {{ end }}   
+            {{ end }}   
+            {{ end }}   
+
+
+        {{ range .Site.Pages.ByWeight }}
+           {{ if ne .File.LogicalName  "onepage.md"  }}
+           {{ if ne .File.LogicalName  "_index.md"  }}
+           <section class="container mx-auto">
+              {{ .Content }}
+            </section>
+            {{ end }}   
+            {{ end }}   
+       {{ end }}   
+   </article>
+     
+</main>
+{{ end }}

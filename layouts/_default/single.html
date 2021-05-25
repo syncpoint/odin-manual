@@ -1,9 +1,16 @@
 {{ define "main" }}
-	<main class="container p-6 mx-auto">
-		<article class="container prose lg:prose-xl p-6 mx-auto">
+	
+		<div class="flex">
+		<aside class="hidden sm:hidden md:hidden lg:block  xl:block flex-none pt-24 px-8 ">
+			<div class="prose">
+			{{ .TableOfContents }}
+			</div>
+		</aside>
+		<article class="flex-auto mx-2 p-6 pr-24 ">
+			<main class="container mx-auto prose prose-sm sm:prose lg:prose-lg xl:prose-xl ">
 			<h1>{{ .Title }}</h1>
 			<div>
-				{{ .Content }}
+				{{ .Content }} 
 			</div>
 			{{ with .Params.tags }}
 			<div>
@@ -21,5 +28,6 @@
 			{{ end }}
 		</article>
 	</main>
-{{ partial "sidebar.html" . }}
+</div>
+
 {{ end }}

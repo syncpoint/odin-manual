@@ -1,4 +1,4 @@
-baseURL = "https://syncpoint.github.io/odin-manual"
+#baseURL = "https://syncpoint.github.io/odin-manual"
 languageCode = "en-us"
 title = "ODIN - Handbuch"
  
@@ -10,12 +10,18 @@ title = "ODIN - Handbuch"
   [markup.tableOfContents]
     endLevel = 3
     ordered = false
-    startLevel = 2
+    startLevel = 1
 
 [menu]
-#[[menu.main]]
-#    identifier = "manual"
-#    name = "manual"
-#    pre = "<i class='fa fa-heart'></i>"
-#    url = "/manual/"
-#    weight = -110
+[[menu.main]]
+    identifier = "Auf einer Steite"
+    name = "Auf einer Steite"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/onepage/"
+    weight = 1    
+[[menu.main]]
+    identifier = "Handbuch"
+    name = "Handbuch"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -110

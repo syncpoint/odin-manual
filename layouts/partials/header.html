@@ -3,9 +3,9 @@
 	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 	{{ with .Site.Menus.main }}
 	<nav>
-		<ul>
-			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+		<ul class="list-none inline">
+			{{ range .ByWeight }}
+			<li class="list-none inline pl-6"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
 			{{ end }}
 		</ul>
 	</nav>
