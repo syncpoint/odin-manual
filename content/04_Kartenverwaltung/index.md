@@ -29,21 +29,14 @@ Die Kartenverwaltung enthält folgende Funktionalitäten:
 
 ![](images/Inhalt_Kartenverwaltung.png)
 
-\- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
-
-\- <span class="blue">2</span> Auflistung aller dzt. eingebundenen Online-/Offlinekarten
-
-\- <span class="blue">3</span> neue Karte einbinden
-
-\- <span class="blue">4</span> aktuell markierte Karte
-
-\- <span class="red">5</span> Kartenvorschau der aktuell markierten Karte
-
-\- <span class="blue">6</span> Vergrößern/Verkleinern der Kartenansicht (inkl. Verschieben mit der Maus)
-
-\- <span class="blue">7</span> Bearbeiten/Verändern einer bestehenden Karte
-
-\- <span class="blue">8</span> Karte löschen
+- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
+- <span class="blue">2</span> Auflistung aller dzt. eingebundenen Online-/Offlinekarten
+- <span class="blue">3</span> neue Karte einbinden
+- <span class="blue">4</span> aktuell markierte Karte
+- <span class="red">5</span> Kartenvorschau der aktuell markierten Karte
+- <span class="blue">6</span> Vergrößern/Verkleinern der Kartenansicht (inkl. Verschieben mit der Maus)
+- <span class="blue">7</span> Bearbeiten/Verändern einer bestehenden Karte
+- <span class="blue">8</span> Karte löschen
 
 
 
@@ -71,23 +64,23 @@ Für die Einbindung einer neuen Online-/Offline-Karte in ODIN sind folgende vier
 
 ![](images/Schritt_1_URL_1.png)
 
-\- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
+- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
 
-\- <span class="blue">2</span> Anzeige Fortschritt der Karteneinbindung
+- <span class="blue">2</span> Anzeige Fortschritt der Karteneinbindung
 
-\- <span class="blue">3</span> Bereich zur Eingabe der URL
+- <span class="blue">3</span> Bereich zur Eingabe der URL
 
-\- <span class="blue">4</span> Information ob eingegebene Karten-URL korrekt/verarbeitbar ist
+- <span class="blue">4</span> Information ob eingegebene Karten-URL korrekt/verarbeitbar ist
 
-\- <span class="blue">5</span> Einbindung Schritt zurück *(hier immer inaktiv)*
+- <span class="blue">5</span> Einbindung Schritt zurück *(hier immer inaktiv)*
 
-\- <span class="blue">6</span> Einbindung Schritt weiter
+- <span class="blue">6</span> Einbindung Schritt weiter
 
-\- <span class="blue">7</span> Kartenvorschau *(hier immer leer)*
+- <span class="blue">7</span> Kartenvorschau *(hier immer leer)*
 
-\- <span class="blue">8</span> Karteneinbindung abbrechen (= Rückkehr zur Kartenverwaltung)
+- <span class="blue">8</span> Karteneinbindung abbrechen (= Rückkehr zur Kartenverwaltung)
 
-\- <span class="blue">9</span> Karte löschen* *(hier immer inaktiv)*
+- <span class="blue">9</span> Karte löschen* *(hier immer inaktiv)*
 
 
 
@@ -101,25 +94,16 @@ Wird im Bereich **„URL der Karte“** eine **Karten-URL eingegeben**, erfolgt 
 
 ![](images/Schritt_2_Optionen _1.png)
 
-\- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
-
-\- <span class="blue">2</span> Anzeige Fortschritt der Karteneinbindung
-
-\- <span class="blue">3</span> Information zur Karte (z.B. Quelle, Homepage, Beschreibung etc.)
-
-\- <span class="blue">4</span> Anzeige der verfügbaren Karten inkl. kurzer Beschreibung des Inhaltes
-
-\- <span class="blue">5</span> Anzeige wie viele Karten von den insgesamt verfügbaren Karten angezeigt werden
-
-\- <span class="blue">6</span> Einbindung Schritt zurück
-
-\- <span class="blue">7</span> Einbindung Schritt weiter
-
-\- <span class="blue">8</span> Kartenvorschau *(hier immer leer)*
-
-\- <span class="blue">9</span> Karteneinbindung abbrechen (= Rückkehr zur Kartenverwaltung)
-
-\- <span class="blue">10</span> Karte löschen* *(hier immer inaktiv)*
+- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
+- <span class="blue">2</span> Anzeige Fortschritt der Karteneinbindung
+- <span class="blue">3</span> Information zur Karte (z.B. Quelle, Homepage, Beschreibung etc.)
+- <span class="blue">4</span> Anzeige der verfügbaren Karten inkl. kurzer Beschreibung des Inhaltes
+- <span class="blue">5</span> Anzeige wie viele Karten von den insgesamt verfügbaren Karten angezeigt werden
+- <span class="blue">6</span> Einbindung Schritt zurück
+- <span class="blue">7</span> Einbindung Schritt weiter
+- <span class="blue">8</span> Kartenvorschau *(hier immer leer)*
+- <span class="blue">9</span> Karteneinbindung abbrechen (= Rückkehr zur Kartenverwaltung)
+- <span class="blue">10</span> Karte löschen* *(hier immer inaktiv)*
 
 
 
@@ -141,21 +125,21 @@ Durch die **Eingabe** der maximal unterstützten **Zoom-Stufe** (für jene Karte
 
 ![](images/Schritt_3_Vorschau_1.png)
 
-\- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
+- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
 
-\- <span class="blue">2</span> Anzeige Fortschritt der Karteneinbindung
+- <span class="blue">2</span> Anzeige Fortschritt der Karteneinbindung
 
-\- <span class="blue">3</span> Einbindung Schritt zurück
+- <span class="blue">3</span> Einbindung Schritt zurück
 
-\- <span class="blue">4</span> Einbindung Schritt weiter
+- <span class="blue">4</span> Einbindung Schritt weiter
 
-\- <span class="blue">5</span> Kartenvorschau
+- <span class="blue">5</span> Kartenvorschau
 
-\- <span class="blue">6</span> Vergrößern/Verkleinern der Kartenansicht (inkl. Verschieben mit der Maus)
+- <span class="blue">6</span> Vergrößern/Verkleinern der Kartenansicht (inkl. Verschieben mit der Maus)
 
-\- <span class="blue">7</span> Karteneinbindung abbrechen (= Rückkehr zur Kartenverwaltung)
+- <span class="blue">7</span> Karteneinbindung abbrechen (= Rückkehr zur Kartenverwaltung)
 
-\- <span class="blue">8</span> *Karte löschen* *(hier immer inaktiv)*
+- <span class="blue">8</span> *Karte löschen* *(hier immer inaktiv)*
 
 
 
@@ -168,25 +152,25 @@ Hier könnt Ihr im Bereich der Kartenvorschau durch Zoomen und Verschieben der K
 
 ![](images/Schritt_4_Benennen.png)
 
-\- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
+- <span class="blue">1</span> Verlassen/Beenden der Kartenverwaltung (= Rückkehr zur Karte)
 
-\- <span class="blue">2</span> Anzeige Fortschritt der Karteneinbindung
+- <span class="blue">2</span> Anzeige Fortschritt der Karteneinbindung
 
-\- <span class="blue">3</span> Bezeichnung der Karte festlegen
+- <span class="blue">3</span> Bezeichnung der Karte festlegen
 
-\- <span class="blue">4</span> Namensnennung der Karte festlegen
+- <span class="blue">4</span> Namensnennung der Karte festlegen
 
-\- <span class="blue">5</span> Einbindung Schritt zurück
+- <span class="blue">5</span> Einbindung Schritt zurück
 
-\- <span class="blue">6</span> Karteneinbindung abschließen
+- <span class="blue">6</span> Karteneinbindung abschließen
 
-\- <span class="blue">7</span> Kartenvorschau
+- <span class="blue">7</span> Kartenvorschau
 
-\- <span class="blue">8</span> Vergrößern/Verkleinern der Kartenansicht (inkl. Verschieben mit der Maus)
+- <span class="blue">8</span> Vergrößern/Verkleinern der Kartenansicht (inkl. Verschieben mit der Maus)
 
-\- <span class="blue">9</span> Karteneinbindung abbrechen (= Rückkehr zur Kartenverwaltung)
+- <span class="blue">9</span> Karteneinbindung abbrechen (= Rückkehr zur Kartenverwaltung)
 
-\- <span class="blue">10</span> *Karte löschen* *(hier immer inaktiv)*
+- <span class="blue">10</span> *Karte löschen* *(hier immer inaktiv)*
 
 
 

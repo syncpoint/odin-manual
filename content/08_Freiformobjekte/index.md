@@ -43,25 +43,25 @@ Beim Textfeld können derzeit folgende Eigenschaften eingegeben werden:
 | ![](images/Textfeld_1.png) | ![](images/Textfeld_2.png) |
 | -------------------------- | -------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes *(= Anzeige im Layermanagement)*
+- <span class="blue">4</span> Name des Objektes *(= Anzeige im Layermanagement)*
 
-\- <span class="blue">5</span> Eingabe des Textes *(= Anzeige auf der Karte)*
+- <span class="blue">5</span> Eingabe des Textes *(= Anzeige auf der Karte)*
 
-\- <span class="blue">6</span> Stylingmöglichkeiten für die Schrift (Farbe, Schriftgröße)
+- <span class="blue">6</span> Stylingmöglichkeiten für die Schrift (Farbe, Schriftgröße)
 
-\- <span class="blue">7</span> Stylingmöglichkeiten für die Umrandung (Farbe, Breite)
+- <span class="blue">7</span> Stylingmöglichkeiten für die Umrandung (Farbe, Breite)
 
-\- <span class="blue">8</span> Stylingmöglichkeiten für den Hintergrund (Farbe)
+- <span class="blue">8</span> Stylingmöglichkeiten für den Hintergrund (Farbe)
 
-\- <span class="blue">9</span> Stylingmöglichkeiten für den Rahmen (Farbe, Breite)
+- <span class="blue">9</span> Stylingmöglichkeiten für den Rahmen (Farbe, Breite)
 
-\- <span class="blue">10</span> Drehung der Anzeige des Textes auf der Karte
+- <span class="blue">10</span> Drehung der Anzeige des Textes auf der Karte
 
 
 
@@ -83,13 +83,13 @@ Bei der **Auswahl** der **Farben** öffnet sich ein kleines Fenster mit folgende
 
 ![](images/Textfeld_3.png)
 
-\- <span class="blue">1</span> Auswahl der Farbe *(mittels der Maus)*
+- <span class="blue">1</span> Auswahl der Farbe *(mittels der Maus)*
 
-\- <span class="blue">2</span> Auswahl der Farbbereiche *(mittels der Maus)*
+- <span class="blue">2</span> Auswahl der Farbbereiche *(mittels der Maus)*
 
-\- <span class="blue">3</span> Auswahl der Transparenz *(mittels der Maus)*
+- <span class="blue">3</span> Auswahl der Transparenz *(mittels der Maus)*
 
-\- <span class="blue">4</span> unmittelbare Anzeige der Auswahl beim Objekt auf der Karte
+- <span class="blue">4</span> unmittelbare Anzeige der Auswahl beim Objekt auf der Karte
 
 
 
@@ -114,15 +114,15 @@ Bei der Freiform "Linie" können derzeit folgende Eigenschaften eingegeben werde
 | ![](images/Freiform_Linie_1.png) | ![](images/Freiform_Linie_2.png) |
 | -------------------------------- | -------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes *(= Anzeige im Layermanagement)*
+- <span class="blue">4</span> Name des Objektes *(= Anzeige im Layermanagement)*
 
-\- <span class="blue">5</span> Stylingmöglichkeiten für die Linie (Farbe)
+- <span class="blue">5</span> Stylingmöglichkeiten für die Linie (Farbe)
 
 
 
@@ -145,17 +145,17 @@ Bei der Freiform "Fläche" können derzeit folgende Eigenschaften eingegeben wer
 | ![](images/Freiform_Fläche_1.png) | ![](images/Freiform_Fläche_2.png) |
 | --------------------------------- | --------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes *(= Anzeige im Layermanagement)*
+- <span class="blue">4</span> Name des Objektes *(= Anzeige im Layermanagement)*
 
-\- <span class="blue">5</span> Stylingmöglichkeiten  für den Rahmen (Farbe)
+- <span class="blue">5</span> Stylingmöglichkeiten  für den Rahmen (Farbe)
 
-\- <span class="blue">6</span> Stylingmöglichkeiten für den Hintergrund (Farbe)
+- <span class="blue">6</span> Stylingmöglichkeiten für den Hintergrund (Farbe)
 
 
 

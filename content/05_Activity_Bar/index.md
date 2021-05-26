@@ -19,19 +19,19 @@ Im Bereich der Basiskarten werden Euch all jene Karten angezeigt, welche ihr im 
 
 ![](images/Basiskarten.png)
 
-\- <span class="blue">1</span> Bereich der Basiskarten
+- <span class="blue">1</span> Bereich der Basiskarten
 
-\- <span class="blue">2</span> Reihenfolge der Karten (Änderung mittels Drag & Drop möglich)
+- <span class="blue">2</span> Reihenfolge der Karten (Änderung mittels Drag & Drop möglich)
 
-\- <span class="blue">3</span> Open Street Map = Standardkarte von ODIN
+- <span class="blue">3</span> Open Street Map = Standardkarte von ODIN
 
-\- <span class="red">4</span> aktive Karten (= in schwarzer Schrift, Auge-Symbol ist „offen“)
+- <span class="red">4</span> aktive Karten (= in schwarzer Schrift, Auge-Symbol ist „offen“)
 
-\- <span class="blue">5</span> Deckkraft der jeweiligen Karte (0% - 100%)
+- <span class="blue">5</span> Deckkraft der jeweiligen Karte (0% - 100%)
 
-\- <span class="blue">6</span> ausgeblendete Karte (= in grauer Schrift, Auge-Symbol ist „geschlossen“)
+- <span class="blue">6</span> ausgeblendete Karte (= in grauer Schrift, Auge-Symbol ist „geschlossen“)
 
-\- <span class="red">7</span> aktive Karte inkl. Anzeige im rechten unteren Kartenbereich
+- <span class="red">7</span> aktive Karte inkl. Anzeige im rechten unteren Kartenbereich
 
 
 
@@ -55,29 +55,29 @@ Im Bereich des Layermanagements werden alle von Euch erstellten oder importieren
 
 ![](images/Layermanagement.png)
 
-\- <span class="blue">1</span> Bereich des Layermanagements
+- <span class="blue">1</span> Bereich des Layermanagements
 
-\- <span class="blue">2</span> Layer erstellen
+- <span class="blue">2</span> Layer erstellen
 
-\- <span class="blue">3</span> Layer löschen
+- <span class="blue">3</span> Layer löschen
 
-\- <span class="blue">4</span> Layer duplizieren
+- <span class="blue">4</span> Layer duplizieren
 
-\- <span class="blue">5</span> Layer teilen
+- <span class="blue">5</span> Layer teilen
 
-\- <span class="red">6</span> Suche im Layermanagement *(dzt. noch nicht umgesetzt)*
+- <span class="red">6</span> Suche im Layermanagement *(dzt. noch nicht umgesetzt)*
 
-\- <span class="blue">7</span> Layer sperren/entsperren („Schloss“-Symbol)
+- <span class="blue">7</span> Layer sperren/entsperren („Schloss“-Symbol)
 
-\- <span class="blue">8</span> Layer ein-/ausblenden („Auge“-Symbol)
+- <span class="blue">8</span> Layer ein-/ausblenden („Auge“-Symbol)
 
-\- <span class="red">9</span> aktiver Layer
+- <span class="red">9</span> aktiver Layer
 
-\- <span class="blue">10</span> nicht aktiver Layer
+- <span class="blue">10</span> nicht aktiver Layer
 
-\- <span class="blue">11</span> Inhalt des Layers („Layerbaum“)
+- <span class="blue">11</span> Inhalt des Layers („Layerbaum“)
 
-\- <span class="blue">12</span> Anzeige neuer Layer (wenn über Button „Layer erstellen“ erfolgt)
+- <span class="blue">12</span> Anzeige neuer Layer (wenn über Button „Layer erstellen“ erfolgt)
 
 
 
@@ -121,21 +121,21 @@ Im Bereich der Map-Palette könnt Ihr die Symbole gemäß MILSTD-2525C auswähle
 | ![](images/Map_Palette_1.png) | ![](images/Map_Palette_2.png) | ![](images/Map_Palette_3.png) |
 | ----------------------------- | ----------------------------- | ----------------------------- |
 
-\- <span class="blue">1</span> Bereich der Map-Palette
+- <span class="blue">1</span> Bereich der Map-Palette
 
-\- <span class="blue">2</span> Festlegung des „Hostility Status“
+- <span class="blue">2</span> Festlegung des „Hostility Status“
 
-\- <span class="blue">3</span> Festlegung ob Objekte gemeldet oder geplant dargestellt werden
+- <span class="blue">3</span> Festlegung ob Objekte gemeldet oder geplant dargestellt werden
 
-\- <span class="blue">4</span> Suche in der Map-Palette
+- <span class="blue">4</span> Suche in der Map-Palette
 
-\- <span class="blue">5</span> auswählbares Objekt (mit Vorschau auf taktisches Zeichen)
+- <span class="blue">5</span> auswählbares Objekt (mit Vorschau auf taktisches Zeichen)
 
-\- <span class="blue">6</span> ziviles Objekt (Darstellung bereits gem. MIL-STD 2525D)
+- <span class="blue">6</span> ziviles Objekt (Darstellung bereits gem. MIL-STD 2525D)
 
-\- <span class="blue">7</span> auswählbares Objekt (ohne Vorschau auf taktisches Zeichen)
+- <span class="blue">7</span> auswählbares Objekt (ohne Vorschau auf taktisches Zeichen)
 
-\- <span class="blue">8</span> dzt. nicht unterstütztes und somit darstellbares Objekt
+- <span class="blue">8</span> dzt. nicht unterstütztes und somit darstellbares Objekt
 
 
 
@@ -171,9 +171,9 @@ Im Bereich der Werkzeuge sind die GIS-Funktionalitäten von ODIN verfügbar:
 
 ![](images/Werkzeuge.png)
 
-\- <span class="blue">1</span> Bereich der Werkzeuge
+- <span class="blue">1</span> Bereich der Werkzeuge
 
-\- <span class="blue">2</span> verfügbare GIS-Funktionalitäten
+- <span class="blue">2</span> verfügbare GIS-Funktionalitäten
 
 
 
@@ -185,15 +185,15 @@ Zu beachten ist, dass die **GIS-Funktionalitäten** in ODIN **nicht gespeichert*
 
 ![](images/Entfernung_messen.png)
 
-\- <span class="blue">1</span> grüner Punkt = Startpunkt der Streckenberechnung
+- <span class="blue">1</span> grüner Punkt = Startpunkt der Streckenberechnung
 
-\- <span class="blue">2</span> Distanzangabe in m/km für die Teilstrecke
+- <span class="blue">2</span> Distanzangabe in m/km für die Teilstrecke
 
-\- <span class="blue">3</span> Winkelangabe für die Teilstrecke in Grad
+- <span class="blue">3</span> Winkelangabe für die Teilstrecke in Grad
 
-\- <span class="blue">4</span> roter Punkt = Endpunkt der Streckenberechnung
+- <span class="blue">4</span> roter Punkt = Endpunkt der Streckenberechnung
 
-\- <span class="blue">5</span> Gesamtlänge der Strecke in m/km
+- <span class="blue">5</span> Gesamtlänge der Strecke in m/km
 
 
 
@@ -212,11 +212,11 @@ Ihr könnt dabei jederzeit die Strecke wie folgt verändern (die Änderung werde
 
 ![](images/Flaeche_messen.png)
 
-\- <span class="blue">1</span> Distanzangabe in m/km für die Teilstrecke
+- <span class="blue">1</span> Distanzangabe in m/km für die Teilstrecke
 
-\- <span class="blue">2</span> Gesamtfläche in m²/km²
+- <span class="blue">2</span> Gesamtfläche in m²/km²
 
-\- <span class="blue">3</span> Umfang der Fläche in m/km
+- <span class="blue">3</span> Umfang der Fläche in m/km
 
 
 

@@ -19,31 +19,31 @@ Die Projektverwaltung enthält folgende Funktionalitäten:
 
 ![](images/Inhalt_Projektverwaltung.png)
 
-\- <span class="blue">1</span> Verlassen/Beenden der Projektverwaltung (= Rückkehr zur Karte)
+- <span class="blue">1</span> Verlassen/Beenden der Projektverwaltung (= Rückkehr zur Karte)
 
-\- <span class="blue">2</span> Auflistung aller vorhandenen Projekte
+- <span class="blue">2</span> Auflistung aller vorhandenen Projekte
 
-\- <span class="red">3</span> aktuelles Projekt
+- <span class="red">3</span> aktuelles Projekt
 
-\- <span class="blue">4</span> aktuell markiertes Projekt
+- <span class="blue">4</span> aktuell markiertes Projekt
 
-\- <span class="blue">5</span> neues Projekt anlegen
+- <span class="blue">5</span> neues Projekt anlegen
 
-\- <span class="blue">6</span> Projekt importieren
+- <span class="blue">6</span> Projekt importieren
 
-\- <span class="red">7</span> Anzeige Name des aktuell markierten Projektes
+- <span class="red">7</span> Anzeige Name des aktuell markierten Projektes
 
-\- <span class="blue">8</span> Projekt umbenennen
+- <span class="blue">8</span> Projekt umbenennen
 
-\- <span class="red">9</span> Projekt sichern (= Umbenennen bestätigen)
+- <span class="red">9</span> Projekt sichern (= Umbenennen bestätigen)
 
-\- <span class="blue">10</span> Projekt exportieren
+- <span class="blue">10</span> Projekt exportieren
 
-\- <span class="red">11</span> Vorschau auf Projektinhalt
+- <span class="red">11</span> Vorschau auf Projektinhalt
 
-\- <span class="blue">12</span> Projekt wechseln
+- <span class="blue">12</span> Projekt wechseln
 
-\- <span class="blue">13</span> Projekt löschen
+- <span class="blue">13</span> Projekt löschen
 
 
 
@@ -74,15 +74,15 @@ Nach dem Drücken des Buttons **„NEU“** erscheint im rechten Fensterbereich 
 
 ![](images/Projekt_neu_anlegen.png)
 
-\- <span class="blue">1</span> „untitled project (= Anzeige des Projektnamens)
+- <span class="blue">1</span> „untitled project (= Anzeige des Projektnamens)
 
-\- <span class="blue">2</span> Projekt umbenennen
+- <span class="blue">2</span> Projekt umbenennen
 
-\- <span class="blue">3</span> Projekt sichern (= Umbenennen bestätigen)
+- <span class="blue">3</span> Projekt sichern (= Umbenennen bestätigen)
 
-\- <span class="blue">4</span> Projekt exportieren
+- <span class="blue">4</span> Projekt exportieren
 
-\- <span class="blue">5</span> Projekt löschen
+- <span class="blue">5</span> Projekt löschen
 
 
 

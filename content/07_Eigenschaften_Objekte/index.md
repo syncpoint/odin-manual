@@ -78,41 +78,41 @@ Bei den Einheiten können derzeit folgende Eigenschaften eingegeben werden:
 | ![](images/Einheiten_Uebersicht_1.png) | ![](images/Einheiten_Uebersicht_2.png) |
 | -------------------------------------- | -------------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung
+- <span class="blue">5</span> eigene Bezeichnung
 
-\- <span class="blue">6</span> vorgesetzte Dienststelle(n)
+- <span class="blue">6</span> vorgesetzte Dienststelle(n)
 
-\- <span class="blue">7</span> Special C2 HQ
+- <span class="blue">7</span> Special C2 HQ
 
-\- <span class="blue">8</span> Größensymbol
+- <span class="blue">8</span> Größensymbol
 
-\- <span class="blue">9</span> Hostility Status
+- <span class="blue">9</span> Hostility Status
 
-\- <span class="blue">10</span> Datum- und Zeitangabe
+- <span class="blue">10</span> Datum- und Zeitangabe
 
-\- <span class="blue">11</span> Geschwindigkeit
+- <span class="blue">11</span> Geschwindigkeit
 
-\- <span class="blue">12</span> Richtung
+- <span class="blue">12</span> Richtung
 
-\- <span class="blue">13</span> Staff Comment
+- <span class="blue">13</span> Staff Comment
 
-\- <span class="blue">14</span> zusätzliche Informationen
+- <span class="blue">14</span> zusätzliche Informationen
 
-\- <span class="blue">15</span> gemeldet/geplant
+- <span class="blue">15</span> gemeldet/geplant
 
-\- <span class="blue">16</span> Operational Conditions
+- <span class="blue">16</span> Operational Conditions
 
-\- <span class="blue">17</span> Modifier für Kommando, Kampfgruppe und Täuschung
+- <span class="blue">17</span> Modifier für Kommando, Kampfgruppe und Täuschung
 
-\- <span class="blue">18</span> Modifier für Angabe von verstärkt/vermindert/gemischt
+- <span class="blue">18</span> Modifier für Angabe von verstärkt/vermindert/gemischt
 
 
 
@@ -151,37 +151,37 @@ Bei den Waffen, Fahrzeugen und Geräten können derzeit folgende Eigenschaften e
 | ![](images/Ausruestung_Uebersicht_1.png) | ![](images/Ausruestung_Uebersicht_2.png) |
 | ---------------------------------------- | ---------------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung
+- <span class="blue">5</span> eigene Bezeichnung
 
-\- <span class="blue">6</span> Anzahl
+- <span class="blue">6</span> Anzahl
 
-\- <span class="blue">7</span> Type
+- <span class="blue">7</span> Type
 
-\- <span class="blue">8</span> Mobilität
+- <span class="blue">8</span> Mobilität
 
-\- <span class="blue">9</span> Hostility Status
+- <span class="blue">9</span> Hostility Status
 
-\- <span class="blue">10</span> Datum- und Zeitangabe
+- <span class="blue">10</span> Datum- und Zeitangabe
 
-\- <span class="blue">11</span> Geschwindigkeit
+- <span class="blue">11</span> Geschwindigkeit
 
-\- <span class="blue">12</span> Richtung
+- <span class="blue">12</span> Richtung
 
-\- <span class="blue">13</span> Staff Comment
+- <span class="blue">13</span> Staff Comment
 
-\- <span class="blue">14</span> zusätzliche Informationen
+- <span class="blue">14</span> zusätzliche Informationen
 
-\- <span class="blue">15</span> gemeldet/geplant
+- <span class="blue">15</span> gemeldet/geplant
 
-\- <span class="blue">16</span> Operational Conditions
+- <span class="blue">16</span> Operational Conditions
 
 
 
@@ -208,31 +208,31 @@ Bei den Einrichtungen können derzeit folgende Eigenschaften eingegeben werden:
 | ![](images/Einrichtungen_Uebersicht_1.png) | ![](images/Einrichtungen_Uebersicht_2.png) |
 | ------------------------------------------ | ------------------------------------------ |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung
+- <span class="blue">5</span> eigene Bezeichnung
 
-\- <span class="blue">6</span> vorgesetzte Dienststelle(n)
+- <span class="blue">6</span> vorgesetzte Dienststelle(n)
 
-\- <span class="blue">7</span> Special C2 HQ
+- <span class="blue">7</span> Special C2 HQ
 
-\- <span class="blue">8</span> Hostility Status
+- <span class="blue">8</span> Hostility Status
 
-\- <span class="blue">9</span> Datum- und Zeitangabe
+- <span class="blue">9</span> Datum- und Zeitangabe
 
-\- <span class="blue">10</span> Staff Comment
+- <span class="blue">10</span> Staff Comment
 
-\- <span class="blue">11</span> zusätzliche Informationen
+- <span class="blue">11</span> zusätzliche Informationen
 
-\- <span class="blue">12</span> gemeldet/geplant
+- <span class="blue">12</span> gemeldet/geplant
 
-\- <span class="blue">13</span> Operational Conditions
+- <span class="blue">13</span> Operational Conditions
 
 
 
@@ -259,31 +259,31 @@ Bei den Aktivitäten können derzeit folgende Eigenschaften eingegeben werden:
 | ![](images/Aktivitaeten_Uebersicht_1.png) | ![](images/Aktivitaeten_Uebersicht_2.png) |
 | ----------------------------------------- | ----------------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung
+- <span class="blue">5</span> eigene Bezeichnung
 
-\- <span class="blue">6</span> Hostility Status
+- <span class="blue">6</span> Hostility Status
 
-\- <span class="blue">7</span> Datum- und Zeitangabe
+- <span class="blue">7</span> Datum- und Zeitangabe
 
-\- <span class="blue">8</span> Geschwindigkeit
+- <span class="blue">8</span> Geschwindigkeit
 
-\- <span class="blue">9</span> Richtung
+- <span class="blue">9</span> Richtung
 
-\- <span class="blue">10</span> Staff Comment
+- <span class="blue">10</span> Staff Comment
 
-\- <span class="blue">11</span> zusätzliche Informationen
+- <span class="blue">11</span> zusätzliche Informationen
 
-\- <span class="blue">12</span> gemeldet/geplant
+- <span class="blue">12</span> gemeldet/geplant
 
-\- <span class="blue">13</span> Operational Conditions
+- <span class="blue">13</span> Operational Conditions
 
 
 
@@ -306,29 +306,29 @@ Bei diesen Objekten können derzeit folgende Eigenschaften eingegeben werden:
 | ![](images/Symbole_ohne_Modifier_Uebersicht_1.png) | ![](images/Symbole_ohne_Modifier_Uebersicht_2.png) |
 | -------------------------------------------------- | -------------------------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung
+- <span class="blue">5</span> eigene Bezeichnung
 
-\- <span class="blue">6</span> Anzahl
+- <span class="blue">6</span> Anzahl
 
-\- <span class="blue">7</span> Hostility Status
+- <span class="blue">7</span> Hostility Status
 
-\- <span class="blue">8</span> Datum- und Zeitangabe
+- <span class="blue">8</span> Datum- und Zeitangabe
 
-\- <span class="blue">9</span> Geschwindigkeit
+- <span class="blue">9</span> Geschwindigkeit
 
-\- <span class="blue">10</span> Richtung
+- <span class="blue">10</span> Richtung
 
-\- <span class="blue">11</span> Staff Comment
+- <span class="blue">11</span> Staff Comment
 
-\- <span class="blue">12</span> zusätzliche Informationen
+- <span class="blue">12</span> zusätzliche Informationen
 
 
 
@@ -349,25 +349,25 @@ Bei den taktischen Grafiken - Punktobjekte können derzeit folgende Eigenschafte
 | ![](images/takGrafik_Punktsymbol_Uebersicht_1.png) | ![](images/takGrafik_Punktsymbol_Uebersicht_2.png) |
 | -------------------------------------------------- | -------------------------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung
+- <span class="blue">5</span> eigene Bezeichnung
 
-\- <span class="blue">6</span> Hostility Status
+- <span class="blue">6</span> Hostility Status
 
-\- <span class="blue">7</span> Datum- und Zeitangabe
+- <span class="blue">7</span> Datum- und Zeitangabe
 
-\- <span class="blue">8</span> Staff Comment
+- <span class="blue">8</span> Staff Comment
 
-\- <span class="blue">9</span> zusätzliche Informationen
+- <span class="blue">9</span> zusätzliche Informationen
 
-\- <span class="blue">10</span> Höhe bzw. Tiefe
+- <span class="blue">10</span> Höhe bzw. Tiefe
 
 
 
@@ -388,27 +388,27 @@ Bei den taktischen Grafiken - Linienobjekte können derzeit folgende Eigenschaft
 | ![](images/takGrafik_Liniensymbol_Uebersicht_1.png) | ![](images/takGrafik_Liniensymbol_Uebersicht_2.png) |
 | --------------------------------------------------- | --------------------------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung
+- <span class="blue">5</span> eigene Bezeichnung
 
-\- <span class="blue">6</span> zusätzliche Informationen
+- <span class="blue">6</span> zusätzliche Informationen
 
-\- <span class="blue">7</span> Hostility Status
+- <span class="blue">7</span> Hostility Status
 
-\- <span class="blue">8</span> Größensymbol
+- <span class="blue">8</span> Größensymbol
 
-\- <span class="blue">9</span> gemeldet/geplant
+- <span class="blue">9</span> gemeldet/geplant
 
-\- <span class="blue">10</span> Datum- und Zeitangabe (von – bis)
+- <span class="blue">10</span> Datum- und Zeitangabe (von – bis)
 
-\- <span class="blue">11</span> Höhe (von – bis)
+- <span class="blue">11</span> Höhe (von – bis)
 
 
 
@@ -431,29 +431,29 @@ Eine Sonderform bei den Linienobjekten stellen die Grenzen dar. Hier können fol
 | ![](images/takGrafik_Grenzenl_Uebersicht_1.png) | ![](images/takGrafik_Grenzenl_Uebersicht_2.png) |
 | ----------------------------------------------- | ----------------------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung (linke/rechte Grenze)
+- <span class="blue">5</span> eigene Bezeichnung (linke/rechte Grenze)
 
-\- <span class="blue">6</span> zusätzliche Informationen
+- <span class="blue">6</span> zusätzliche Informationen
 
-\- <span class="blue">7</span> Hostility Status
+- <span class="blue">7</span> Hostility Status
 
-\- <span class="blue">8</span> Größensymbol
+- <span class="blue">8</span> Größensymbol
 
-\- <span class="blue">9</span> Anordnung des Größensymbols
+- <span class="blue">9</span> Anordnung des Größensymbols
 
-\- <span class="blue">10</span> gemeldet/geplant
+- <span class="blue">10</span> gemeldet/geplant
 
-\- <span class="blue">11</span> Datum- und Zeitangabe (von – bis)
+- <span class="blue">11</span> Datum- und Zeitangabe (von – bis)
 
-\- <span class="blue">12</span> Höhe (von – bis)
+- <span class="blue">12</span> Höhe (von – bis)
 
 
 
@@ -487,27 +487,27 @@ Eigenschaften eingegeben werden:
 | ![](images/takGrafik_Flaechensymbol_Uebersicht_1.png) | ![](images/takGrafik_Flaechensymbol_Uebersicht_2.png) |
 | ----------------------------------------------------- | ----------------------------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> aktueller Bereich Eigenschaften
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
 
-\- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Name des Objektes
+- <span class="blue">4</span> Name des Objektes
 
-\- <span class="blue">5</span> eigene Bezeichnung
+- <span class="blue">5</span> eigene Bezeichnung
 
-\- <span class="blue">6</span> zusätzliche Informationen
+- <span class="blue">6</span> zusätzliche Informationen
 
-\- <span class="blue">7</span> Hostility Status
+- <span class="blue">7</span> Hostility Status
 
-\- <span class="blue">8</span> Größensymbol
+- <span class="blue">8</span> Größensymbol
 
-\- <span class="blue">9</span> gemeldet/geplant
+- <span class="blue">9</span> gemeldet/geplant
 
-\- <span class="blue">10</span> Datum- und Zeitangabe (von – bis)
+- <span class="blue">10</span> Datum- und Zeitangabe (von – bis)
 
-\- <span class="blue">11</span> Höhe (von – bis)
+- <span class="blue">11</span> Höhe (von – bis)
 
 
 
@@ -538,19 +538,19 @@ Im Bereich der **Links/WebLinks** könnt Ihr zu einem Objekt auf der Karte **Lin
 | ![](images/Links_Uebersicht_1.png) | ![](images/Links_Uebersicht_2.png) |
 | ---------------------------------- | ---------------------------------- |
 
-\- <span class="blue">1</span> markiertes Objekt auf der Karte
+- <span class="blue">1</span> markiertes Objekt auf der Karte
 
-\- <span class="blue">2</span> Wechseln zum Bereich Eigenschaften
+- <span class="blue">2</span> Wechseln zum Bereich Eigenschaften
 
-\- <span class="blue">3</span> aktueller Bereich für Links/WebLinks
+- <span class="blue">3</span> aktueller Bereich für Links/WebLinks
 
-\- <span class="blue">4</span> Drag & Drop-Feld zum „Verlinken“ der Dateien/URL‘s
+- <span class="blue">4</span> Drag & Drop-Feld zum „Verlinken“ der Dateien/URL‘s
 
-\- <span class="red">5</span> Anzeige der Anzahl der „verlinkten“ Dateien/URL’s
+- <span class="red">5</span> Anzeige der Anzahl der „verlinkten“ Dateien/URL’s
 
-\- <span class="red">6</span> Anzeige der „verlinkten“ Dateien/URL’s (zum Öffnen)
+- <span class="red">6</span> Anzeige der „verlinkten“ Dateien/URL’s (zum Öffnen)
 
-\- <span class="red">7</span> Button zum Löschen der „Verlinkung“
+- <span class="red">7</span> Button zum Löschen der „Verlinkung“
 
 
 
