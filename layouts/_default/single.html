@@ -1,33 +1,22 @@
 {{ define "main" }}
-	
-		<div class="flex">
-		<aside class="hidden sm:hidden md:hidden lg:block  xl:block flex-none pt-24 px-8 ">
-			<div class="prose">
-			{{ .TableOfContents }}
-			</div>
-		</aside>
-		<article class="flex-auto mx-2 p-6 pr-24 ">
-			<main class="container mx-auto prose prose-sm sm:prose lg:prose-lg xl:prose-xl ">
-			<h1>{{ .Title }}</h1>
-			<div>
-				{{ .Content }} 
-			</div>
-			{{ with .Params.tags }}
-			<div>
-				<ul id="tags">
-					{{ range . }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			{{ end }}
-			{{ with .Site.DisqusShortname }}
-			<div>
-				{{ template "_internal/disqus.html" . }}
-			</div>
-			{{ end }}
-		</article>
-	</main>
+<div class="container mx-auto bg-white">
+<div class="flex h-full">
+	<aside class="flex-none h-screen sticky top-0 p-6 hidden sm:hidden md:hidden lg:block xl:block">
+		<div class="prose">
+		<a href="{{ .Site.BaseURL }}">{{ .Site.Params.Navigation.Content}}</a>
+		
+		{{ .TableOfContents }}
+		</div>
+	</aside>
+	<article class="flex-1">
+		<div class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl p-12 pt-6 max-w-none">
+		<h1>{{ .Title }}</h1>
+		<div>
+			{{ .Content }} 
+		</div>
+	</div>
+	</article>
 </div>
+</div>	
 
 {{ end }}

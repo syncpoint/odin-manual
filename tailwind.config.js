@@ -6,8 +6,19 @@ module.exports = {
       center: true,
       padding: "1.5rem",
     },
-    extend: {},
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#333',
+            'ul > li::before': {
+              display: 'none'  
+            }
+          },
+        },
+    },
   },
+},
   variants: {
     extend: {},
   },

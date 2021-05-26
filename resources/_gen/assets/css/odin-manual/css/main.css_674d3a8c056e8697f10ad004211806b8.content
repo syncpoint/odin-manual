@@ -590,7 +590,7 @@ video {
 }
 
 .prose {
-  color: #374151;
+  color: #333;
   max-width: 65ch;
 }
 
@@ -676,6 +676,7 @@ video {
   height: 0.375em;
   top: calc(0.875em - 0.1875em);
   left: 0.25em;
+  display: none;
 }
 
 .prose hr {
@@ -32610,7 +32611,7 @@ span.pink {
   }
 
   .sm\:prose {
-    color: #374151;
+    color: #333;
     max-width: 65ch;
   }
 
@@ -32696,6 +32697,7 @@ span.pink {
     height: 0.375em;
     top: calc(0.875em - 0.1875em);
     left: 0.25em;
+    display: none;
   }
 
   .sm\:prose hr {
@@ -64480,7 +64482,7 @@ span.pink {
   }
 
   .md\:prose {
-    color: #374151;
+    color: #333;
     max-width: 65ch;
   }
 
@@ -64566,6 +64568,7 @@ span.pink {
     height: 0.375em;
     top: calc(0.875em - 0.1875em);
     left: 0.25em;
+    display: none;
   }
 
   .md\:prose hr {
@@ -96350,7 +96353,7 @@ span.pink {
   }
 
   .lg\:prose {
-    color: #374151;
+    color: #333;
     max-width: 65ch;
   }
 
@@ -96436,6 +96439,7 @@ span.pink {
     height: 0.375em;
     top: calc(0.875em - 0.1875em);
     left: 0.25em;
+    display: none;
   }
 
   .lg\:prose hr {
@@ -128220,7 +128224,7 @@ span.pink {
   }
 
   .xl\:prose {
-    color: #374151;
+    color: #333;
     max-width: 65ch;
   }
 
@@ -128306,6 +128310,7 @@ span.pink {
     height: 0.375em;
     top: calc(0.875em - 0.1875em);
     left: 0.25em;
+    display: none;
   }
 
   .xl\:prose hr {
@@ -160090,7 +160095,7 @@ span.pink {
   }
 
   .\32xl\:prose {
-    color: #374151;
+    color: #333;
     max-width: 65ch;
   }
 
@@ -160176,6 +160181,7 @@ span.pink {
     height: 0.375em;
     top: calc(0.875em - 0.1875em);
     left: 0.25em;
+    display: none;
   }
 
   .\32xl\:prose hr {

@@ -2,7 +2,12 @@ baseURL = "https://syncpoint.github.io/odin-manual"
 languageCode = "en-us"
 title = "ODIN - Handbuch"
  
- 
+[params]
+  [params.navigation]
+    help = "Help"
+    back = "Zurück"
+    Content = "Inhalt"
+     
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -25,3 +30,4 @@ title = "ODIN - Handbuch"
     pre = "<i class='fa fa-heart'></i>"
     url = "/"
     weight = -110
+
