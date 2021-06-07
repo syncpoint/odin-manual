@@ -1,8 +1,11 @@
 baseURL = "https://syncpoint.github.io/odin-manual"
 languageCode = "en-us"
 title = "ODIN - Handbuch"
- 
+
 [params]
+  version = "0.10.1" 
+  version-date = "31.05.2021"
+
   [params.navigation]
     help = "Help"
     back = "Zurück"

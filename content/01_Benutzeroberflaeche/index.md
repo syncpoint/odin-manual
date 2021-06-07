@@ -44,4 +44,3 @@ In **weiterer Folge** erfolgt die **Beschreibung** der einzelnen Bereiche, Funkt
 
 Um das **Benutzerhandbuch schlank zu halten** bzw. auf die **nützlichsten Bereiche, ** **Funktionen** etc. zu **beschränken**, werden **selbsterklärende Funktionen** (z.B. Odin beenden, Minimieren/Maximieren etc.) **in diesem Benutzerhandbuch** **nicht gesondert** erklärt**!
 
-

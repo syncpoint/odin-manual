@@ -1,4 +1,4 @@
- ---
+---
 weight: 18
 draft: false
 ---
@@ -20,7 +20,7 @@ Derzeit sind folgende **Freiformobjekte** in ODIN verfügbar:
 
 
 
-Um ein **Freiformobjekt erstellen** zu können, müsst Ihr dieses in der **Map-Palette** zuerst auswählen. Gebt hiezu im Suchbereich den Begriff **"Supplemental"** ein:
+Um ein **Freiformobjekt erstellen** zu können, müsst Ihr dieses in der **Map-Palette** zuerst auswählen. Gebt hiezu im Suchbereich den Begriff **"Supplemental"** bzw. sind auch die Suchbegriffe "**Text**", "**Line**" und "**Polygon**" möglich:
 
 
 
@@ -65,7 +65,7 @@ Beim Textfeld können derzeit folgende Eigenschaften eingegeben werden:
 
 
 
-Im Freitextfeld können neben Texteingaben auch **Emojis** hinzugefügt werden (bei Windows mit der `WINDOWS-Taste` + `.` bzw. bei MAC mit `CMD` + `ALT` + `Leertaste`). Längere Texte können mit der `ENTER-Taste`  auch in Absätze gegliedert werden.
+Im Freitextfeld können neben Texteingaben auch **Emojis** hinzugefügt werden (bei Windows mit der `WINDOWS-Taste` + `.` bzw. bei MAC mit `CMD` + `CTRL` + `Leertaste`). Längere Texte können mit der `ENTER-Taste`  auch in Absätze gegliedert werden.
 
 Bei der **Schrift** kann die **Farbe** ausgewählt, sowie die **Schriftgröße** geändert werden (auf die Schriftgröße 16, 24, 32, 40, 48, 56, 64).
 
