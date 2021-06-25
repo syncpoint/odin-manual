@@ -73,3 +73,7 @@ span.pink {
   text-align: center;
   width: 1.6em; 
 }
+
+#sortbox:checked ~ #sortboxmenu {
+  opacity: 1;
+}

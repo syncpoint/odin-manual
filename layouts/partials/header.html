@@ -1,8 +1,9 @@
 <header class="bg-white shadow-md  z-50 w-full px-5 py-2 flex justify-between items-center  sticky top-0 ">
+	 
 	<a href="https://odin.syncpoint.io">
 		<img src={{ "/images/logo_font.png" | relURL }} width="112" height="28">
 	</a>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }} v{{ .Site.Params.Version }} </a>
+	<a href="{{ .Site.BaseURL }}">{{ .Site.Language.Params.Title }} v{{ .Site.Params.Version }} </a>
 	{{ with .Site.Menus.main }}
 	<nav>
 		<ul class="list-none inline">
@@ -10,6 +11,7 @@
 			<li class="list-none inline pl-6"><a href="{{ .URL  }}">{{ .Name }}</a></li>
 			{{ end }}
 		</ul>
+		{{ partial "language-switcher" $.Site }} 
 	</nav>
 	{{ end }}
 </header>

@@ -32571,6 +32571,10 @@ span.pink {
   width: 1.6em;
 }
 
+#sortbox:checked ~ #sortboxmenu {
+  opacity: 1;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
