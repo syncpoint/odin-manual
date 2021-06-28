@@ -1,0 +1,96 @@
+site_name: ODIN - Manual - 0.10.1
+site_url: https://example.com/
+#repo_url: https://github.com/syncpoint/odin-manual
+
+theme:
+ name: material
+ custom_dir: overrides
+ logo: assets/logo-white512.png
+ favicon: assets/logo.png
+ font:
+   text: Ubuntu
+   code: Ubuntu Mono
+ icon:
+   logo: material/file-document-multiple
+ 
+        
+ features:
+    - navigation.top  
+    - navigation.tracking
+#    - toc.integrate
+    - navigation.sections
+    - navigation.indexes
+
+extra_css: 
+  - stylesheets/extra.css
+
+#copyright: Copyright &copy; 2016 - 2020 Martin Donath
+
+nav:
+#  - Inhalt: index.de.md
+  - Start: index.de.md
+  - Start: index.en.md
+  - Vorwort: 00_Deckblatt_Vorwort/index.de.md
+  - Preface: 00_Deckblatt_Vorwort/index.en.md
+  - Benutzeroberflaeche: 01_Benutzeroberflaeche/index.de.md
+  - User Interface: 01_Benutzeroberflaeche/index.en.md
+  - Menüleiste: 02_Menueleiste/index.de.md
+  - Menu bar: 02_Menueleiste/index.en.md
+  - Projektverwaltung: 03_Projektverwaltung/index.de.md
+  - Project administration: 03_Projektverwaltung/index.en.md
+  - Kartenverwaltung: 04_Kartenverwaltung/index.de.md
+  - Map administration: 04_Kartenverwaltung/index.en.md
+  - Activity Bar: 05_Activity_Bar/index.de.md
+  - Activity Bar: 05_Activity_Bar/index.en.md
+  - Bearbeitung Objekte/Karte: 06_Bearbeitung_Objekte_Karte/index.de.md
+  - Handling Objects/Maps: 06_Bearbeitung_Objekte_Karte/index.en.md
+  - Objekteigenschaften: 07_Eigenschaften_Objekte/index.de.md
+  - Object properties: 07_Eigenschaften_Objekte/index.en.md
+  - Freiformobjekte: 08_Freiformobjekte/index.de.md
+  - Freeeform objects: 08_Freiformobjekte/index.en.md
+  - Tastaturkürzel: kb_shortcuts.de.md
+  - Keyboard shortcuts: kb_shortcuts.en.md
+      
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+ 
+
+extra:
+  alternate:
+    # Switch to German
+    - name: Deutsch
+      link: ./de/
+      lang: de
+  
+    # Switch to English
+    - name: English
+      link: ./en/
+      lang: en
+
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        de: Deutsch
+        en: English
+      default_language: 'de'
+      translate_nav:
+        de:
+          'Start': 'Start'
+        en:
+          'Start': 'Home'
+
+
+
+
+
+
+
+
+
+

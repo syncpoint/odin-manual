@@ -1,0 +1,1021 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://example.com/07_Eigenschaften_Objekte/index.en/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
+    
+    
+      
+        <title>**Property windows of the objects** - ODIN - Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700%7CUbuntu+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Ubuntu";--md-code-font-family:"Ubuntu Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#property-windows-of-the-objects" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ODIN - Manual" class="md-header__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ODIN - Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              **Property windows of the objects**
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="../index.de/" hreflang="de" class="md-select__link">
+                    deutsch
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="./" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ODIN - Manual" class="md-nav__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+
+    </a>
+    ODIN - Manual
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.en/" class="md-nav__link">
+        Index.en
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Deckblatt_Vorwort/" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#input-fields-that-are-the-same-for-different-object-areas" class="md-nav__link">
+    Input fields that are the same for different object areas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#units" class="md-nav__link">
+    Units
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weapons-vehicles-and-equipment" class="md-nav__link">
+    Weapons, Vehicles and Equipment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activities" class="md-nav__link">
+    Activities
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#symbols-without-modifier-acc-to-mil-std-2525c" class="md-nav__link">
+    Symbols without modifier acc. to MIL-STD 2525C
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tactical-graphics-point-objects" class="md-nav__link">
+    Tactical Graphics - Point Objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tactical-graphics-line-objects" class="md-nav__link">
+    Tactical graphics - line objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tactical-graphics-line-objects-boundaries" class="md-nav__link">
+    Tactical graphics - line objects (boundaries)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tactical-graphics-area-objects" class="md-nav__link">
+    Tactical graphics - area objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linksweblinks-section" class="md-nav__link">
+    Links/weblinks section
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <ul>
+<li class="i18n-link i18n-link-found i18n-link-de"><a href="../../07_Eigenschaften_Objekte/index.de/">deutsch</a></li>
+</ul>
+<h1 id="property-windows-of-the-objects"><strong>Property windows of the objects</strong></h1>
+<p>The content of the property windows is <strong>oriented</strong> to the <strong>default of MIL-STD 2525C</strong> (= assignment of the corresponding modifiers). However, not all modifiers<strong> are currently </strong>available** in ODIN (e.g. Offset Location, Evaluation Rating etc.).</p>
+<p>For those <strong>symbols</strong> (e.g. Natural Events, Action Points, etc.) that are <strong>not specifically assigned</strong> modifiers according to MIL-STD 2525C, we have added a <strong>"basic set "</strong> of properties so that you can at least enter the <strong>most basic information</strong> about them.</p>
+<p>We have also included <strong>modifiers</strong>, which are not assigned according to MIL-STD 2525C, but which make sense from a tactical point of view (e.g. modifier "Special C2 HQ" for facilities such as TÜA, BMLV, MilKdoK etc.).</p>
+<p>As soon as you confirm an entry in the properties window or select another field, the <strong>display</strong> of the entry <strong>immediately</strong> takes place on the <strong>map</strong> (if the modifier is to be displayed on the map according to MIL-STD 2525C).</p>
+<h2 id="input-fields-that-are-the-same-for-different-object-areas"><strong>Input fields that are the same for different object areas</strong></h2>
+<p>The fields below are included in various property windows, provide different choices, and are therefore described separately here:</p>
+<p>The field <strong>"Name "</strong> or if this field is empty, then the field <strong>"Unique Designation "</strong> will be displayed in the "Layer Tree" (at Layer Management). If both fields are empty, the display in the "Layer Tree" will show <strong>"N/A "</strong> (not available):</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img alt="" src="../images/Gleiche_Eingabe_Name_1.png" /></th>
+<th align="center"><img alt="" src="../images/Gleiche_Eingabe_Name_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img alt="" src="../images/Gleiche_Eingabe_Name_3.png" /></td>
+<td align="center"><img alt="" src="../images/Gleiche_Eingabe_Name_4.png" /></td>
+</tr>
+<tr>
+<td align="center"><img alt="" src="../images/Gleiche_Eingabe_Name_5.png" /></td>
+<td align="center"><img alt="" src="../images/Gleiche_Eingabe_Name_6.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>In the <strong>"Hostility Status "</strong> field you can select the following information for the object in a drop-down menu:</p>
+<p><img alt="" src="../images/Gleiche_Eingabe_Hostility_Status_1.png" /></p>
+<p>For tactical graphics, "ENY" is displayed on the map if the Hostility Status <strong>"Hostile "</strong> is selected and the modifier "N" (Enemy) is provided for the respective object according to MIL-STD 2525C.</p>
+<p>If the Hostility Status <strong>"N/A "</strong> is selected for Units, Weapons - Vehicles - Equipment, Facilities and Activities, the object currently disappears from the map. The tactical graphics can now be displayed in black color on the map with the hostility status <strong>"N/A "</strong> (e.g. in plans etc.):</p>
+<p><img alt="" src="../images/Gleiche_Eingabe_Hostility_Status_2.png" /></p>
+<p>With <strong>"Present "</strong> and <strong>"Anticipated/Planned "</strong> you can define whether the object should be displayed solid or dashed on the map:</p>
+<p><img alt="" src="../images/Gleiche_Eingabe_Gemeldet_Geplant.png" /></p>
+<p>In the <strong>"Echelon "</strong> field you can select the following sizes for the object in a drop-down menu:</p>
+<p><img alt="" src="../images/Gleiche_Eingabe_Groeszensymbol.png" /></p>
+<p>In the <strong>"Operational Conditions "</strong> field, you can select the following information for the object from a drop-down menu:</p>
+<p><img alt="" src="../images/Gleiche_Eingabe_Operational_Condition.png" /></p>
+<h2 id="units"><strong>Units</strong></h2>
+<p>The following properties can currently be entered for the units:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/Einheiten_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/Einheiten_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own name</p>
+</li>
+<li>
+<p><span class="blue">6</span> superior department(s)</p>
+</li>
+<li>
+<p><span class="blue">7</span> Special C2 HQ</p>
+</li>
+<li>
+<p><span class="blue">8</span> size symbol</p>
+</li>
+<li>
+<p><span class="blue">9</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">10</span> date and time information</p>
+</li>
+<li>
+<p><span class="blue">11</span> speed</p>
+</li>
+<li>
+<p><span class="blue">12</span> direction</p>
+</li>
+<li>
+<p><span class="blue">13</span> staff comment</p>
+</li>
+<li>
+<p><span class="blue">14</span> additional information</p>
+</li>
+<li>
+<p><span class="blue">15</span> reported/planned</p>
+</li>
+<li>
+<p><span class="blue">16</span> operational conditions</p>
+</li>
+<li>
+<p><span class="blue">17</span> modifiers for command, battle group, and deception</p>
+</li>
+<li>
+<p><span class="blue">18</span> modifier for indication of reinforced/reduced/mixed</p>
+</li>
+</ul>
+<p>You can use the <strong>"Special C2 HQ "</strong> field to represent units whose designation is shown in the art symbol:</p>
+<p><img alt="" src="../images/Einheiten_Special_C2HQ.png" /></p>
+<p>The fields <strong>"Date-Time-Group "</strong>, <strong>"Speed "</strong>, <strong>"Direction "</strong>, <strong>"Staff Comments "</strong> and <strong>"Additional Information "</strong> are free text fields.</p>
+<p>Using the modifiers <strong>"HQ "</strong> (Command Post), <strong>"Task Force "</strong> (Combat Group), and <strong>"Feint/Dummy "</strong> changes the unit's display as follows:</p>
+<p><img alt="" src="../images/Einheiten_HQ_TF_Feint.png" /></p>
+<p>With the modifiers <strong>"None "</strong> (normal strength), <strong>"(+) "</strong> (reinforced), <strong>"(-) "</strong> (reduced) and <strong>"(±) "</strong> (mixed), the representation of the unit changes as follows:</p>
+<p><img alt="" src="../images/Einheiten_Verstaerkung.png" /></p>
+<p>The detailed information about the second section of the properties window can be found in the links/weblinks section.</p>
+<h2 id="weapons-vehicles-and-equipment"><strong>Weapons, Vehicles and Equipment</strong></h2>
+<p>The following properties can currently be entered for weapons, vehicles and equipment:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/Ausruestung_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/Ausruestung_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own name</p>
+</li>
+<li>
+<p><span class="blue">6</span> number</p>
+</li>
+<li>
+<p><span class="blue">7</span> type</p>
+</li>
+<li>
+<p><span class="blue">8</span> mobility</p>
+</li>
+<li>
+<p><span class="blue">9</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">10</span> date and time information</p>
+</li>
+<li>
+<p><span class="blue">11</span> speed</p>
+</li>
+<li>
+<p><span class="blue">12</span> direction</p>
+</li>
+<li>
+<p><span class="blue">13</span> staff comment</p>
+</li>
+<li>
+<p><span class="blue">14</span> additional information</p>
+</li>
+<li>
+<p><span class="blue">15</span> reported/planned</p>
+</li>
+<li>
+<p><span class="blue">16</span> operational conditions</p>
+</li>
+</ul>
+<p>In the <strong>"Mobility "</strong> field, you can select the following information for the object from a drop-down menu:</p>
+<p><img alt="" src="../images/Ausruestung_Mobilitaet.png" /></p>
+<p>The fields <strong>"Quantity "</strong>, <strong>"Type "</strong>, <strong>"Date-Time-Group "</strong>, <strong>"Speed "</strong>, <strong>"Direction "</strong>, <strong>"Staff Comments "</strong> and <strong>"Additional Information "</strong> are free text fields.</p>
+<p>The detailed information for the second section of the properties window can be found in the links/weblinks section.</p>
+<h2 id="installation"><strong>Installation</strong></h2>
+<p>The following properties can currently be entered for the installations:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/Einrichtungen_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/Einrichtungen_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own name</p>
+</li>
+<li>
+<p><span class="blue">6</span> superior department(s)</p>
+</li>
+<li>
+<p><span class="blue">7</span> Special C2 HQ</p>
+</li>
+<li>
+<p><span class="blue">8</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">9</span> date and time stamp</p>
+</li>
+<li>
+<p><span class="blue">10</span> staff comment</p>
+</li>
+<li>
+<p><span class="blue">11</span> additional information</p>
+</li>
+<li>
+<p><span class="blue">12</span> reported/planned</p>
+</li>
+<li>
+<p><span class="blue">13</span> operational conditions</p>
+</li>
+</ul>
+<p>You can use the <strong>"Special C2 HQ "</strong> field to represent facilities whose designation is shown in the art symbol:</p>
+<p><img alt="" src="../images/Einrichtungen_Special_C2HQ.png" /></p>
+<p>The fields <strong>"Date-Time-Group "</strong>, <strong>"Staff Comments "</strong> and <strong>"Additional Information "</strong> are free text fields.</p>
+<p>The detailed information about the second area of the properties window can be found in the links/weblinks section.</p>
+<h2 id="activities"><strong>Activities</strong></h2>
+<p>The following properties can currently be entered for the activities:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/Aktivitaeten_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/Aktivitaeten_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own name</p>
+</li>
+<li>
+<p><span class="blue">6</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">7</span> date and time information</p>
+</li>
+<li>
+<p><span class="blue">8</span> speed</p>
+</li>
+<li>
+<p><span class="blue">9</span> direction</p>
+</li>
+<li>
+<p><span class="blue">10</span> staff comment</p>
+</li>
+<li>
+<p><span class="blue">11</span> additional information</p>
+</li>
+<li>
+<p><span class="blue">12</span> reported/planned</p>
+</li>
+<li>
+<p><span class="blue">13</span> operational conditions</p>
+</li>
+</ul>
+<p>The fields <strong>"Date-Time-Group "</strong>, <strong>"Speed "</strong>, <strong>"Direction "</strong>, <strong>"Staff Comments "</strong> and <strong>"Additional Information "</strong> are free text fields.</p>
+<p>The detailed information for the second section of the properties window can be found in the links/weblinks section.</p>
+<h2 id="symbols-without-modifier-acc-to-mil-std-2525c"><strong>Symbols without modifier acc. to MIL-STD 2525C</strong></h2>
+<p>In MIL-STD 2525C there are symbols listed, to which no modifiers are dedicated in the examples. Therefore, we have assigned a "basic set" of properties to these symbols here, in order to be able to fill the created objects accordingly.</p>
+<p>The following properties can currently be entered for these objects:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/Symbole_ohne_Modifier_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/Symbole_ohne_Modifier_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own name</p>
+</li>
+<li>
+<p><span class="blue">6</span> number</p>
+</li>
+<li>
+<p><span class="blue">7</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">8</span> date and time information</p>
+</li>
+<li>
+<p><span class="blue">9</span> speed</p>
+</li>
+<li>
+<p><span class="blue">10</span> direction</p>
+</li>
+<li>
+<p><span class="blue">11</span> staff comment</p>
+</li>
+<li>
+<p><span class="blue">12</span> additional information</p>
+</li>
+</ul>
+<p>The fields <strong>"Quantity "</strong>, <strong>"Date-Time-Group "</strong>, <strong>"Speed "</strong>, <strong>"Direction "</strong>, <strong>"Staff Comments "</strong> and <strong>"Additional Information "</strong> are free text fields.</p>
+<p>The detailed information for the second section of the properties window can be found in the links/weblinks section.</p>
+<h2 id="tactical-graphics-point-objects"><strong>Tactical Graphics - Point Objects</strong></h2>
+<p>The following properties can currently be entered for the tactical graphics - point objects:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/takGrafik_Punktsymbol_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/takGrafik_Punktsymbol_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own name</p>
+</li>
+<li>
+<p><span class="blue">6</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">7</span> date and time information</p>
+</li>
+<li>
+<p><span class="blue">8</span> staff comment</p>
+</li>
+<li>
+<p><span class="blue">9</span> additional information</p>
+</li>
+<li>
+<p><span class="blue">10</span> height or depth</p>
+</li>
+</ul>
+<p>The fields <strong>"Date-Time-Group "</strong>, <strong>"Staff Comments "</strong>, <strong>"Additional Information "</strong> and <strong>"Height/Depth "</strong> are free text fields.</p>
+<p>The detailed information for the second section of the properties window can be found in the links/weblinks section.</p>
+<h2 id="tactical-graphics-line-objects"><strong>Tactical graphics - line objects</strong></h2>
+<p>The following properties can currently be entered for the tactical graphics - line objects:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/takGrafik_Liniensymbol_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/takGrafik_Liniensymbol_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own name</p>
+</li>
+<li>
+<p><span class="blue">6</span> additional information</p>
+</li>
+<li>
+<p><span class="blue">7</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">8</span> size symbol</p>
+</li>
+<li>
+<p><span class="blue">9</span> reported/planned</p>
+</li>
+<li>
+<p><span class="blue">10</span> date and time information (from - to)</p>
+</li>
+<li>
+<p><span class="blue">11</span> height (from - to)</p>
+</li>
+</ul>
+<p>The fields <strong>"Additional Information "</strong>, <strong>"Effective (from) "</strong>, <strong>"Effective (to) "</strong>, <strong>"Altitude (from) "</strong>, and <strong>"Altitude (to) "</strong> are free text fields.</p>
+<p>For <strong>line objects</strong>, which currently <strong>cannot</strong> be displayed on the <strong>map</strong> in ODIN, the <strong>hierarchy path is marked in red</strong> and with the word <strong>"(unsupported) "</strong>.</p>
+<p>The detailed information for the second section of the properties window can be found in the links/weblinks section.</p>
+<h2 id="tactical-graphics-line-objects-boundaries"><strong>Tactical graphics - line objects (boundaries)</strong></h2>
+<p>Boundaries are a special type of line objects. The following properties can be entered here:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/takGrafik_Grenzenl_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/takGrafik_Grenzenl_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own label (left/right border)</p>
+</li>
+<li>
+<p><span class="blue">6</span> additional information</p>
+</li>
+<li>
+<p><span class="blue">7</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">8</span> size symbol</p>
+</li>
+<li>
+<p><span class="blue">9</span> size symbol arrangement</p>
+</li>
+<li>
+<p><span class="blue">10</span> reported/planned</p>
+</li>
+<li>
+<p><span class="blue">11</span> date and time information (from - to)</p>
+</li>
+<li>
+<p><span class="blue">12</span> height (from - to)</p>
+</li>
+</ul>
+<p>In the <strong>"Unique Designation (Left) "</strong> and <strong>"Unique Designation (Right) "</strong> fields, you can enter the <strong>left</strong> and <strong>right neighbor</strong> at the height of the size symbol.</p>
+<p>In the <strong>"Label Placement "</strong> field, you can <strong>shift</strong> the display of the <strong>size symbol</strong>, as well as the left and right neighbors on the line, in order to enable better readability on the map, if required:</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img alt="" src="../images/takGrafik_Grenzen_Labels_1.png" /></th>
+<th align="center"><img alt="" src="../images/takGrafik_Grenzen_Labels_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><img alt="" src="../images/takGrafik_Grenzen_Labels_3.png" /></td>
+<td align="center"><img alt="" src="../images/takGrafik_Grenzen_Labels_4.png" /></td>
+</tr>
+</tbody>
+</table>
+<p>The fields <strong>"Additional Information "</strong>, <strong>"Effective (from) "</strong>, <strong>"Effective (to) "</strong>, <strong>"Altitude (from) "</strong> and <strong>"Altitude (to) "</strong> are free text fields.</p>
+<p>The detailed information for the second section of the properties window can be found in the links/weblinks section.</p>
+<h2 id="tactical-graphics-area-objects"><strong>Tactical graphics - area objects</strong></h2>
+<p>For the tactical graphics - area objects, the following properties can currently be entered properties can be entered:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/takGrafik_Flaechensymbol_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/takGrafik_Flaechensymbol_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> current area properties</p>
+</li>
+<li>
+<p><span class="blue">3</span> switch to the links/weblinks area</p>
+</li>
+<li>
+<p><span class="blue">4</span> name of the object</p>
+</li>
+<li>
+<p><span class="blue">5</span> own name</p>
+</li>
+<li>
+<p><span class="blue">6</span> additional information</p>
+</li>
+<li>
+<p><span class="blue">7</span> hostility status</p>
+</li>
+<li>
+<p><span class="blue">8</span> size symbol</p>
+</li>
+<li>
+<p><span class="blue">9</span> reported/planned</p>
+</li>
+<li>
+<p><span class="blue">10</span> date and time information (from - to)</p>
+</li>
+<li>
+<p><span class="blue">11</span> height (from - to)</p>
+</li>
+</ul>
+<p>For area objects, the <strong>Type of Space</strong> and the <strong>Unique Designation</strong> (modifier "T") are displayed in the center of the area for those objects to which it is decidedly placed in the examples of MIL-STD 2525C.</p>
+<p>For those area objects (e.g., airspaces) to which the <strong>Effective (from)</strong> (modifier "W"), <strong>Effective (to)</strong> (modifier "W1"), <strong>Altitude (from)</strong> (modifier "X"), and <strong>Altitude (to)</strong> (modifier "X1") properties have been dedicated in the examples, they are shown in the <strong>Center of Space</strong> on the map:</p>
+<p><img alt="" src="../images/takGrafik_Flaechensymbol_Uebersicht_3.png" /></p>
+<p>For <strong>area objects</strong> that <strong>cannot</strong> be displayed on the <strong>map</strong> in ODIN at the moment, the <strong>hierarchy path is marked in red font</strong> and with the word <strong>"(unsupported) "</strong>.</p>
+<p>The detailed information for the second section of the properties window can be found in the links/weblinks section.</p>
+<h2 id="linksweblinks-section"><strong>Links/weblinks section</strong></h2>
+<p>In the <strong>Links/weblinks</strong> section you can add <strong>Links to files</strong> on your <strong>computer</strong> or <strong>Weblinks to the Internet</strong> to an object on the map:</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/Links_Uebersicht_1.png" /></th>
+<th><img alt="" src="../images/Links_Uebersicht_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li>
+<p><span class="blue">2</span> switch to the properties area</p>
+</li>
+<li>
+<p><span class="blue">3</span> current area for links/weblinks</p>
+</li>
+<li>
+<p><span class="blue">4</span> drag &amp; drop field to "link" the files/URL's</p>
+</li>
+<li>
+<p><span class="red">5</span> display of the number of "linked" files/URL's</p>
+</li>
+<li>
+<p><span class="red">6</span> display of the "linked" files/URL's (to open)</p>
+</li>
+<li>
+<p><span class="red">7</span> button to delete the "linking"</p>
+</li>
+</ul>
+<p>With this you can add e.g. for a Einh on the map the tactical command, troop disposition, info on weapons &amp; equipment etc. and thus access corresponding information quickly and directly.</p>
+<p>The respective files are opened separately in external programs (e.g. Word, PowerPoint etc.).</p>
+<p>"Linked" objects are displayed in the layer management as follows:</p>
+<p><img alt="" src="../images/Links_Layermanagement.png" /></p>
+<p>There is no limitation from the number of "links". However, in the layer management, if there are more than 100 links, only the number "99" is displayed.</p>
+<p>When opening a "link", the following window appears for security reasons:</p>
+<p><img alt="" src="../images/Links_Abfragefenster.png" /></p>
+<p>Here you can define if a link or URL should be opened (= <strong>allow</strong>) or not (= <strong>reject</strong>). If you don't want to confirm the query when executing each "link", you can select the function <strong>"Always allow until next restart of ODIN "</strong> to define the setting you have chosen.</p>
+<p>After restarting ODIN you will be asked again when opening a link for the first time.</p>
+<p>When <strong>exporting</strong> a <strong>project</strong> or a <strong>layer</strong> the links/weblinks will be exported as well. Note, however, that when importing the project/layer, only <strong>those files or URLs</strong> can be opened to which <strong>the other user also has access</strong> (e.g. shared folders on the server, etc.).</p>
+<p>If a "link" is no longer valid, you will get the following feedback from ODIN:</p>
+<p><img alt="" src="../images/Links_Fehlerhinweis.png" /></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" title="Back to top" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.82b56eb2.min.js"></script>
+      
+    
+  </body>
+</html>

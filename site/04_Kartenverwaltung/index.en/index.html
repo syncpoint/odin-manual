@@ -1,0 +1,503 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://example.com/04_Kartenverwaltung/index.en/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
+    
+    
+      
+        <title>**Map Management** - ODIN - Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#2094f3">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700%7CUbuntu+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Ubuntu";--md-code-font-family:"Ubuntu Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#map-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ODIN - Manual" class="md-header__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ODIN - Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              **Map Management**
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="../index.de/" hreflang="de" class="md-select__link">
+                    deutsch
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="./" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ODIN - Manual" class="md-nav__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+
+    </a>
+    ODIN - Manual
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.en/" class="md-nav__link">
+        Index.en
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Deckblatt_Vorwort/" class="md-nav__link">
+        None
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#content-map-management" class="md-nav__link">
+    Content Map Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrate-new-map-into-odin" class="md-nav__link">
+    Integrate new map into ODIN
+  </a>
+  
+    <nav class="md-nav" aria-label="Integrate new map into ODIN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-provide-url" class="md-nav__link">
+    Step 1 – Provide URL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-select-options" class="md-nav__link">
+    Step 2 – Select options
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-check-with-preview" class="md-nav__link">
+    Step 3 – Check with preview
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-naming-and-save" class="md-nav__link">
+    Step 4– Naming and Save
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <ul>
+<li class="i18n-link i18n-link-found i18n-link-de"><a href="../../04_Kartenverwaltung/index.de/">deutsch</a></li>
+</ul>
+<h1 id="map-management"><strong>Map Management</strong></h1>
+<p>In the map administration you can integrate online or offline maps into ODIN or delete them again. The maps created here are then available in ODIN in the area of the "Activity Bar - Base Maps".</p>
+<p>The map administration can be called up via the <strong>"Menu bar - Administration tab - Base maps "</strong>:</p>
+<p><img src="images/Kartenverwaltung.png" style="zoom: 67%;" /></p>
+<h2 id="content-map-management"><strong>Content Map Management</strong></h2>
+<p>The map administration contains the following functionalities:</p>
+<p><img alt="" src="../images/Inhalt_Kartenverwaltung.png" /></p>
+<ul>
+<li><span class="blue">1</span> exit the map administration (= return to the map)</li>
+<li><span class="blue">2</span> listing of all currently integrated online/offline maps</li>
+<li><span class="blue">3</span> include new map</li>
+<li><span class="blue">4</span> currently marked map</li>
+<li><span class="red">5</span> map preview of the currently marked map</li>
+<li><span class="blue">6</span> zoom in/out the map view (incl. moving with the mouse)</li>
+<li><span class="blue">7</span> edit/modify an existing map</li>
+<li><span class="blue">8</span> delete map</li>
+</ul>
+<p>With the button <strong>"New "</strong> you can add a <strong>new map</strong> (online/offline) to ODIN.</p>
+<p>In the map preview you can use the two buttons <strong>"+"</strong> / <strong>"-"</strong> (or with the mouse wheel) to zoom the map or move the map with the mouse.</p>
+<p>With the <strong>"Pen "</strong>-button you can <strong>change</strong> the <strong>entries</strong> to an already <strong>created map</strong> (e.g. name, map-URL etc.).</p>
+<p>The <strong>"Delete "</strong> button <strong>deletes</strong> the currently selected <strong>map</strong> from the map management.</p>
+<p>The <strong>Open Street Map</strong> does <strong>not appear in the map management</strong>, since this is the <strong>"system/default" map</strong> of ODIN.</p>
+<h2 id="integrate-new-map-into-odin"><strong>Integrate new map into ODIN</strong></h2>
+<p>To integrate a new online/offline map into ODIN, the following four steps are necessary (as an example, the integration of the map "basemap.at" is shown here):</p>
+<h3 id="step-1-provide-url"><strong>Step 1 – Provide URL</strong></h3>
+<p><img alt="" src="../images/Schritt_1_URL_1.png" /></p>
+<ul>
+<li><span class="blue">1</span> exit the map administration (= return to the map)</li>
+<li>
+<p><span class="blue">2</span> display progress of map integration</p>
+</li>
+<li>
+<p><span class="blue">3</span> area for entering the URL</p>
+</li>
+<li>
+<p><span class="blue">4</span> information if entered map URL is correct/processable</p>
+</li>
+<li>
+<p><span class="blue">5</span> integration step back <em>(always inactive here)</em></p>
+</li>
+<li>
+<p><span class="blue">6</span> integration step further</p>
+</li>
+<li>
+<p><span class="blue">7</span> map preview <em>(always empty here)</em></p>
+</li>
+<li>
+<p><span class="blue">8</span> cancel map integration (= return to map management)</p>
+</li>
+<li>
+<p><span class="blue">9</span> delete map<em> </em>(always inactive here)*</p>
+</li>
+</ul>
+<p>If in the area <strong>"URL of the map "</strong> a <strong>map URL is entered</strong>, the feedback takes place whether the map URL is correct and/or processable and the button <strong>"Next "</strong> is switched active:</p>
+<p><img alt="" src="../images/Schritt_1_URL_2.png" /></p>
+<h3 id="step-2-select-options"><strong>Step 2 – Select options</strong></h3>
+<p><img alt="" src="../images/Schritt_2_Optionen%20_1.png" /></p>
+<ul>
+<li><span class="blue">1</span> exit map management (= return to map)</li>
+<li><span class="blue">2</span> display progress of map integration</li>
+<li><span class="blue">3</span> information about the map (e.g. source, homepage, description etc.)</li>
+<li><span class="blue">4</span> display of available maps incl. short description of the content</li>
+<li><span class="blue">5</span> display how many maps are shown from the total available maps</li>
+<li><span class="blue">6</span> integration step back</li>
+<li><span class="blue">7</span> integration step further</li>
+<li><span class="blue">8</span> map preview <em>(here always empty)</em></li>
+<li><span class="blue">9</span> cancel map integration (= return to map management)</li>
+<li><span class="blue">10</span> delete map<em> </em>(always inactive here)*</li>
+</ul>
+<p>If a <strong>map</strong> is <strong>selected</strong> by marking it with the mouse, it will be highlighted in pink.</p>
+<p>With the buttons <strong>"&lt; "</strong> and <strong>"&gt; "</strong> you can switch to the next possible cards further or back again to select them.</p>
+<p>Instead of the above mentioned view, it can also be the case in step 2 that here instead of the map selection the <strong>zoom factor</strong> to be displayed for the map can be <strong>defined more precisely</strong>:</p>
+<p><img alt="" src="../images/Schritt_2_Optionen%20_2.png" /></p>
+<p>By <strong>entering</strong> the maximum supported <strong>zoom level</strong> (for those maps that use an XYZ tile provider but do not support it up to level 42), you can thus avoid a "white map view" in ODIN.</p>
+<h3 id="step-3-check-with-preview"><strong>Step 3 – Check with preview</strong></h3>
+<p><img alt="" src="../images/Schritt_3_Vorschau_1.png" /></p>
+<ul>
+<li><span class="blue">1</span> exit the map management (= return to the map)</li>
+<li>
+<p><span class="blue">2</span> display progress of map integration</p>
+</li>
+<li>
+<p><span class="blue">3</span> integration step back</p>
+</li>
+<li>
+<p><span class="blue">4</span> integration step further</p>
+</li>
+<li>
+<p><span class="blue">5</span> map preview</p>
+</li>
+<li>
+<p><span class="blue">6</span> zoom in/out the map view (incl. moving with the mouse)</p>
+</li>
+<li>
+<p><span class="blue">7</span> cancel map integration (= return to map management)</p>
+</li>
+<li>
+<p><span class="blue">8</span> <em>delete map</em> <em>(always inactive here)</em></p>
+</li>
+</ul>
+<p>Here you can check the <strong>content</strong> of the map and its <strong>graphical representation</strong>, as well as the <strong>map information provided therein</strong> in the map preview area by zooming and moving the map:</p>
+<p><img src="images/Schritt_3_Vorschau_2.png" style="zoom:80%;" /></p>
+<h3 id="step-4-naming-and-save"><strong>Step 4– Naming and Save</strong></h3>
+<p><img alt="" src="../images/Schritt_4_Benennen.png" /></p>
+<ul>
+<li><span class="blue">1</span> exit map management (= return to map)</li>
+<li>
+<p><span class="blue">2</span> display progress of map integration</p>
+</li>
+<li>
+<p><span class="blue">3</span> set the name of the map</p>
+</li>
+<li>
+<p><span class="blue">4</span> set naming of the map</p>
+</li>
+<li>
+<p><span class="blue">5</span> embedding step back</p>
+</li>
+<li>
+<p><span class="blue">6</span> complete map integration</p>
+</li>
+<li>
+<p><span class="blue">7</span> map preview</p>
+</li>
+<li>
+<p><span class="blue">8</span> zoom in/out the map view (including moving it with the mouse)</p>
+</li>
+<li>
+<p><span class="blue">9</span> cancel map integration (= return to map management)</p>
+</li>
+<li>
+<p><span class="blue">10</span> <em>delete map</em> <em>(always inactive here)</em></p>
+</li>
+</ul>
+<p>In the area <strong>"Name of the map "</strong> you can <strong>assign</strong> a <strong>name</strong> for your <strong>newly included map</strong>. This name will be displayed in the activity bar in the area of the base cards.</p>
+<p>In the <strong>"Names "</strong> section you can also specify the <strong>"Source "</strong> of the **map in addition to the map name, so that you don't get any "legal problems" when using it, since most (also free) online/offline maps require at least the "Source" to be specified.</p>
+<p>Before integrating maps, you should always check the terms of use to see if a (free) use is possible. Corresponding entries for the online maps we have already checked can be found in Annex A (Overview - Free Online Maps). With Copy &amp; Paste you can easily paste them in the <strong>"Names "</strong> section.</p>
+<p>By pressing the button <strong>"Save" you </strong>close<strong> the process of </strong>map integration** and ODIN returns to the map management area. Your newly included map will now appear on the left side in the list of available maps.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" title="Back to top" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.82b56eb2.min.js"></script>
+      
+    
+  </body>
+</html>
