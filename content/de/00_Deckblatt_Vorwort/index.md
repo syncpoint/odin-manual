@@ -19,11 +19,11 @@ Uns ist bewusst, dass dies noch ein weiter Weg ist, um unser großes Ziel zu err
 
 **Grunddaten zu ODIN**
 
--   **Open source-Produkt** und somit für alle **kostenfrei nutzbar** („MIT Lizenz“);
+-   **Open source-Produkt** und somit für alle **kostenfrei nutzbar** (MIT Lizenz);
 -   Nutzung von **verschiedenen Onlinekarten** (inkl. deren „überlagerten“ Darstellung);
 -   Benutzeroberfläche in **Deutsch** und **Englisch**;
 -   **Symbole** gem. **MIL-STD 2525C** (ca. 87% sind dzt. umgesetzt – ohne Bereich METOC);
--   lauffähig für die Betriebssysteme **Windows**, **Linux** und **MacOS X**
+-   lauffähig für die Betriebssysteme **Windows**, **Linux** und **macOS**
 -   **Projekt-** und **Layermanagement** inkl. Export/Import von Daten zum externen Versand;
 -   **Daten** werden **lokal gespeichert** (User ist daher „Herr über seine Daten“);
 -   und das wichtigste ist **einfachste Bedienung** zu ermöglichen.

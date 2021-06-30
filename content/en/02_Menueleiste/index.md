@@ -7,7 +7,7 @@ draft: false
 
 
 
-The menu bar currently consists of the following tabs:
+The menu bar consists of the following entries:
 
 
 
@@ -30,7 +30,7 @@ If this is the case, a window appears, in which you have the possibility to upda
 
 
 
-If you confirm that ODIN should be updated, you don't have to do anything else but wait until ODIN closes the previous version and restarts with the current version. The current settings (project, layer, map section etc.) will be preserved after the restart.
+If you confirm that ODIN should be updated, you don't have to do anything else but wait until ODIN closes the previous version and restarts with the current version. The current settings (project, layer, map section etc.) are preserved after the restart.
 
 
 
@@ -40,7 +40,7 @@ If you confirm that ODIN should be updated, you don't have to do anything else b
 
 
 
-With selection of **"Projects "** you open the project administration, in which you can create, rename, delete, export, import or change to another project (details see project administration).
+With selection of **"Projects "** you open the project administration, in which you can create, rename, delete, export, import projects or switch to another project (details see project administration).
 
 Selecting **"Base maps "** opens the "Map administration", where you can integrate online and offline maps and use them in ODIN (details see Map administration).
 
@@ -62,11 +62,11 @@ The typical Windows functionalities are shown here. These are also available fro
 
 
 
-The function **"Developer tools on/off "** is basically not relevant for you. If there are problems in the use and you need support, then it may be that we will ask you to provide us with more information about this function, so that we can help you further.
+The function **"Developer tools on/off "** is only relevant if there are problems in useage and you need support. Then it may be that we will ask you to provide us with more information given there.
 
 
 
-With **"Zoom in "** (`STRG` + `SHIFT` + `=`) and **"Zoom out "** (`STRG` + `-`) the display area of the map itself, but also the displays on it (e.g. activity bar, scale, project/layer name etc.) can be zoomed in or out. With "Original size" (`STRG` + `0`) you can return to ODIN's default setting:
+With **"Zoom in "** (`STRG` + `SHIFT` + `=`) and **"Zoom out "** (`STRG` + `-`) the display area of the map itself, but also the displays on it (e.g. activity bar, scale, project/layer name etc.) can be zoomed in or out. With "Original size" (`STRG` + `0`) you can return to ODIN's default setting, e.g. 100%
 
 | ![](images/Anzeige_2_Zoom_1.png) | ![](images/Anzeige_2_Zoom_2.png) | ![](images/Anzeige_2_Zoom_3.png) |
 | :------------------------------: | :------------------------------: | :------------------------------: |
@@ -83,7 +83,7 @@ With the function **"MGRS Grid "** you can show or hide a MGRS (Military Grid Re
 
 
 
-With the function **"Labels "** you can choose in ODIN if the modifiers should be shown with the features on the map or not:
+With the function **"Labels "** you can choose in ODIN if the modifiers should be shown with the features on the map or not. Note that above a certain scale, labels are never shown.
 
 | ![](images/Anzeige_4_Labels_1.png) | ![](images/Anzeige_4_Labels_2.png) |
 | :--------------------------------: | :--------------------------------: |

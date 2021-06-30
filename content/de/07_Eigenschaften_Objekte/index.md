@@ -554,7 +554,7 @@ Im Bereich der **Links/WebLinks** könnt Ihr zu einem Objekt auf der Karte **Lin
 
 
 
-Damit könnt Ihr z.B. für eine Einh auf der Karte den taktischen Befehl, die Truppeneinteilung, Infos zu Waffen & Gerät etc. hinzufügen und somit auf entsprechenden Informationen schnell und direkt zugreifen.
+Damit könnt Ihr z.B. für eine Einheit auf der Karte den taktischen Befehl, die Truppeneinteilung, Infos zu Waffen & Gerät etc. hinzufügen und somit auf entsprechenden Informationen schnell und direkt zugreifen.
 
 Die jeweiligen Dateien werden in externen Programmen (z.B. Word, PowerPoint etc.) gesondert geöffnet.
 

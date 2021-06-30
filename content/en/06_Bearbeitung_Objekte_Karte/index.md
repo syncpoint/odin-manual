@@ -10,9 +10,9 @@ draft: false
 
 This chapter describes the creation and editing of objects with different geometries.
 
-The **representation** of the objects on the map is basically done according to **MIL-STD 2525C**. An "anticipation" of the **MIL-STD 2525D** can be found in the representation of **civilian vehicles & equipment** with the **color "pink "**, as well as in the **activities** with the **four black squares** in each corner of the basic symbol.
+The **representation** of the objects on the map is basically done according to **MIL-STD 2525C**. An "anticipation" of the **MIL-STD 2525D** can be found in the representation of **civilian vehicles & equipment** with the **color "pink"**, as well as in the **activities** with the **four black squares** in each corner of the basic symbol.
 
-Also in ODIN **objects** were then **other converted** to the defaults in accordance with MIL-STD 2525C, if these appeared from **tactical security necessary** and/or **sensible** (e.g. Direction of Attack as multi-point line instead of a "2-point line"; additional assignment of modifiers (e.g. with natural events, facilities etc.); selection of all Hositlity Statuse with tactical graphics - point objects etc.).
+In ODIN some deviations tending towards MIL-STD 2525D are choosen where MIL-STD 2525C does not reflect **tactical necessity** and/or **sensible reason** (e.g. Direction of Attack as multi-point line instead of a "2-point line"; additional assignment of modifiers (e.g. with natural events, facilities etc.); selection of all Hositlity Statuse with tactical graphics - point objects etc.)
 
 
 
@@ -20,7 +20,7 @@ Also in ODIN **objects** were then **other converted** to the defaults in accord
 
 
 
-The objects are distinguished here according to their assignment or their geometries, because the creation and editing, as well as the contents of the properties window are aligned according to these in ODIN:
+The objects are distinguished according to their assignment or their geometries, because the creation and editing, as well as the contents of the properties window are aligned according to these in ODIN:
 
 - units point objects
 - weapons, vehicles, equipment (Equipments) point objects
@@ -43,7 +43,7 @@ The second part describes the input options (modifiers according to MIL-STD 2525
     - **Set active layer** or set the desired "target layer" as the active layer (double click on the layer name);
 
     - open the **map palette**;
-    - enter desired text in **search** (always refers to symbol name and hierarchy path);
+    - enter search text (always refers to symbol name and hierarchy path);
     - click with the mouse on the desired **symbol** in the area of the map palette;
     - click with the mouse on the desired **position(s)** on the **map**;
     - fill **property window** (opens automatically).
@@ -58,9 +58,9 @@ The second part describes the input options (modifiers according to MIL-STD 2525
 
 
 
-After the **selection** in the **map palette** and the **click** on the desired **position** on the **map**, the creation process is already completed and the properties window opens.
+After the **selection** in the **map palette** and the **click** on the **position** on the **map**, the creation process is already completed and the properties window opens.
 
-To **change** the **position** of a point object, you click on it with the mouse and move it to the new desired position.
+To **change** the **position** of a point object, you click on it with the mouse and move it to the new position.
 
 With **Copy** (`STRG` + `C`) and **Paste** (`STRG` + `V`) ODIN creates the object again on the same position. When you click and move the object, the object is now visible twice on the map. When copying, all entries already assigned to the object in the properties window will also be copied.
 
@@ -75,7 +75,7 @@ To improve the display of the location, you can use the **"Offset Location" func
 
 You can adjust the line of the "Offset Location" by selecting the **object** and then moving the mouse over the line until a **blue dot** appears. Now you can move the line with the **mouse** and set a new **point**.
 
-To cancel the "Offset Location" **again**, hold down the `ALT` key and **click** on the **"Start Point "** of the "Offset Location". 
+To cancel the "Offset Location" **again**, hold down the `ALT` key and **click** on the **"Start Point"** of the "Offset Location".
 
 
 
@@ -99,7 +99,7 @@ If you want to set a **new point**, move the mouse pointer onto the line until a
 
 To **move** the **entire line** you have to hold down the `SHIFT` key.
 
-To **delete** a single point** you have to hold down the `ALT` key and then click on the red point you want to delete.
+To **delete** a single point you have to hold down the `ALT` key and then click on the red point you want to delete.
 
 **Copy** (`CTRL` + `C`) and **Paste** (`CTRL` + `V`) behave analogously to the point objects.
 
@@ -150,14 +150,14 @@ If you want to set a **new point**, move the mouse pointer to the red inner line
 You can **change** the **width** of the corridor by moving the red dot on the side at the end of the corridor with the mouse.
 
 
-
-If, when creating or modifying the corridor, a geometry is created that can no longer be clearly displayed on the map, the corridor will appear with a yellow-black line and a note indicating that an invalid geometry has been selected:
+In rare cases, the corridor's geometry might lead to invalid or degenerated visualisation.
+In this case the corridor will appear with a yellow-black line and a note indicating that an invalid geometry has been created:
 
 ![](images/Korridorobjekte_2.png)
 
 
 
-You can fix this by making the width of the corridor smaller or by changing the red dots accordingly.
+You can fix this by making the width of the corridor smaller or by changing the red dots accordingly. Tip: For most corridor types, the last/arrow segment must have a certain length to be correctly displayed.
 
 
 
