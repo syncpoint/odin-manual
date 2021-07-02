@@ -6,17 +6,21 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Manual for ODIN the flexible Open Source Command and Control Information System.">
       
       
       
-        <link rel="canonical" href="https://example.com/05_Activity_Bar/index.de/">
+        <meta name="author" content="Syncpoint GmbH">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      
+        <link rel="canonical" href="https://syncpoint.github.io/odin-manual/05_Activity_Bar/index.de/">
+      
+      <link rel="icon" href="../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
     
     
       
-        <title>**Activity Bar** - ODIN - Manual</title>
+        <title>Activity Bar - ODIN - Manual - 0.11.0</title>
       
     
     
@@ -24,10 +28,6 @@
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#2094f3">
         
       
     
@@ -41,6 +41,8 @@
       
     
     
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
       
@@ -56,7 +58,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
     <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
@@ -78,10 +80,9 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="ODIN - Manual" class="md-header__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+    <a href="../.." title="ODIN - Manual - 0.11.0" class="md-header__button md-logo" aria-label="ODIN - Manual - 0.11.0" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+  <img src="../../assets/logo-white512.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -91,13 +92,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            ODIN - Manual
+            ODIN - Manual - 0.11.0
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              **Activity Bar**
+              Activity Bar
             
           </span>
         </div>
@@ -122,7 +123,7 @@
                 
                 <li class="md-select__item">
                   <a href="../index.en/" hreflang="en" class="md-select__link">
-                    english
+                    English
                   </a>
                 </li>
                 
@@ -163,6 +164,19 @@
 </div>
     
     
+      <div class="md-header__source">
+        
+<a href="https://github.com/syncpoint/odin" title="Quellcode" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+      </div>
+    
   </nav>
 </header>
     
@@ -184,14 +198,26 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="ODIN - Manual" class="md-nav__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+    <a href="../.." title="ODIN - Manual - 0.11.0" class="md-nav__button md-logo" aria-label="ODIN - Manual - 0.11.0" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+  <img src="../../assets/logo-white512.png" alt="logo">
 
     </a>
-    ODIN - Manual
+    ODIN - Manual - 0.11.0
   </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/syncpoint/odin" title="Quellcode" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -204,7 +230,7 @@
   
     <li class="md-nav__item">
       <a href="../../index.de/" class="md-nav__link">
-        Index.de
+        Start
       </a>
     </li>
   
@@ -218,8 +244,275 @@
   
   
     <li class="md-nav__item">
-      <a href="../../00_Deckblatt_Vorwort/" class="md-nav__link">
-        None
+      <a href="../../00_Deckblatt_Vorwort/index.de/" class="md-nav__link">
+        Vorwort
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Benutzeroberflaeche/index.de/" class="md-nav__link">
+        Benutzeroberflaeche
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_Menueleiste/index.de/" class="md-nav__link">
+        Menüleiste
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_Projektverwaltung/index.de/" class="md-nav__link">
+        Projektverwaltung
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Kartenverwaltung/index.de/" class="md-nav__link">
+        Kartenverwaltung
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Activity Bar
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Activity Bar
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basiskarten" class="md-nav__link">
+    Basiskarten
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#layermanagement" class="md-nav__link">
+    Layermanagement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map-palette" class="md-nav__link">
+    Map-Palette
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#werkzeuge" class="md-nav__link">
+    Werkzeuge
+  </a>
+  
+    <nav class="md-nav" aria-label="Werkzeuge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entfernungrichtung-messen" class="md-nav__link">
+    Entfernung/Richtung messen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flache-messen" class="md-nav__link">
+    Fläche messen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#einstellungen" class="md-nav__link">
+    Einstellungen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-funktionalitaten" class="md-nav__link">
+    „Windows“-Funktionalitäten
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aktuellen-kartenausschnitt-als-png-exportieren" class="md-nav__link">
+    Aktuellen Kartenausschnitt als PNG exportieren
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Bearbeitung_Objekte_Karte/index.de/" class="md-nav__link">
+        Bearbeitung Objekte/Karte
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Eigenschaften_Objekte/index.de/" class="md-nav__link">
+        Objekteigenschaften
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_Freiformobjekte/index.de/" class="md-nav__link">
+        Freiformobjekte
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_Einstellungen/index.de/" class="md-nav__link">
+        Properites
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_Anlage_Onlinekarten/index.de/" class="md-nav__link">
+        Onlinekarten
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kb_shortcuts.de/" class="md-nav__link">
+        Tastaturkürzel
       </a>
     </li>
   
@@ -299,6 +592,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#einstellungen" class="md-nav__link">
+    Einstellungen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#windows-funktionalitaten" class="md-nav__link">
     „Windows“-Funktionalitäten
   </a>
@@ -326,7 +626,7 @@
                 
                 
                 <ul>
-<li class="i18n-link i18n-link-found i18n-link-en"><a href="../../05_Activity_Bar/index.en/">english</a></li>
+<li class="i18n-link i18n-link-found i18n-link-en"><a href="../../05_Activity_Bar/index.en/">English</a></li>
 </ul>
 <h1 id="activity-bar"><strong>Activity Bar</strong></h1>
 <p>Die Activity Bar ist in folgende Bereiche gegliedert:</p>
@@ -410,9 +710,10 @@
 <p>Bei <strong>Layer teilen</strong> könnt Ihr einen einzelnen Layer exportieren, um diesen auf Euren Rechner lokal abzuspeichern und anschließend per USB-Stick, Email etc. anderen Nutzern zur Verfügung zu stellen.</p>
 <p><em>Der Bereich </em><em>Suche</em><em> im Layermanagement ist noch nicht umgesetzt.</em></p>
 <p>Mit dem <strong>„Schloss“-Symbol</strong> habt Ihr die Möglichkeit <strong>Layer</strong> zu <strong>sperren</strong> bzw. zu <strong>entsperren</strong>. Ist ein Layer gesperrt, können die darin enthaltenen Objekte auf der Karte nicht verändert (z.B. verschoben, Linien/Räume ändern etc.) bzw. aus dem Layer (entweder im „Layerbaum“ oder auf der Karte) gelöscht werden. Die Bearbeitung der einzelnen Objekte (z.B. Änderungen im Eigenschaftsfenster, Umbenennen etc.) ist jedoch weiterhin möglich.</p>
-<p>Mit dem <strong>„Auge“-Symbol</strong> habt Ihr die Möglichkeit <strong>Layer</strong> <strong>ein-</strong> bzw. <strong>auszublenden</strong>. Damit könnt Ihr das Lagebild auf „Layerbasis“ Euren Bedürfnissen anpassen. <em>Ein Ausblenden einzelner Objekte ist dzt. noch nicht umgesetzt.</em></p>
+<p>Mit dem <strong>„Auge“-Symbol</strong> habt Ihr die Möglichkeit <strong>Layer</strong> <strong>ein-</strong> bzw. <strong>auszublenden</strong>. Damit könnt Ihr das Lagebild auf „Layerbasis“ Euren Bedürfnissen anpassen.  <em>Ein Ausblenden einzelner Objekte ist dzt. noch nicht umgesetzt.</em></p>
 <p>Der <strong>aktive Layer</strong> (= schwarze Schrift) ist jener Layer, in welchen alle neu erstellten Objekte (aus der Map-Palette) oder kopierten Objekte (aus der Zwischenablage) eingefügt werden. Um einen Layer als aktiven Layer festzulegen, müsst Ihr diesen nur mit einem <strong>Doppelklick</strong> <strong>aktivieren</strong>. Der aktive Layer kann daher weder gelöscht, ausgeblendet noch gesperrt werden.</p>
 <p>Die <strong>nicht aktiven Layer</strong> (= graue Schrift) sind alle anderen Layer im Layermanagement (= es gibt immer nur einen aktiven Layer). Beim nicht aktiven Layer ist bis auf das Hinzufügen von Objekten jede andere Bearbeitung (z.B. Objekte löschen, sperren, ausblenden, teilen etc.) möglich.</p>
+<p>Enthält ein Layer keine Objekte sind das "Schloss"- und das "Auge"-Symbol ebenfalls nicht auswählbar.</p>
 <p>Beim Anklicken des Layernamens mit der Maus, öffnet sich der <strong>„Layerbaum“</strong> und der Inhalt des Layers wird in alphabetischer Reihenfolge angezeigt. Im Layerbaum können die Objekte gelöscht werden. Wird im Layerbaum ein Objekt ausgewählt, öffnet sich das Eigenschaftsfenster und das Objekt wird markiert auf der Karte angezeigt (sofern es sich dzt. im aktuellen Kartenausschnitt befindet, <em>ein „Hinspringen“ auf die Karte ist dzt. noch nicht umgesetzt</em>). Die anderen Objekte auf der Karte werden dagegen „blasser“ dargestellt.</p>
 <p>Die <strong>Anzeige</strong> der <strong>Namen</strong> der <strong>Objekte</strong> im „Layerbaum“ erfolgt aufgrund Eurer Eingabe im Feld <strong>„Name“</strong> des Eigenschaftsfensters. Ist dieses Feld leer, wird im „Layerbaum“ die Eingabe aus dem Feld <strong>„Unique Designation“</strong> angezeigt. Sind beide diese Felder leer, erfolgt die Anzeige mit <strong>„N/A“</strong> (not available) im „Layerbaum.</p>
 <h2 id="map-palette"><strong>Map-Palette</strong></h2>
@@ -528,6 +829,10 @@
 </ul>
 <p>Mit <strong>Fläche messen</strong> könnt Ihr auf der Karte die Fläche eines Bereiches messen. Zusätzlich zur Gesamtlänge, erfolgt auch hier die Angabe der Länge zu den einzelnen Teilstrecken. In der Mitte der Fläche werden die Gesamtfläche in m²/km² (oben) und der Umfang der Fläche (darunter) angezeigt.</p>
 <p>Das Verändern der Fläche erfolgt analog wie bei Entfernung/Richtung messen.</p>
+<h2 id="einstellungen"><strong>Einstellungen</strong></h2>
+<p>Im Bereich der Einstellungen sind folgende Funktionalitäten verfügbar:</p>
+<p><img alt="" src="../images/Einstellungen.png" /></p>
+<p>Aufgrund des Umfanges erfolgt die <strong>Detailbeschreibung</strong> zu den einzelnen Funktionalitäten im <strong>Kapitel "Einstellungen"</strong> gesondert!</p>
 <h2 id="windows-funktionalitaten"><strong>„Windows“-Funktionalitäten</strong></h2>
 <p>Hier stehen euch folgende typischen „Windows“-Funktionalitäten zur Verfügung:</p>
 <p><img alt="" src="../images/Windows_Funktionalitaeten.png" /></p>
@@ -538,8 +843,6 @@
 <p>Diese Funktion ermöglicht es Euch, die aktuelle Kartenansicht als PNG-Bilddatei zu exportieren, um diese z.B. in einem anderen Programm (PowerPoint, Word etc.), auf einer Homepage etc. zu verwenden.</p>
 <p><img alt="" src="../images/Kartenausschnitt_exportieren.png" /></p>
 <p>Nach Drücken des Buttons <strong>„Aktuellen Kartenausschnitt als PNG exportieren“</strong> öffnet sich der Explorer und Ihr könnt den aktuell auf dem Bildschirm sichtbaren Kartenbereich inkl. der Lage als PNG-Bilddatei exportieren. Dabei werden jedoch <strong>geöffnete Bereiche</strong> (z.B. Activity Bar, Eigenschaftsfenster), sowie die <strong>zusätzlichen Kartenangaben</strong> (z.B. Datumsanzeige, Koordinatenanzeige, Maßstab etc.) <strong>nicht „mit exportiert“</strong>.</p>
-                
-                  
                 
               
               
@@ -558,28 +861,12 @@
       </main>
       
         
-<footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
-      
-    </div>
-  </div>
-</footer>
       
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking"], "translations": {"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight"], "translations": {"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.82b56eb2.min.js"></script>

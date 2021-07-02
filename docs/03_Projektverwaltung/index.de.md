@@ -1,14 +1,9 @@
----
-weight: 5
-draft: false
----
-
 # **Projektverwaltung**
 
 Die Projektverwaltung ist über die „Menüleiste – Register Verwaltung – Projekte“ aufrufbar:
 
-<img src="images/Projektverwaltung.png" style="zoom: 67%;" />
 
+![](images/Projektverwaltung.png)
 
 
 ## **Inhalt Projektverwaltung**
@@ -63,6 +58,8 @@ Mit dem Button **„Exportieren“** könnt Ihr ein **Projekt exportieren**. Nac
 Mit dem Button **„Wechseln“** könnt ihr auf das von Euch gewünschte **Projekt wechseln** (dabei wird die Projektverwaltung automatisch geschlossen und das andere Projekt geöffnet).
 
 Mit dem Button **„Löschen“** wird das aktuell markierte **Projekt** unwiederbringlich **gelöscht**. Wenn Ihr Euch nicht sicher seid, ob Ihr dieses Projekt ev. nochmals benötigt, solltet Ihr vor dem Löschen das Projekt sicherheitshalber exportieren, um es dann im Bedarfsfall wieder zur Verfügung zu haben.
+
+
 
 
 

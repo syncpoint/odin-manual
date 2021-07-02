@@ -1,9 +1,3 @@
----
-weight: 18
-draft: false
----
-
-
 # **Freiformobjekte**
 
 
@@ -16,6 +10,8 @@ Derzeit sind folgende **Freiformobjekte** in ODIN verfügbar:
 
 
 
+
+
 ## **Auswahl in der Map-Palette**
 
 
@@ -25,6 +21,8 @@ Um ein **Freiformobjekt erstellen** zu können, müsst Ihr dieses in der **Map-P
 
 
 ![](images/Auswahl_MapPalette.png)
+
+
 
 
 

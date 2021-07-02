@@ -1,23 +1,16 @@
----
-weight: 5
-draft: false
----
-
 # **Project management**
 
 The project administration can be called up via the "Menu bar - Administration tab - Projects":
 
-<img src="images/Projektverwaltung.png" style="zoom: 67%;" />
-
+![](images/en/Projektverwaltung.png)
 
 
 ## **Content project management**
 
 
-
 The project management contains the following functionalities:
 
-![](images/Inhalt_Projektverwaltung.png)
+![](images/en/Inhalt_Projektverwaltung.png)
 
 - <span class="blue">1</span> exit the project management (= return to the map)
 - <span class="blue">2</span> listing of all existing projects
@@ -40,7 +33,7 @@ The project management contains the following functionalities:
 
 - <span class="red">11</span> preview project content
 
-- <span class="blue">12</span> change project
+- <span class="blue">12</span> switch project
 
 - <span class="blue">13</span> delete project
 
@@ -48,20 +41,21 @@ The project management contains the following functionalities:
 
 The **current project** is always at the first position in the order of the projects and the button to switch to this project is therefore "grayed out".
 
-If you mark a **different project**, it will be grayed out. In addition, the name of the project is displayed at the top of the right pane and in the field for renaming, and a corresponding preview (= time of leaving this project) is available as an "orientation aid".
+If you mark a **different project**, it will be grayed out. In addition, the name of the project is displayed at the top of the right pane and in the field for renaming, and a corresponding preview is available as an "orientation aid".
 
-With the button **"New "** you can create a **new project**.
+With the button **"New"** you can create a **new project**.
 
-With the button **"Import "** you can import a **project**. After pressing the button **"Import "** the explorer opens,
-in which you can select your desired project. After the import the imported project is displayed in the project overview on the left side.
+With the button **"Import "** you can import a **project**. After pressing the button **"Import "** the explorer opens, in which you can select your desired project. After the import the imported project is displayed in the project overview on the left side.
 
 Above the project preview you can rename an existing **project**. The **change** of the project name is to be **confirmed** by pressing the **"Save "** button or with the `ENTER` key.
 
-With the button **"Export "** you can export** a **project. After pressing the button **"Export "** the explorer opens, in which you can save your desired project. If you want to export only one layer, use the function "Split Layer" in the layer management.
+With the button **"Export"** you can export** a **project. After pressing the button **"Export "** the explorer opens, in which you can save your project. If you want to export only one layer, use the function "Share Layer" in the layer management.
 
-With the button **"Switch "** you can switch to the desired **project** (the project management will be closed automatically and the other project will be opened).
+With the button **"Switch to"** you can switch to the desired **project** (the project management will be closed automatically and the other project will be opened).
 
-With the button **"Delete "** the currently marked **project** will be irretrievably **deleted**. If you are not sure whether you might need this project again, you should export the project before deleting it to have it available again if necessary.
+With the button **"Delete"** the currently marked **project** will be irretrievably **deleted**. If you are not sure whether you might need this project again, you should export the project before deleting it to have it available again if necessary.
+
+
 
 
 
@@ -71,7 +65,7 @@ With the button **"Delete "** the currently marked **project** will be irretriev
 
 After pressing the **"NEW "** button, the following view appears in the right pane:
 
-![](images/Projekt_neu_anlegen.png)
+![](images/en/Projekt_neu_anlegen.png)
 
 - <span class="blue">1</span> "untitled project (= display of the project name)
 - <span class="blue">2</span> rename project

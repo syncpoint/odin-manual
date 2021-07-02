@@ -6,17 +6,21 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Manual for ODIN the flexible Open Source Command and Control Information System.">
       
       
       
-        <link rel="canonical" href="https://example.com/08_Freiformobjekte/index.en/">
+        <meta name="author" content="Syncpoint GmbH">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      
+        <link rel="canonical" href="https://syncpoint.github.io/odin-manual/08_Freiformobjekte/index.en/">
+      
+      <link rel="icon" href="../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
     
     
       
-        <title>**Freeform objects** - ODIN - Manual</title>
+        <title>Freeeform objects - ODIN - Manual - 0.11.0</title>
       
     
     
@@ -24,10 +28,6 @@
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#2094f3">
         
       
     
@@ -41,6 +41,8 @@
       
     
     
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
       
@@ -56,7 +58,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
     <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
@@ -78,10 +80,9 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="ODIN - Manual" class="md-header__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+    <a href="../.." title="ODIN - Manual - 0.11.0" class="md-header__button md-logo" aria-label="ODIN - Manual - 0.11.0" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+  <img src="../../assets/logo-white512.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -91,13 +92,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            ODIN - Manual
+            ODIN - Manual - 0.11.0
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              **Freeform objects**
+              Freeeform objects
             
           </span>
         </div>
@@ -116,7 +117,7 @@
               
                 <li class="md-select__item">
                   <a href="../index.de/" hreflang="de" class="md-select__link">
-                    deutsch
+                    Deutsch
                   </a>
                 </li>
                 
@@ -163,6 +164,19 @@
 </div>
     
     
+      <div class="md-header__source">
+        
+<a href="https://github.com/syncpoint/odin" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+      </div>
+    
   </nav>
 </header>
     
@@ -184,14 +198,26 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="ODIN - Manual" class="md-nav__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+    <a href="../.." title="ODIN - Manual - 0.11.0" class="md-nav__button md-logo" aria-label="ODIN - Manual - 0.11.0" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+  <img src="../../assets/logo-white512.png" alt="logo">
 
     </a>
-    ODIN - Manual
+    ODIN - Manual - 0.11.0
   </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/syncpoint/odin" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -204,7 +230,7 @@
   
     <li class="md-nav__item">
       <a href="../../index.en/" class="md-nav__link">
-        Index.en
+        Home
       </a>
     </li>
   
@@ -218,8 +244,234 @@
   
   
     <li class="md-nav__item">
-      <a href="../../00_Deckblatt_Vorwort/" class="md-nav__link">
-        None
+      <a href="../../00_Deckblatt_Vorwort/index.en/" class="md-nav__link">
+        Preface
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Benutzeroberflaeche/index.en/" class="md-nav__link">
+        User Interface
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_Menueleiste/index.en/" class="md-nav__link">
+        Menu bar
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_Projektverwaltung/index.en/" class="md-nav__link">
+        Project administration
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Kartenverwaltung/index.en/" class="md-nav__link">
+        Map administration
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Activity_Bar/index.en/" class="md-nav__link">
+        Activity Bar
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Bearbeitung_Objekte_Karte/index.en/" class="md-nav__link">
+        Handling Objects/Maps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Eigenschaften_Objekte/index.en/" class="md-nav__link">
+        Object properties
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Freeeform objects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Freeeform objects
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#selection-in-the-map-palette" class="md-nav__link">
+    Selection in the Map Palette
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#text-field" class="md-nav__link">
+    Text field
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#line" class="md-nav__link">
+    Line
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#area" class="md-nav__link">
+    Area
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_Einstellungen/index.en/" class="md-nav__link">
+        Einstellungen
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_Anlage_Onlinekarten/index.en/" class="md-nav__link">
+        Online maps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kb_shortcuts.en/" class="md-nav__link">
+        Keyboard shortcuts
       </a>
     </li>
   
@@ -292,128 +544,26 @@
                 
                 
                 <ul>
-<li class="i18n-link i18n-link-found i18n-link-de"><a href="../../08_Freiformobjekte/index.de/">deutsch</a></li>
+<li class="i18n-link i18n-link-found i18n-link-de"><a href="../../08_Freiformobjekte/index.de/">Deutsch</a></li>
 </ul>
 <h1 id="freeform-objects"><strong>Freeform objects</strong></h1>
-<p>Currently the following <strong>freeform objects</strong> are available in ODIN:</p>
+<p>The following <strong>freeform objects</strong> are available in ODIN:</p>
 <ul>
 <li>Text field</li>
 <li>Line</li>
 <li>Area</li>
 </ul>
 <h2 id="selection-in-the-map-palette"><strong>Selection in the Map Palette</strong></h2>
-<p>To create a <strong>Freeform object</strong> you have to select it in the <strong>Map Palette</strong> first. Enter the term <strong>"Supplemental "</strong> in the search area or use the search terms "<strong>Text</strong>", "<strong>Line</strong>" and "<strong>Polygon</strong>":</p>
-<p><img alt="" src="../images/Auswahl_MapPalette.png" /></p>
+<p>To create a <strong>Freeform object</strong> you have to select it in the <strong>Map Palette</strong> first. Enter the term <strong>"Supplemental"</strong> in the search area or use the search terms "<strong>Text</strong>", "<strong>Line</strong>" and "<strong>Polygon</strong>":</p>
+<p><img alt="" src="../images/en/Auswahl_MapPalette.png" /></p>
 <h2 id="text-field"><strong>Text field</strong></h2>
-<p>After the <strong>selection</strong> in the <strong>map palette</strong> and the <strong>click</strong> on the desired <strong>position</strong> on the <strong>map</strong> a <strong>"red dot "</strong> appears and the property window opens.</p>
-<p>The following properties can currently be entered for the text field:</p>
+<p>After the <strong>selection</strong> in the <strong>map palette</strong> and the <strong>click</strong> on the desired <strong>position</strong> on the <strong>map</strong> a <strong>"red dot"</strong> appears and the property window opens.</p>
+<p>The following properties can be entered for the text field:</p>
 <table>
 <thead>
 <tr>
-<th><img alt="" src="../images/Textfeld_1.png" /></th>
-<th><img alt="" src="../images/Textfeld_2.png" /></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li><span class="blue">1</span> marked object on the map</li>
-<li>
-<p><span class="blue">2</span> current area properties</p>
-</li>
-<li>
-<p><span class="blue">3</span> switch to the links/weblinks area</p>
-</li>
-<li>
-<p><span class="blue">4</span> name of the object <em>(= display in layer management)</em></p>
-</li>
-<li>
-<p><span class="blue">5</span> Input of the text <em>(= display on the map)</em></p>
-</li>
-<li>
-<p><span class="blue">6</span> styling options for the font (color, font size)</p>
-</li>
-<li>
-<p><span class="blue">7</span> styling options for the border (color, width)</p>
-</li>
-<li>
-<p><span class="blue">8</span> styling options for the background (color)</p>
-</li>
-<li>
-<p><span class="blue">9</span> styling options for the border (color, width)</p>
-</li>
-<li>
-<p><span class="blue">10</span> rotation of the display of the text on the map</p>
-</li>
-</ul>
-<p>In the free text field, in addition to text input, <strong>emojis</strong> can be added (on Windows with the <code>WINDOWS key</code> + <code>.</code> or on MAC with <code>CMD</code> + <code>CTRL</code> + <code>spacebar</code>). Longer texts can also be divided into paragraphs with the <code>ENTER</code> key.</p>
-<p>At <strong>Font</strong> the <strong>Color</strong> can be selected, as well as the <strong>Font size</strong> can be changed (to font size 16, 24, 32, 40, 48, 56, 64).</p>
-<p>When <strong>Border</strong> is selected, a colored border can be added to the text. Here you can set the <strong>Color</strong> and the <strong>Width</strong> (Small, Medium, Large) of the border.</p>
-<p>When you select the <strong>Background</strong>, the <strong>Fill</strong> color of the text box is set.</p>
-<p>Selecting the <strong>Border</strong> will add a border to the text box.  Here you can set the <strong>color</strong> and the <strong>width</strong> (Small, Medium, Large) of the frame.</p>
-<p>With <strong>Rotation</strong> you can change the <strong>Alignment</strong> of the text field (each in 15 °-steps).</p>
-<p>When <strong>selecting</strong> the <strong>colors</strong> a small window opens with the following choices:</p>
-<p><img alt="" src="../images/Textfeld_3.png" /></p>
-<ul>
-<li><span class="blue">1</span> selection of the color <em>(by means of the mouse)</em></li>
-<li>
-<p><span class="blue">2</span> selection of color ranges <em>(using the mouse)</em></p>
-</li>
-<li>
-<p><span class="blue">3</span> transparency selection <em>(using the mouse)</em></p>
-</li>
-<li>
-<p><span class="blue">4</span> immediate display of the selection at the object on the map</p>
-</li>
-</ul>
-<p>To <strong>change</strong> the <strong>position</strong> of the free text field, click on it with the mouse on the <strong>left side of the text field</strong> and move it to the new desired position.</p>
-<p>With the text field the same functionalities are possible as with the point symbols, i.e. <strong>"Offset Location "</strong> (hold down the <code>ALT</code> key and move the text field with the mouse), as well as <strong>Copy</strong> (<code>CTRL</code> + <code>C</code>) and <strong>Paste</strong> (<code>CTRL</code> + <code>V</code>) are also possible here.</p>
-<h2 id="line"><strong>Line</strong></h2>
-<p>After the <strong>selection</strong> in the <strong>Map-Palette</strong> and the <strong>clicks</strong> on the desired <strong>positions</strong> on the <strong>map</strong> you finish the input with a <strong>double-click</strong>, after that the property window is opened.</p>
-<p>The following properties can currently be entered for the freeform "Line":</p>
-<table>
-<thead>
-<tr>
-<th><img alt="" src="../images/Freiform_Linie_1.png" /></th>
-<th><img alt="" src="../images/Freiform_Linie_2.png" /></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li><span class="blue">1</span> marked object on the map</li>
-<li>
-<p><span class="blue">2</span> current area properties</p>
-</li>
-<li>
-<p><span class="blue">3</span> switch to the links/weblinks area</p>
-</li>
-<li>
-<p><span class="blue">4</span> name of the object <em>(= display in layer management)</em></p>
-</li>
-<li>
-<p><span class="blue">5</span> styling options for the line (color)</p>
-</li>
-</ul>
-<p>The choices for <strong>color</strong> styling are <strong>analogous</strong> to those for the <strong>width text field</strong>.</p>
-<h2 id="area"><strong>Area</strong></h2>
-<p>After the <strong>selection</strong> in the <strong>map palette</strong> and the <strong>clicks</strong> on the desired <strong>positions</strong> on the <strong>map</strong> you finish the input with a <strong>double-click</strong>, then the property window opens.</p>
-<p>The following properties can currently be entered for the freeform "Area":</p>
-<table>
-<thead>
-<tr>
-<th><img alt="" src="images/Freiform_Fläche_1.png" /></th>
-<th><img alt="" src="images/Freiform_Fläche_2.png" /></th>
+<th><img alt="" src="../images/en/Textfeld_1.png" /></th>
+<th><img alt="" src="../images/en/Textfeld_2.png" /></th>
 </tr>
 </thead>
 <tbody>
@@ -426,14 +576,82 @@
 <ul>
 <li><span class="blue">1</span> marked object on the map</li>
 <li><span class="blue">2</span> current area properties</li>
-<li><span class="blue">3</span> switch to the Links/WebLinks area</li>
+<li><span class="blue">3</span> switch to the links/weblinks area</li>
+<li><span class="blue">4</span> name of the object <em>(= display in layer management)</em></li>
+<li><span class="blue">5</span> Input of the text <em>(= display on the map)</em></li>
+<li><span class="blue">6</span> styling options for the font (color, font size)</li>
+<li><span class="blue">7</span> styling options for the border (color, width)</li>
+<li><span class="blue">8</span> styling options for the background (color)</li>
+<li><span class="blue">9</span> styling options for the border (color, width)</li>
+<li><span class="blue">10</span> rotation of the display of the text on the map</li>
+</ul>
+<p>In the free text field, in addition to text input, <strong>emojis</strong> can be added (on Windows with the <code>WINDOWS key</code> + <code>.</code> or on MAC with <code>CMD</code> + <code>CTRL</code> + <code>spacebar</code>). Longer texts can also be divided into paragraphs with the <code>ENTER</code> key.</p>
+<p>With <strong>Font</strong> the <strong>Color</strong> can be selected, as well as the <strong>Font size</strong> can be changed (to font size 16, 24, 32, 40, 48, 56, 64).</p>
+<p>When <strong>Border</strong> is selected, a colored border can be added to the text. Here you can set the <strong>Color</strong> and the <strong>Width</strong> (Small, Medium, Large) of the border.</p>
+<p>When you select the <strong>Background</strong>, the <strong>Fill</strong> color of the text box is set.</p>
+<p>Selecting the <strong>Border</strong> will add a border to the text box.  Here you can set the <strong>color</strong> and the <strong>width</strong> (Small, Medium, Large) of the frame.</p>
+<p>With <strong>Rotation</strong> you can change the <strong>Alignment</strong> of the text field (each in 15 °-steps).</p>
+<p>When <strong>selecting</strong> the <strong>colors</strong> a small window opens with the following choices:</p>
+<p><img alt="" src="../images/en/Textfeld_3.png" /></p>
+<ul>
+<li><span class="blue">1</span> selection of the color <em>(by means of the mouse)</em></li>
+<li><span class="blue">2</span> selection of color ranges <em>(using the mouse)</em></li>
+<li><span class="blue">3</span> transparency selection <em>(using the mouse)</em></li>
+<li><span class="blue">4</span> immediate display of the selection at the object on the map</li>
+</ul>
+<p>To <strong>change</strong> the <strong>position</strong> of the free text field, click on it with the mouse on the <strong>left side of the text field</strong> and move it to the new position.</p>
+<p>With the text field the same functionalities are possible as with the point symbols, i.e. <strong>"Offset Location"</strong> (hold down the <code>ALT</code> key and move the text field with the mouse), as well as <strong>Copy</strong> (<code>CTRL</code> + <code>C</code>) and <strong>Paste</strong> (<code>CTRL</code> + <code>V</code>) are also possible here.</p>
+<h2 id="line"><strong>Line</strong></h2>
+<p>After the <strong>selection</strong> in the <strong>Map-Palette</strong> and the <strong>clicks</strong> on the desired <strong>positions</strong> on the <strong>map</strong> you finish the input with a <strong>double-click</strong>, after that the property window is opened.</p>
+<p>The following properties can be entered for the freeform "Line":</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/en/Freiform_Linie_1.png" /></th>
+<th><img alt="" src="../images/en/Freiform_Linie_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li><span class="blue">2</span> current area properties</li>
+<li><span class="blue">3</span> switch to the links/weblinks area</li>
+<li><span class="blue">4</span> name of the object <em>(= display in layer management)</em></li>
+<li><span class="blue">5</span> styling options for the line (color)</li>
+</ul>
+<p>The choices for <strong>color</strong> styling are <strong>analogous</strong> to those for the <strong>width text field</strong>.</p>
+<h2 id="area"><strong>Area</strong></h2>
+<p>After the <strong>selection</strong> in the <strong>map palette</strong> and the <strong>clicks</strong> on the desired <strong>positions</strong> on the <strong>map</strong> you finish the input with a <strong>double-click</strong>, then the property window opens.</p>
+<p>The following properties can be entered for the freeform "Area":</p>
+<table>
+<thead>
+<tr>
+<th><img alt="" src="../images/en/Freiform_Fl%C3%A4che_1.png" /></th>
+<th><img alt="" src="../images/en/Freiform_Fl%C3%A4che_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="blue">1</span> marked object on the map</li>
+<li><span class="blue">2</span> current area properties</li>
+<li><span class="blue">3</span> switch to the Links/Weblinks area</li>
 <li><span class="blue">4</span> name of the object <em>(= display in layer management)</em></li>
 <li><span class="blue">5</span> styling options for the frame (color)</li>
 <li><span class="blue">6</span> styling options for the background (color)</li>
 </ul>
 <p>The choices for the <strong>color selection</strong> are <strong>analogous</strong> to those for the <strong>width text field</strong>.</p>
-                
-                  
                 
               
               
@@ -452,28 +670,12 @@
       </main>
       
         
-<footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
-      
-    </div>
-  </div>
-</footer>
       
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.82b56eb2.min.js"></script>

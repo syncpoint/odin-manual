@@ -1,14 +1,6 @@
----
-weight: 17
-draft: false
----
-
-
 # **Eigenschaftsfenster der Objekte**
 
-
-
-Der Inhalt der Eigenschaftsfenster **orientiert** sich an den **Vorgaben des MIL-STD 2525C** (= Zuordnung der entsprechenden Modifier). Es sind jedoch **noch nicht alle Modifier** dzt. in ODIN **verfügbar** (z.B. Offset Location, Evaluation Rating etc.).
+Der Inhalt der Eigenschaftsfenster **orientiert** sich an den **Vorgaben des MIL-STD 2525C** (= Zuordnung der entsprechenden Modifier). Es sind jedoch **noch nicht alle Modifier** dzt. in ODIN **verfügbar** (z.B. Evaluation Rating etc.).
 
 Für jene **Symbole** (z.B. Naturereignisse, Action Points etc.), denen gemäß MIL-STD 2525C **keine Modifier dezidiert zugeordnet** sind, haben wir ein **„Basis-Set“** an Eigenschaften hinzugefügt, damit Ihr zumindest die **grundlegendsten Informationen** dazu eingeben könnt.
 
@@ -16,7 +8,7 @@ Auch haben wir **Modifier**, die zwar gem. MIL-STD 2525C nicht zugeordnet sind, 
 
 Sobald Ihr im Eigenschaftsfenster eine Eingabe bestätigt oder ein anderes Feld auswählt, erfolgt die **Anzeige** der Eingabe **unmittelbar** auf der **Karte** (sofern der Modifier gem. MIL-STD 2525C auf der Karte darzustellen ist).
 
-
+ 
 
 ## **Eingabefelder die für verschiedene Objektbereiche gleich sind**
 
@@ -25,8 +17,6 @@ Sobald Ihr im Eigenschaftsfenster eine Eingabe bestätigt oder ein anderes Feld 
 Die nachstehenden Felder sind in den verschiedensten Eigenschaftsfenstern enthalten, bieten verschiedene Auswahlmöglichkeiten und werden daher hier gesondert beschrieben:
 
 Das Feld **„Name“** bzw. wenn dieses Feld leer ist, dann das Feld **„Unique Designation“** werden im „Layerbaum“ (beim Layermanagement) angezeigt. Sind beide Felder leer erfolgt die Anzeige im „Layerbaum“ mit **„N/A“** (not available):
-
-
 
 | ![](images/Gleiche_Eingabe_Name_1.png) | ![](images/Gleiche_Eingabe_Name_2.png) |
 | :------------------------------------: | :------------------------------------: |
@@ -554,7 +544,7 @@ Im Bereich der **Links/WebLinks** könnt Ihr zu einem Objekt auf der Karte **Lin
 
 
 
-Damit könnt Ihr z.B. für eine Einh auf der Karte den taktischen Befehl, die Truppeneinteilung, Infos zu Waffen & Gerät etc. hinzufügen und somit auf entsprechenden Informationen schnell und direkt zugreifen.
+Damit könnt Ihr z.B. für eine Einheit auf der Karte den taktischen Befehl, die Truppeneinteilung, Infos zu Waffen & Gerät etc. hinzufügen und somit auf entsprechenden Informationen schnell und direkt zugreifen.
 
 Die jeweiligen Dateien werden in externen Programmen (z.B. Word, PowerPoint etc.) gesondert geöffnet.
 

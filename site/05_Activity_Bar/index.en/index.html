@@ -6,17 +6,21 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Manual for ODIN the flexible Open Source Command and Control Information System.">
       
       
       
-        <link rel="canonical" href="https://example.com/05_Activity_Bar/index.en/">
+        <meta name="author" content="Syncpoint GmbH">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      
+        <link rel="canonical" href="https://syncpoint.github.io/odin-manual/05_Activity_Bar/index.en/">
+      
+      <link rel="icon" href="../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.9">
     
     
       
-        <title>**Activity Bar** - ODIN - Manual</title>
+        <title>Activity Bar - ODIN - Manual - 0.11.0</title>
       
     
     
@@ -24,10 +28,6 @@
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
-        
-          
-          
-          <meta name="theme-color" content="#2094f3">
         
       
     
@@ -41,6 +41,8 @@
       
     
     
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
       
@@ -56,7 +58,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="blue" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
     <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
@@ -78,10 +80,9 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="ODIN - Manual" class="md-header__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+    <a href="../.." title="ODIN - Manual - 0.11.0" class="md-header__button md-logo" aria-label="ODIN - Manual - 0.11.0" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+  <img src="../../assets/logo-white512.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -91,13 +92,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            ODIN - Manual
+            ODIN - Manual - 0.11.0
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              **Activity Bar**
+              Activity Bar
             
           </span>
         </div>
@@ -116,7 +117,7 @@
               
                 <li class="md-select__item">
                   <a href="../index.de/" hreflang="de" class="md-select__link">
-                    deutsch
+                    Deutsch
                   </a>
                 </li>
                 
@@ -163,6 +164,19 @@
 </div>
     
     
+      <div class="md-header__source">
+        
+<a href="https://github.com/syncpoint/odin" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+      </div>
+    
   </nav>
 </header>
     
@@ -184,14 +198,26 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="ODIN - Manual" class="md-nav__button md-logo" aria-label="ODIN - Manual" data-md-component="logo">
+    <a href="../.." title="ODIN - Manual - 0.11.0" class="md-nav__button md-logo" aria-label="ODIN - Manual - 0.11.0" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4v18h16v2H4c-1.1 0-2-.9-2-2V4h2m11 3h5.5L15 1.5V7M8 0h8l6 6v12c0 1.11-.89 2-2 2H8a2 2 0 0 1-2-2V2c0-1.11.89-2 2-2m9 16v-2H8v2h9m3-4v-2H8v2h12z"/></svg>
+  <img src="../../assets/logo-white512.png" alt="logo">
 
     </a>
-    ODIN - Manual
+    ODIN - Manual - 0.11.0
   </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/syncpoint/odin" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -204,7 +230,7 @@
   
     <li class="md-nav__item">
       <a href="../../index.en/" class="md-nav__link">
-        Index.en
+        Home
       </a>
     </li>
   
@@ -218,25 +244,100 @@
   
   
     <li class="md-nav__item">
-      <a href="../../00_Deckblatt_Vorwort/" class="md-nav__link">
-        None
+      <a href="../../00_Deckblatt_Vorwort/index.en/" class="md-nav__link">
+        Preface
       </a>
     </li>
   
 
     
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Benutzeroberflaeche/index.en/" class="md-nav__link">
+        User Interface
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_Menueleiste/index.en/" class="md-nav__link">
+        Menu bar
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_Projektverwaltung/index.en/" class="md-nav__link">
+        Project administration
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Kartenverwaltung/index.en/" class="md-nav__link">
+        Map administration
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Activity Bar
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Activity Bar
+      </a>
+      
+        
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -251,8 +352,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#basic-maps" class="md-nav__link">
-    Basic Maps
+  <a href="#base-maps" class="md-nav__link">
+    Base Maps
   </a>
   
 </li>
@@ -299,8 +400,193 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#windows-functionalities" class="md-nav__link">
-    „Windows“-Functionalities
+  <a href="#clipboard" class="md-nav__link">
+    Clipboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-current-map-section-as-png" class="md-nav__link">
+    Export current map section as PNG
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Bearbeitung_Objekte_Karte/index.en/" class="md-nav__link">
+        Handling Objects/Maps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Eigenschaften_Objekte/index.en/" class="md-nav__link">
+        Object properties
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_Freiformobjekte/index.en/" class="md-nav__link">
+        Freeeform objects
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_Einstellungen/index.en/" class="md-nav__link">
+        Einstellungen
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_Anlage_Onlinekarten/index.en/" class="md-nav__link">
+        Online maps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kb_shortcuts.en/" class="md-nav__link">
+        Keyboard shortcuts
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#base-maps" class="md-nav__link">
+    Base Maps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#layer-management" class="md-nav__link">
+    Layer Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#map-palette" class="md-nav__link">
+    Map Palette
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" class="md-nav__link">
+    Tools
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measure-distancedirection" class="md-nav__link">
+    Measure distance/direction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#measure-area" class="md-nav__link">
+    Measure area
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#clipboard" class="md-nav__link">
+    Clipboard
   </a>
   
 </li>
@@ -326,99 +612,66 @@
                 
                 
                 <ul>
-<li class="i18n-link i18n-link-found i18n-link-de"><a href="../../05_Activity_Bar/index.de/">deutsch</a></li>
+<li class="i18n-link i18n-link-found i18n-link-de"><a href="../../05_Activity_Bar/index.de/">Deutsch</a></li>
 </ul>
 <h1 id="activity-bar"><strong>Activity Bar</strong></h1>
 <p>The Activity Bar is divided into the following sections:</p>
-<p><img alt="" src="../images/Activity_Bar.png" /></p>
-<h2 id="basic-maps"><strong>Basic Maps</strong></h2>
+<p><img alt="" src="../images/en/Activity_Bar.png" /></p>
+<h2 id="base-maps"><strong>Base Maps</strong></h2>
 <p>In the area of the base maps all those maps are shown to you, which you have created in the context of the map administration. Exception is the Open Street Map, because this is the "system map" of ODIN:</p>
-<p><img alt="" src="../images/Basiskarten.png" /></p>
+<p><img alt="" src="../images/en/Basiskarten.png" /></p>
 <ul>
-<li><span class="blue">1</span> range of base maps</li>
-<li>
-<p><span class="blue">2</span> order of the maps (change possible by drag &amp; drop)</p>
-</li>
-<li>
-<p><span class="blue">3</span> Open Street Map = default map from ODIN</p>
-</li>
-<li>
-<p><span class="red">4</span> active maps (= in black font, eye symbol is "open")</p>
-</li>
-<li>
-<p><span class="blue">5</span> opacity of the respective map (0% - 100%)</p>
-</li>
-<li>
-<p><span class="blue">6</span> hidden card (= in gray font, eye symbol is "closed")</p>
-</li>
-<li>
-<p><span class="red">7</span> active map incl. display in the lower right map area</p>
-</li>
+<li><span class="blue">1</span> integrated base maps</li>
+<li><span class="blue">2</span> order of the maps (change possible by drag &amp; drop)</li>
+<li><span class="blue">3</span> Open Street Map = default map from ODIN</li>
+<li><span class="red">4</span> active maps (= in bold font, eye symbol is "open")</li>
+<li><span class="blue">5</span> opacity of the respective map (0% - 100%)</li>
+<li><span class="blue">6</span> hidden maps (= in gray font, eye symbol is "closed")</li>
+<li><span class="red">7</span> active map incl. display in the lower right map area</li>
 </ul>
-<p>The <strong>order</strong> of the <strong>cards</strong> has an effect on their display. Here the principle "upper trumps lower" is applied, i.e. the upper map "covers" the content of the lower maps.</p>
+<p>The <strong>order</strong> of the <strong>maps</strong> has an effect on their display. Draw order is from maps at the bottom of the list to the top. I.e. map content might be covered from maps ordered above.</p>
 <p>The <strong>Open Street Map</strong> is the default map of ODIN and can only be hidden, but not deleted (in the map management area).</p>
-<p><strong>Active Maps</strong> can also be those that do not contain maps themselves, but provide additional map information (e.g. roads, water bodies, train stations, fire stations, vegetation, cultural assets, etc.).</p>
+<p><strong>Active Maps</strong> might not contain base maps, but provide additional map information (e.g. roads, water bodies, train stations, fire stations, vegetation, cultural assets, etc.).</p>
 <p>By adjusting the <strong>opacity</strong> you have the possibility to display several maps on top of each other in ODIN (e.g. Open Street Map and Basemap.at/Orthofoto) to prepare the map the way you need it.</p>
 <p>In the lower right area of the map you can display the maps you <strong>used</strong>. The creation of this display is done via the map administration (step 4 - naming). There you have the possibility to indicate the "source" incl. terms of use, in order to be here legally on the safe side. You will find the corresponding entries in Annex A (Overview - Free Online Maps) and can thus easily ensure these by means of copy &amp; paste.</p>
 <h2 id="layer-management"><strong>Layer Management</strong></h2>
 <p>In the layer management area, all the layers you have created or imported (GeoJson) are displayed:</p>
-<p><img alt="" src="../images/Layermanagement.png" /></p>
+<p><img alt="" src="../images/en/Layermanagement.png" /></p>
 <ul>
 <li><span class="blue">1</span> layer management area</li>
-<li>
-<p><span class="blue">2</span> create layer</p>
-</li>
-<li>
-<p><span class="blue">3</span> delete layer</p>
-</li>
-<li>
-<p><span class="blue">4</span> duplicate layer</p>
-</li>
-<li>
-<p><span class="blue">5</span> split layer</p>
-</li>
-<li>
-<p><span class="red">6</span> search in layer management <em>(not yet implemented)</em></p>
-</li>
-<li>
-<p><span class="blue">7</span> lock/unlock layer ("lock" symbol)</p>
-</li>
-<li>
-<p><span class="blue">8</span> show/hide layer ("eye"-symbol)</p>
-</li>
-<li>
-<p><span class="red">9</span> active layer</p>
-</li>
-<li>
-<p><span class="blue">10</span> not active layer</p>
-</li>
-<li>
-<p><span class="blue">11</span> content of the layer ("layer tree")</p>
-</li>
-<li>
-<p><span class="blue">12</span> display of new layer (if done via button "Create layer")</p>
-</li>
+<li><span class="blue">2</span> create layer</li>
+<li><span class="blue">3</span> delete layer</li>
+<li><span class="blue">4</span> duplicate layer</li>
+<li><span class="blue">5</span> share layer</li>
+<li><span class="red">6</span> search in layer management <em>(not yet implemented)</em></li>
+<li><span class="blue">7</span> lock/unlock layer ("lock" symbol)</li>
+<li><span class="blue">8</span> show/hide layer ("eye"-symbol)</li>
+<li><span class="red">9</span> active layer</li>
+<li><span class="blue">10</span> not active layer</li>
+<li><span class="blue">11</span> content of the layer ("layer tree")</li>
+<li><span class="blue">12</span> display of new layer (if done via button "Create layer")</li>
 </ul>
-<p>With <strong>Create Layer</strong> you can create a new layer. This will be displayed as "New Layer" in the layer management. To rename the layer press the <code>ENTER</code> key at the "New Layer", enter the desired new layer name and confirm again with the <code>ENTER</code> key.</p>
-<p>With <strong>Delete Layer</strong> you can delete a selected layer <em>(multiple selection is not possible yet)</em>. This is also possible by pressing the 'DEL' key.</p>
+<p>With <strong>Create Layer</strong> you can create a new layer. This will be displayed as "New Layer" in the layer management. To rename the layer press the <code>ENTER</code> key at the "New Layer", enter the layer name and confirm with the <code>ENTER</code> key again.</p>
+<p>With <strong>Delete Layer</strong> you can delete a selected layer <em>(multiple selection is not possible yet)</em>. This is also possible by pressing the <code>DEL</code> key.</p>
 <p>With <strong>Duplicate Layer</strong> a new layer will be created with all objects contained in the previous layer. Duplicated layers are created with the same name and a consecutive number (starting with (1), (2) ...).</p>
 <p>All these functions are included in the "Undo" or "Redo" functionality.</p>
-<p>At <strong>Share Layer</strong> you can export a single layer to save it locally on your computer and then make it available to other users via USB stick, email, etc.</p>
-<p><em>The </em><em>Search</em>* section in the layer management is not yet implemented.</p>
-<p>With the <strong>"lock"-symbol</strong> you have the possibility to <strong>lock</strong> or <strong>unlock</strong> **layers. If a layer is locked, the objects it contains cannot be changed on the map (e.g. moved, lines/spaces changed etc.) or deleted from the layer (either in the "Layer Tree" or on the map). However, editing of the individual objects (e.g. changes in the properties window, renaming etc.) is still possible.</p>
+<p>With <strong>Share Layer</strong> you can export a single layer to save it locally on your computer and then make it available to other users via USB stick, email, etc.</p>
+<p>The <strong>Search</strong> section in the layer management is not yet implemented.</p>
+<p>With the <strong>"lock"-symbol</strong> you have the possibility to <strong>lock</strong> or <strong>unlock</strong> layers. If a layer is locked, the objects it contains cannot be changed on the map (e.g. moved, lines/spaces changed etc.) or deleted from the layer (either in the "Layer Tree" or on the map). However, editing of the individual objects (e.g. changes in the properties window, renaming etc.) is still possible.</p>
 <p>With the <strong>"eye"-symbol</strong> you have the possibility to <strong>show</strong> or <strong>hide</strong> <strong>layers</strong>. This allows you to adapt the situation picture to your needs on a "layer basis". *Hiding individual objects is not yet implemented.</p>
-<p>The <strong>active layer</strong> (= black font) is the layer where all newly created objects (from the map palette) or copied objects (from the clipboard) are inserted. To set a layer as active layer, you only have to <strong>activate</strong> it with a <strong>double click</strong>. The active layer can therefore neither be deleted, hidden nor locked.</p>
-<p>The <strong>non-active layers</strong> (= gray font) are all other layers in the layer management (= there is always only one active layer). With the inactive layer every other editing (e.g. delete, lock, hide, split objects etc.) is possible except adding objects.</p>
-<p>When clicking the layer name with the mouse, the <strong>"Layer tree "</strong> will open and the contents of the layer will be displayed in alphabetical order. In the layer tree the objects can be deleted. If an object is selected in the layer tree, the properties window opens and the object is highlighted on the map (if it is currently in the current map section, <em>"Jumping" to the map is not yet implemented</em>). The other objects on the map are displayed "paler".</p>
-<p>The <strong>display</strong> of the <strong>names</strong> of the <strong>objects</strong> in the "Layer tree" is based on your input in the <strong>"Name "</strong> field of the properties window. If this field is empty, the input from the <strong>"Unique Designation "</strong> field is displayed in the "Layer Tree". If both these fields are empty, the display is <strong>"N/A "</strong> (not available) in the "Layer tree.</p>
+<p>The <strong>active layer</strong> (= bold font) is the layer where all newly created objects (from the map palette) or copied objects (from the clipboard) are inserted. To set a layer as active layer, you only have to <strong>activate</strong> it with a <strong>double click</strong>. The active layer can therefore neither be deleted, hidden nor locked.</p>
+<p>The <strong>non-active layers</strong> are all other layers in the layer management (= there is always only one active layer). With the inactive layer every other editing (e.g. delete, lock, hide, share objects etc.) is possible except adding objects.</p>
+<p>If a layer does not contain any objects, the "lock" and "eye" symbols are also not selectable.</p>
+<p>When clicking the layer name with the mouse, the <strong>"Layer tree"</strong> will open and the contents of the layer will be displayed in alphabetical order. In the layer tree the objects can be deleted. If an object is selected in the layer tree, the properties window opens and the object is highlighted on the map (if it is currently in the current map section, <em>"Jumping" to the map is not yet implemented</em>). The other objects on the map are displayed more transparent.</p>
+<p>The <strong>display</strong> of the <strong>names</strong> of the <strong>objects</strong> in the "Layer tree" is based on your input in the <strong>"Name"</strong> field of the properties window. If this field is empty, the input from the <strong>"Unique Designation"</strong> field is displayed in the "Layer Tree". If both these fields are empty, the display is <strong>"N/A"</strong> (not available) in the "Layer tree.</p>
 <h2 id="map-palette"><strong>Map Palette</strong></h2>
-<p>In the Map Palette area you can select the symbols according to MILSTD-2525C to display or draw them on the map:</p>
+<p>In the Map Palette area you can select the symbols according to MILSTD-2525C to display or draw them on the map. <strong>Note that for now METOC symbolics are not supported at all.</strong></p>
 <table>
 <thead>
 <tr>
-<th><img alt="" src="../images/Map_Palette_1.png" /></th>
-<th><img alt="" src="../images/Map_Palette_2.png" /></th>
-<th><img alt="" src="../images/Map_Palette_3.png" /></th>
+<th><img alt="" src="../images/en/Map_Palette_1.png" /></th>
+<th><img alt="" src="../images/en/Map_Palette_2.png" /></th>
+<th><img alt="" src="../images/en/Map_Palette_3.png" /></th>
 </tr>
 </thead>
 <tbody>
@@ -431,32 +684,18 @@
 </table>
 <ul>
 <li><span class="blue">1</span> map palette area</li>
-<li>
-<p><span class="blue">2</span> definition of the "Hostility Status"</p>
-</li>
-<li>
-<p><span class="blue">3</span> definition of whether objects are displayed reported or planned</p>
-</li>
-<li>
-<p><span class="blue">4</span> search in the map palette</p>
-</li>
-<li>
-<p><span class="blue">5</span> selectable object (with preview of tactical character)</p>
-</li>
-<li>
-<p><span class="blue">6</span> civilian object (representation already according to MIL-STD 2525D)</p>
-</li>
-<li>
-<p><span class="blue">7</span> selectable object (without preview of tactical mark)</p>
-</li>
-<li>
-<p><span class="blue">8</span> currently not supported and therefore not displayable object</p>
-</li>
+<li><span class="blue">2</span> definition of the "Hostility Status"</li>
+<li><span class="blue">3</span> definition of whether objects are displayed reported or planned</li>
+<li><span class="blue">4</span> search in the map palette</li>
+<li><span class="blue">5</span> selectable object (with preview of tactical character)</li>
+<li><span class="blue">6</span> civilian object (representation already according to MIL-STD 2525D)</li>
+<li><span class="blue">7</span> selectable object (without preview of tactical mark)</li>
+<li><span class="blue">8</span> currently not supported and therefore not displayable object</li>
 </ul>
-<p>In the upper left area you can define with which<strong>"Hostility"-Status</strong> the objects should be displayed on the map already during creation (the setting is valid for all objects until you define another "Hostlity"-Status). Here you can choose between the four basic types "Friend", "Hostile", "Neutral" and "Unknown".</p>
-<p>In addition, you can specify whether the <strong>Objects reported</strong> (= solid) or <strong>planned</strong> (= dashed) should be displayed on the map when they are created.</p>
-<p>In the <strong>Search</strong> area you can search for all symbols (except METOC) according to MIL-STD2525C. The search (whole words) refers to the symbol name as well as to the hierarchy path. If you enter more than one word, the symbols with more than one hit will be ranked on top.</p>
-<p>The following wildcards (so that you don't have to search for whole words) can be used in the search:</p>
+<p>In the upper left area you can define with which<strong>"Hostility"-Status</strong> the objects should be displayed on the map already during creation (the setting is valid for all objects until you define another "Hostility"-Status). Here you can choose between the four basic types "Friend", "Hostile", "Neutral" and "Unknown". Other values can be selected in <strong>properties window</strong> for a given object.</p>
+<p>In addition, you can specify whether the <strong>object's reported/present</strong> (= solid) or <strong>planned/anticipated</strong> (= dashed) should be displayed on the map when they are created.</p>
+<p>In the <strong>Search</strong> area you can search for all symbols according to MIL-STD 2525C. The search (whole words) refers to the symbol name as well as to the hierarchy path. If you enter more than one word, the symbols with more than one hit will be ranked on top.</p>
+<p>The following wildcards can be used in the search:</p>
 <ul>
 <li>
 <p><strong>*</strong> "=" for a part of the term e.g. infan* mech* = infantry + mechanized.</p>
@@ -469,67 +708,49 @@
 </li>
 </ul>
 <p>Symbols have a <strong>symbol preview</strong> before the symbol name and hierarchy path, but not all tactical graphic symbols (<em>not all preview symbols are available yet</em>).</p>
-<p>Those <strong>tactical graphic symbols</strong> according to MIL-STD 2525C, which we have <strong>not yet implemented</strong>, are listed in <strong>red font</strong> and marked <strong>"unsupported "</strong>. There is no selection option with the mouse for these symbols.</p>
+<p>Those <strong>tactical graphic symbols</strong> according to MIL-STD 2525C, which we have <strong>not yet implemented</strong>, are listed in <strong>red font</strong> and marked <strong>"unsupported"</strong>. There is no selection option with the mouse for these symbols.</p>
 <h2 id="tools"><strong>Tools</strong></h2>
 <p>In the tools section the GIS functionalities of ODIN are available:</p>
-<p><img alt="" src="../images/Werkzeuge.png" /></p>
+<p><img alt="" src="../images/en/Werkzeuge.png" /></p>
 <ul>
-<li>
-<p><span class="blue">1</span> tools area</p>
-</li>
-<li>
-<p><span class="blue">2</span> available GIS functionalities</p>
-</li>
+<li><span class="blue">1</span> tools area</li>
+<li><span class="blue">2</span> available GIS functionalities</li>
 </ul>
 <p>It should be noted that <strong>GIS functionalities</strong> are <strong>not stored</strong> in ODIN. This means that they will not be available<strong> after a </strong>restart of ODIN. Furthermore, the GIS functionalities are not included in the "undo/redo" logic.</p>
 <h3 id="measure-distancedirection"><strong>Measure distance/direction</strong></h3>
-<p><img alt="" src="../images/Entfernung_messen.png" /></p>
+<p><img alt="" src="../images/en/Entfernung_messen.png" /></p>
 <ul>
 <li><span class="blue">1</span> green point = starting point of the distance calculation</li>
-<li>
-<p><span class="blue">2</span> distance specification in m/km for the partial distance</p>
-</li>
-<li>
-<p><span class="blue">3</span> angle specification for the partial distance in degrees</p>
-</li>
-<li>
-<p><span class="blue">4</span> red point = end point of the distance calculation</p>
-</li>
-<li>
-<p><span class="blue">5</span> total length of the route in m/km</p>
-</li>
+<li><span class="blue">2</span> distance specification in m/km for the partial distance</li>
+<li><span class="blue">3</span> angle specification for the partial distance in degrees</li>
+<li><span class="blue">4</span> red point = end point of the distance calculation</li>
+<li><span class="blue">5</span> total length of the route in m/km</li>
 </ul>
 <p>With <strong>Measure distance/direction</strong> you can measure the length of a route on the map. In addition to the total length, for the partial distances (= the line between two set points) also the length and the angle to it are indicated.</p>
 <p>You can change the distance at any time as follows (the change will be taken into account immediately):</p>
 <ul>
 <li>Click with the mouse on the line and move it with the mouse pointer.</li>
-<li>Delete points by holding down the 'ALT' key and <strong>clicking</strong> with the <strong>mouse</strong> on the <strong>set points</strong> of the line.</li>
+<li>Delete a point by holding down the 'ALT' key and <strong>clicking</strong> on the point of the line to delete.</li>
 </ul>
 <h3 id="measure-area"><strong>Measure area</strong></h3>
-<p><img alt="" src="../images/Flaeche_messen.png" /></p>
+<p><img alt="" src="../images/en/Flaeche_messen.png" /></p>
 <ul>
 <li><span class="blue">1</span> distance specification in m/km for the partial distance</li>
-<li>
-<p><span class="blue">2</span> total area in m²/km²</p>
-</li>
-<li>
-<p><span class="blue">3</span> perimeter of the area in m/km</p>
-</li>
+<li><span class="blue">2</span> total area in m²/km²</li>
+<li><span class="blue">3</span> perimeter of the area in m/km</li>
 </ul>
 <p>With <strong>Measure area</strong> you can measure the area of an area on the map. In addition to the total length, the length to the individual sections is also given here. In the center of the area, the total area in m²/km² (above) and the perimeter of the area (below) are displayed.</p>
 <p>The changing of the area is done analogous to the measuring of distance/direction.</p>
-<h2 id="windows-functionalities"><strong>„Windows“-Functionalities</strong></h2>
-<p>The following typical "Windows" functionalities are available here:</p>
-<p><img alt="" src="../images/Windows_Funktionalitaeten.png" /></p>
+<h2 id="clipboard"><strong>Clipboard</strong></h2>
+<p>The following clipboard functions are available here:</p>
+<p><img alt="" src="../images/en/Windows_Funktionalitaeten.png" /></p>
 <p>With <strong>Undo</strong> (<code>STRG</code> + <code>Z</code>) and <strong>Redo</strong> (<code>STRG</code> + <code>SHIFT</code> + <code>Z</code>) you can undo or redo your last 32 editing steps with one click or shortcut. <strong>Not</strong> included in the <strong>"Undo/Redo"-logic</strong> are the <strong>GIS-functions</strong>, as well as the <strong>changes</strong> in the <strong>object properties</strong>.</p>
-<p>The functions <strong>Cut</strong> (<code>STRG</code> + <code>X</code>), <strong>Copy</strong> (<code>STRG</code> + <code>C</code>) and <strong>Paste</strong> (<code>STRG</code> + <code>V</code>) are actually self-explanatory.</p>
-<p>Additionally you can select all objects on the map (even if only parts of a line/space are affected) by holding the <code>STRG</code> key and <strong>"dragging "</strong> a <strong>area</strong> with the <strong>mouse</strong> and thus copy and paste several objects at once. Note here that all objects edited via paste will <strong>always</strong> be added to the <strong>active layers</strong>.</p>
+<p>The functions <strong>Cut</strong> (<code>STRG</code> + <code>X</code>), <strong>Copy</strong> (<code>STRG</code> + <code>C</code>) and <strong>Paste</strong> (<code>STRG</code> + <code>V</code>) should be self-explanatory.</p>
+<p>Additionally you can select all objects on the map (even if only parts of a line/space are affected) by holding the <code>STRG</code> key and <strong>"dragging"</strong> a <strong>area</strong> with the <strong>mouse</strong> and thus copy and paste several objects at once. Note here that all objects edited via paste will <strong>always</strong> be added to the <strong>active layers</strong>.</p>
 <h2 id="export-current-map-section-as-png"><strong>Export current map section as PNG</strong></h2>
-<p>This function allows you to export the current map view as a PNG image file to use it e.g. in another program (PowerPoint, Word etc.), on a homepage etc.</p>
-<p><img alt="" src="../images/Kartenausschnitt_exportieren.png" /></p>
-<p>After pressing the button <strong>"Export current map section as PNG "</strong> the explorer opens and you can export the map area currently visible on the screen including the location as a PNG image file. However, <strong>open areas</strong> (e.g. Activity Bar, Properties window), as well as the <strong>additional map information</strong> (e.g. date display, coordinates display, scale etc.) <strong>are not "exported "</strong>.</p>
-                
-                  
+<p>This function allows you to export the current map view as a PNG image file to use it e.g. in another program (Power Point, Word etc.), on a homepage etc.</p>
+<p><img alt="" src="../images/en/Kartenausschnitt_exportieren.png" /></p>
+<p>After pressing the button <strong>"Export current map section as PNG"</strong> the explorer opens and you can export the map area currently visible on the screen including the location as a PNG image file. However, <strong>open areas</strong> (e.g. Activity Bar, Properties window), as well as the <strong>additional map information</strong> (e.g. date display, coordinates display, scale etc.) <strong>are not "exported"</strong>.</p>
                 
               
               
@@ -548,28 +769,12 @@
       </main>
       
         
-<footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
-      
-    </div>
-  </div>
-</footer>
       
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.82b56eb2.min.js"></script>

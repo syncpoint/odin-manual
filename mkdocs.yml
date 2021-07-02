@@ -1,25 +1,34 @@
-site_name: ODIN - Manual - 0.10.1
-site_url: https://example.com/
-#repo_url: https://github.com/syncpoint/odin-manual
+site_name: ODIN - Manual - 0.11.0
+site_url: https://syncpoint.github.io/odin-manual
+site_author: Syncpoint GmbH
+site_description: >- 
+  Manual for ODIN the flexible Open Source Command and Control Information System.
+
+# Repository
+repo_name: syncpoint/odin
+repo_url: https://github.com/syncpoint/odin
+edit_uri: ""
 
 theme:
- name: material
- custom_dir: overrides
- logo: assets/logo-white512.png
- favicon: assets/logo.png
- font:
-   text: Ubuntu
-   code: Ubuntu Mono
- icon:
-   logo: material/file-document-multiple
- 
-        
- features:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo-white512.png
+  favicon: assets/logo.png
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  features:
     - navigation.top  
     - navigation.tracking
 #    - toc.integrate
     - navigation.sections
     - navigation.indexes
+    - search.suggest
+    - search.highlight
+  extra:
+    homepage:  https://odin.syncpoint.io
+extra:
+  homepage:  https://odin.syncpoint.io
 
 extra_css: 
   - stylesheets/extra.css
@@ -48,9 +57,12 @@ nav:
   - Object properties: 07_Eigenschaften_Objekte/index.en.md
   - Freiformobjekte: 08_Freiformobjekte/index.de.md
   - Freeeform objects: 08_Freiformobjekte/index.en.md
+  - Einstellungen: 09_Einstellungen/index.en.md
+  - Properites: 09_Einstellungen/index.de.md
+  - Onlinekarten: 20_Anlage_Onlinekarten/index.de.md
+  - Online maps: 20_Anlage_Onlinekarten/index.en.md
   - Tastaturkürzel: kb_shortcuts.de.md
   - Keyboard shortcuts: kb_shortcuts.en.md
-      
 
 markdown_extensions:
   - pymdownx.emoji:

@@ -1,10 +1,4 @@
----
-weight: 4
-draft: false
----
-
 # Menüleiste
-
 
 
 Die Menüleiste besteht derzeit aus nachstehenden Registern:
@@ -12,6 +6,9 @@ Die Menüleiste besteht derzeit aus nachstehenden Registern:
 
 
 ![](images/Menueleiste.png)
+
+
+
 
 
 ## **ODIN-C2IS**
@@ -34,6 +31,8 @@ Bestätigt Ihr, dass ODIN aktualisiert werden soll, müsst Ihr keine weitere Tä
 
 
 
+
+
 ## Verwaltung
 
 ![](images/Verwaltung.png)
@@ -46,13 +45,17 @@ Mit Auswahl von **„Basiskarten“** öffnet ihr die „Kartenverwaltung“, in
 
 
 
+
+
 ## **Bearbeiten**
 
 ![](images/Bearbeiten.png)
 
 
 
-Hier sind die typischen Windowsfunktionalitäten abgebildet. Diese sind auch über die Activity Bar verfügbar.
+Hier sind die typischen Windows Funktionalitäten abgebildet. Diese sind auch über die Activity Bar verfügbar.
+
+
 
 
 
@@ -91,9 +94,13 @@ Mit der Funktion **„Labels“** könnt Ihr in ODIN  wählen, ob die Modifier b
 
 
 
+
+
 ## **Fenster**
 
 ![](images/Fenster.png)
+
+
 
 
 
@@ -104,4 +111,16 @@ Mit der Funktion **„Labels“** könnt Ihr in ODIN  wählen, ob die Modifier b
 
 
 Hier könnt Ihr die Anzeige der Funktionen, Tooltips etc., welche die **Benutzeroberfläche** betreffen zwischen **„Deutsch“** und **„Englisch“** umschalten.
+
+
+
+
+
+## **Hilfe**
+
+![](images/Hilfe.png)
+
+
+
+Wenn Ihr Hilfe benötigt, könnt Ihr hier das **Online Benutzerhandbuch von ODIN** aufrufen.
 

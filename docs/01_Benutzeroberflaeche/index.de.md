@@ -1,17 +1,10 @@
----
-weight: 3
-draft: false
----
-
-# Benutzeroberfläche
-
-
+# **Benutzeroberfläche**
 
 Nach dem erstmaligen Start von ODIN, seht Ihr folgende Benutzeroberfläche (als Standard wird diese in der englischen Sprache geöffnet):
 
 ![](images/Benutzeroberflaeche_1.png)
 
-- <span class="blue">1</span> Karte (Open Street Map) als zentrales Element von ODIN
+- <span class="blue">1</span>  Karte (Open Street Map) als zentrales Element von ODIN
 - <span class="blue">2</span> aktuellen Projektnamen (in der Titelleiste)
 - <span class="blue">3</span> Menüleiste
 - <span class="blue">4</span> aktuellen Projektnamen (auf der Karte)
@@ -42,5 +35,5 @@ Zusätzlich (rot markiert) sind hier weitere folgende Bereiche bzw. Funktionen s
 
 In **weiterer Folge** erfolgt die **Beschreibung** der einzelnen Bereiche, Funktionalitäten etc. mit der **deutschen Benutzeroberfläche**!
 
-Um das **Benutzerhandbuch schlank zu halten** bzw. auf die **nützlichsten Bereiche, ** **Funktionen** etc. zu **beschränken**, werden **selbsterklärende Funktionen** (z.B. Odin beenden, Minimieren/Maximieren etc.) **in diesem Benutzerhandbuch** **nicht gesondert** erklärt**!
+Um das **Benutzerhandbuch schlank zu halten** bzw. auf die **nützlichsten Bereiche, ** **Funktionen** etc. zu **beschränken**, werden **selbsterklärende Funktionen** (z.B. Odin beenden, Minimieren/Maximieren etc.) in diesem Benutzerhandbuch **nicht gesondert erklärt**!
 

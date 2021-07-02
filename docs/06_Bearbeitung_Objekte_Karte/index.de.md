@@ -1,9 +1,3 @@
----
-weight: 16
-draft: false
----
-
-
 # **Bearbeitung von Objekten auf der Karte**
 
 
@@ -13,6 +7,8 @@ In diesem Kapitel wird die Erstellung und Bearbeitung von Objekten mit verschied
 Die **Darstellung** der Objekte auf der Karte erfolgt grundsätzlich gem. **MIL-STD 2525C**. Einen „Vorgriff“ auf den **MIL-STD 2525D** gibt es bei der Darstellung von **zivilen Fahrzeugen & Geräte (Equipments)** mit der **Farbe „rosa“**, sowie bei den **Aktivitäten (Activities)** mit den **vier schwarzen Quadraten** in jeder Ecke des Grundsymbols.
 
 Auch wurden in ODIN **Objekte** dann **anderes umgesetzt** zu den Vorgaben gem. MIL-STD 2525C, wenn diese aus **taktischer Sicher notwendig** bzw. **sinnvoller** erschienen (z.B. Direction of Attack als Mehrpunktlinie anstelle einer „2-Punkt-Linie“; zusätzliche Zuordnung von Modifieren (z.B. bei Naturereignissen, Einrichtungen etc.); Auswahl aller Hositlity Statuse bei taktischen Grafiken - Punktobjekte etc.).
+
+
 
 
 
@@ -28,9 +24,13 @@ Die Objekte werden hier nach Ihrer Zuordnung bzw. ihrer Geometrien unterschieden
 - Aktivitäten (Activities) 								   Punktobjekte
 - Taktische Grafiken (tactical Graphics) 	   Punkt, Linien-, Flächen- und Korridorobjekte
 
+
+
 Im ersten Teil wird die Erstellung der Objekte auf der Karte aufgrund der Geometrien (Punkt, Linie, Fläche, Korridor) beschrieben.
 
 Im zweiten Teil erfolgt die Beschreibung der Eingabemöglichkeiten (Modifier gem. MIL-STD 2525C, zusätzliche Felder etc.) in den jeweiligen Eigenschaftsfenstern der Objekte.
+
+
 
 
 
@@ -48,6 +48,8 @@ folgender:
 - gewünschtes **Symbol** im Bereich der Map-Palette mit der Maus anklicken;
 - mit der Maus auf die gewünschte(n) **Position(en)** auf der **Karte** klicken;
 - **Eigenschaftsfenster** (öffnet sich automatisch) befüllen.
+
+
 
 
 

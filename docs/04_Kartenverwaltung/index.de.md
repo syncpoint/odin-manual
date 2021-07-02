@@ -1,7 +1,3 @@
----
-weight: 14
-draft: false
----
 # **Kartenverwaltung**
 
 
@@ -10,9 +6,7 @@ In der Kartenverwaltung könnt Ihr Online- bzw. Offlinekarten in ODIN einbinden 
 
 Die Kartenverwaltung ist über die **„Menüleiste – Register Verwaltung – Basiskarten“** aufrufbar:
 
-<img src="images/Kartenverwaltung.png" style="zoom: 67%;" />
-
-
+![](images/Kartenverwaltung.png)
 
 
 
@@ -44,6 +38,8 @@ Mit dem **„Stift“**-Button könnt Ihr die **Eingaben** zu einer bereits **er
 Mit dem Button **„Löschen“** wird die aktuell markierte **Karte** aus der Kartenverwaltung **gelöscht**.
 
 Die **Open Street Map** scheint **nicht in der Kartenverwaltung** auf, da diese die **„System-/Standard“-Karte** von ODIN ist.
+
+
 
 
 
@@ -140,7 +136,7 @@ Durch die **Eingabe** der maximal unterstützten **Zoom-Stufe** (für jene Karte
 
 Hier könnt Ihr im Bereich der Kartenvorschau durch Zoomen und Verschieben der Karte den **Inhalt** der Karte und deren **grafische Darstellung**, sowie die darin zur Verfügung gestellten **Karteninformationen überprüfen**:
 
-<img src="images/Schritt_3_Vorschau_2.png" style="zoom:80%;" />
+![](images/Schritt_3_Vorschau_2.png)
 
 
 ### **Schritt 4– Benennen und Speichern**

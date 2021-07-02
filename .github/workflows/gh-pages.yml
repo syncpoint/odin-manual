@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: 3.x
       - name: Setup
-        run: pip install mkdocs-material mkdocs-i18n
+        run: pip install mkdocs-material mkdocs-i18n mkdocs-literate-nav
       - name: Build
         run: mkdocs gh-deploy --force
       - name: Deploy

@@ -1,13 +1,10 @@
----
-weight: 15
-draft: false
----
-
 # **Activity Bar**
 
 Die Activity Bar ist in folgende Bereiche gegliedert:
 
 ![](images/Activity_Bar.png)
+
+
 
 
 
@@ -44,6 +41,8 @@ Die **Open Street Map** ist die Standardkarte von ODIN und kann nur ausgeblendet
 Mit Anpassung der **Deckkraft** habt Ihr die Möglichkeit mehrere Karten übereinander in ODIN darzustellen (z.B. Open Street Map und Basemap.at/Orthofoto), um so die Karte aufzubereiten, wie Ihr es benötigt.
 
 Im rechten unteren Bereich der Karte könnt ihr die von Euch **genutzten Karten anzeigen** lassen. Die Erstellung dieser Anzeige erfolgt über die Kartenverwaltung (Schritt 4 – Namensnennungen). Dort habt ihr die Möglichkeit die „Quelle“ inkl. Nutzungsbedingungen anzugeben, um hier rechtlich auf der sicheren Seite zu sein. Die entsprechenden Einträge findet Ihr im Annex A (Übersicht - Kostenlose Onlinekarten) und könnt diese mittels Kopierens & Einfügen somit leicht sicherstellen.
+
+
 
 
 
@@ -97,18 +96,22 @@ Bei **Layer teilen** könnt Ihr einen einzelnen Layer exportieren, um diesen auf
 
 Mit dem **„Schloss“-Symbol** habt Ihr die Möglichkeit **Layer** zu **sperren** bzw. zu **entsperren**. Ist ein Layer gesperrt, können die darin enthaltenen Objekte auf der Karte nicht verändert (z.B. verschoben, Linien/Räume ändern etc.) bzw. aus dem Layer (entweder im „Layerbaum“ oder auf der Karte) gelöscht werden. Die Bearbeitung der einzelnen Objekte (z.B. Änderungen im Eigenschaftsfenster, Umbenennen etc.) ist jedoch weiterhin möglich.
 
-Mit dem **„Auge“-Symbol** habt Ihr die Möglichkeit **Layer** **ein-** bzw. **auszublenden**. Damit könnt Ihr das Lagebild auf „Layerbasis“ Euren Bedürfnissen anpassen. *Ein Ausblenden einzelner Objekte ist dzt. noch nicht umgesetzt.*
+Mit dem **„Auge“-Symbol** habt Ihr die Möglichkeit **Layer** **ein-** bzw. **auszublenden**. Damit könnt Ihr das Lagebild auf „Layerbasis“ Euren Bedürfnissen anpassen.  *Ein Ausblenden einzelner Objekte ist dzt. noch nicht umgesetzt.*
 
 
 Der **aktive Layer** (= schwarze Schrift) ist jener Layer, in welchen alle neu erstellten Objekte (aus der Map-Palette) oder kopierten Objekte (aus der Zwischenablage) eingefügt werden. Um einen Layer als aktiven Layer festzulegen, müsst Ihr diesen nur mit einem **Doppelklick** **aktivieren**. Der aktive Layer kann daher weder gelöscht, ausgeblendet noch gesperrt werden.
 
 Die **nicht aktiven Layer** (= graue Schrift) sind alle anderen Layer im Layermanagement (= es gibt immer nur einen aktiven Layer). Beim nicht aktiven Layer ist bis auf das Hinzufügen von Objekten jede andere Bearbeitung (z.B. Objekte löschen, sperren, ausblenden, teilen etc.) möglich.
 
+Enthält ein Layer keine Objekte sind das "Schloss"- und das "Auge"-Symbol ebenfalls nicht auswählbar.
+
 
 
 Beim Anklicken des Layernamens mit der Maus, öffnet sich der **„Layerbaum“** und der Inhalt des Layers wird in alphabetischer Reihenfolge angezeigt. Im Layerbaum können die Objekte gelöscht werden. Wird im Layerbaum ein Objekt ausgewählt, öffnet sich das Eigenschaftsfenster und das Objekt wird markiert auf der Karte angezeigt (sofern es sich dzt. im aktuellen Kartenausschnitt befindet, *ein „Hinspringen“ auf die Karte ist dzt. noch nicht umgesetzt*). Die anderen Objekte auf der Karte werden dagegen „blasser“ dargestellt.
 
 Die **Anzeige** der **Namen** der **Objekte** im „Layerbaum“ erfolgt aufgrund Eurer Eingabe im Feld **„Name“** des Eigenschaftsfensters. Ist dieses Feld leer, wird im „Layerbaum“ die Eingabe aus dem Feld **„Unique Designation“** angezeigt. Sind beide diese Felder leer, erfolgt die Anzeige mit **„N/A“** (not available) im „Layerbaum.
+
+
 
 
 
@@ -163,6 +166,8 @@ Jene **taktischen Grafiksymbole** gem. MIL-STD 2525C, die wir noch **nicht umges
 
 
 
+
+
 ## **Werkzeuge**
 
 
@@ -182,6 +187,8 @@ Zu beachten ist, dass die **GIS-Funktionalitäten** in ODIN **nicht gespeichert*
 
 
 ### **Entfernung/Richtung messen**
+
+
 
 ![](images/Entfernung_messen.png)
 
@@ -226,6 +233,26 @@ Das Verändern der Fläche erfolgt analog wie bei Entfernung/Richtung messen.
 
 
 
+
+
+## **Einstellungen**
+
+
+
+Im Bereich der Einstellungen sind folgende Funktionalitäten verfügbar:
+
+
+
+![](images/Einstellungen.png)
+
+
+
+Aufgrund des Umfanges erfolgt die **Detailbeschreibung** zu den einzelnen Funktionalitäten im **Kapitel "Einstellungen"** gesondert!
+
+
+
+
+
 ## **„Windows“-Funktionalitäten**
 
 
@@ -243,6 +270,8 @@ Die Funktionen **Ausschneiden** (`STRG` + `X`), **Kopieren** (`STRG` + `C`) und 
 
 
 Ergänzend ist hinzufügen, dass Ihr durch Halten der `STRG-Taste` und **„Aufziehen“** eines **Bereiches** mit der **Maus** alle darin auf der Karte befindlichen Objekte (auch wenn z.B. nur Teile einer Linie/Raumes betroffen sind) markieren und so mehrere auf einmal Kopieren und Einfügen könnt. Zu beachten ist hier, dass alle Objekte, die mittels Einfügens bearbeitet werden, **immer** den **aktiven Layer hinzugefügt** werden.
+
+
 
 
 
