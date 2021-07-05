@@ -12,7 +12,9 @@ The menu bar consists of the following entries:
 
 
 
-## **ODIN-C2IS**
+## ODIN-C2IS
+
+
 
 ![](images/en/odin_c2is.png)
 
@@ -34,7 +36,9 @@ If you confirm that ODIN should be updated, you don't have to do anything else b
 
 
 
-## **Management**
+## Management
+
+
 
 ![](images/en/Verwaltung.png)
 
@@ -48,7 +52,9 @@ Selecting **"Base maps "** opens the "Map administration", where you can integra
 
 
 
-## **Edit**
+## Edit
+
+
 
 ![](images/en/Bearbeiten.png)
 
@@ -60,7 +66,9 @@ The typical Windows functionalities are shown here. These are also available fro
 
 
 
-## **View**
+## View
+
+
 
 ![](images/en/Anzeige_1.png)
 
@@ -97,7 +105,9 @@ With the function **"Labels "** you can choose in ODIN if the modifiers should b
 
 
 
-## **Window**
+## Window
+
+
 
 ![](images/en/Fenster.png)
 
@@ -105,7 +115,9 @@ With the function **"Labels "** you can choose in ODIN if the modifiers should b
 
 
 
-## **Language**
+## Language
+
+
 
 ![](images/en/Sprache.png)
 
@@ -117,7 +129,9 @@ Here you can switch the display of the functions, tool tips etc., which concern 
 
 
 
-## **Help**
+## Help
+
+
 
 ![](images/en/Hilfe.png)
 

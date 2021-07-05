@@ -1,4 +1,4 @@
-# **Freeform objects**
+# Freeform objects
 
 
 
@@ -12,7 +12,7 @@ The following **freeform objects** are available in ODIN:
 
 
 
-## **Selection in the Map Palette**
+## Selection in the Map Palette
 
 
 
@@ -26,7 +26,7 @@ To create a **Freeform object** you have to select it in the **Map Palette** fir
 
 
 
-## **Text field**
+## Text field
 
 
 
@@ -85,7 +85,7 @@ With the text field the same functionalities are possible as with the point symb
 
 
 
-## **Line**
+## Line
 
 
 
@@ -112,7 +112,7 @@ The choices for **color** styling are **analogous** to those for the **width tex
 
 
 
-## **Area**
+## Area
 
 
 

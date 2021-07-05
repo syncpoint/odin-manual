@@ -1,4 +1,6 @@
-# **Activity Bar**
+# Activity Bar
+
+
 
 The Activity Bar is divided into the following sections:
 
@@ -6,7 +8,7 @@ The Activity Bar is divided into the following sections:
 
 
 
-## **Base Maps**
+## Base Maps
 
 
 
@@ -38,7 +40,7 @@ In the lower right area of the map you can display the maps you **used**. The cr
 
 
 
-## **Layer Management**
+## Layer Management
 
 
 
@@ -95,7 +97,7 @@ The **display** of the **names** of the **objects** in the "Layer tree" is based
 
 
 
-## **Map Palette**
+## Map Palette
 
 
 
@@ -139,7 +141,7 @@ Those **tactical graphic symbols** according to MIL-STD 2525C, which we have **n
 
 
 
-## **Tools**
+## Tools
 
 
 
@@ -156,7 +158,7 @@ It should be noted that **GIS functionalities** are **not stored** in ODIN. This
 
 
 
-### **Measure distance/direction**
+### Measure distance/direction
 
 ![](images/en/Entfernung_messen.png)
 
@@ -177,7 +179,7 @@ You can change the distance at any time as follows (the change will be taken int
 
 
 
-### **Measure area**
+### Measure area
 
 
 
@@ -197,7 +199,7 @@ The changing of the area is done analogous to the measuring of distance/directio
 
 
 
-## **Clipboard**
+## Clipboard
 
 
 
@@ -219,7 +221,7 @@ Additionally you can select all objects on the map (even if only parts of a line
 
 
 
-## **Export current map section as PNG**
+## Export current map section as PNG
 
 
 

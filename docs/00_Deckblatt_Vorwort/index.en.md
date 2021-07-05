@@ -1,5 +1,7 @@
 # Preface
 
+
+
 We at Syncpoint <r>GmbH</r> have set ourselves the goal of becoming an open-source alternative to industry-led, commercial command-and-control information systems. We believe that it is time for a paradigm shift.
 
 Our experience in this field results from years of technical consulting as a service provider for the Austrian Armed Forces in the co-development of the FüIS "PHÖNIX", as well as from the research project "INTERPRETER" (cooperation of civilian and military forces in disaster management), in which we cooperated with renowned research institutions such as the Austrian Institute of Technology (AIT) and Joanneum Research.

@@ -1,4 +1,4 @@
-# **Einstellungen**
+# Einstellungen
 
 
 
@@ -12,7 +12,7 @@ Im Bereich der Einstellungen sind folgende Funktionalitäten verfügbar:
 
 
 
-## **Farbschema**
+## Farbschema
 
 
 
@@ -26,7 +26,7 @@ Mit **Farbschema** könnt Ihr die Objekte auf der Karte in unterschiedlicher Far
 
 
 
-## **Mehrpunktobjekte**
+## Mehrpunktobjekte
 
 
 
@@ -56,7 +56,7 @@ Mit **Text ist 'fett'** könnt Ihr die Beschriftung bei Mehrpunktobjekten in "fe
 
 
 
-## **Einpunktobjekte**
+## Einpunktobjekte
 
 
 
@@ -107,7 +107,7 @@ Mit **Vereinfachte Statusanzeige** könnt Ihr den Status bei Einheiten, Ausrüst
 
 
 
-## **Beispiel**
+## Beispiel
 
 
 

@@ -1,4 +1,5 @@
-# **Map Management**
+# Map Management
+
 
 
 In the map administration you can integrate online or offline maps into ODIN. The maps created here are then available in ODIN in the area of the "Activity Bar - Base Maps".
@@ -7,7 +8,11 @@ The map administration can be called up via the **"Menu bar - Administration tab
 
 ![](images/en/Kartenverwaltung.png)
 
-## **Content Map Management**
+
+
+
+
+## Content Map Management
 
 
 
@@ -40,7 +45,7 @@ The **Open Street Map** does **not appear in the map management**, since this is
 
 
 
-## **Integrate new map into ODIN**
+## Integrate new map into ODIN
 
 
 
@@ -48,7 +53,7 @@ To integrate a new online/offline map into ODIN, the following four steps are ne
 
 
 
-### **Step 1 – Provide URL**
+### Step 1 – Provide URL
 
 ![](images/en/Schritt_1_URL_1.png)
 
@@ -70,7 +75,7 @@ If in the area **"URL of the map"** a **map URL is entered**, the feedback takes
 
 
 
-### **Step 2 – Select options**
+### Step 2 – Select options
 
 ![](images/en/Schritt_2_Optionen _1.png)
 
@@ -101,7 +106,7 @@ By **entering** the maximum supported **zoom level** (for those maps that use an
 
 
 
-### **Step 3 – Check with preview**
+### Step 3 – Check with preview
 
 ![](images/en/Schritt_3_Vorschau_1.png)
 
@@ -122,7 +127,7 @@ Here you can check the **content** of the map and its **graphical representation
 
 
 
-### **Step 4 – Naming and Save**
+### Step 4 – Naming and Save
 
 ![](images/en/Schritt_4_Benennen.png)
 

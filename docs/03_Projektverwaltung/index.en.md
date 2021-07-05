@@ -1,11 +1,17 @@
-# **Project management**
+# Project management
+
+
 
 The project administration can be called up via the "Menu bar - Administration tab - Projects":
 
 ![](images/en/Projektverwaltung.png)
 
 
-## **Content project management**
+
+
+
+## Content project management
+
 
 
 The project management contains the following functionalities:
@@ -59,7 +65,7 @@ With the button **"Delete"** the currently marked **project** will be irretrieva
 
 
 
-## **Create new project**
+## Create new project
 
 
 

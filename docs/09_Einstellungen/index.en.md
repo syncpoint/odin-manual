@@ -1,4 +1,4 @@
-# **Preferences**
+# Preferences
 
 
 
@@ -12,7 +12,7 @@ The following functionalities are available in the preferences:
 
 
 
-## **Color scheme**
+## Color scheme
 
 
 
@@ -26,7 +26,7 @@ With **Color scheme** you can display the objects on the map in different color 
 
 
 
-## **Multi point objects**
+## Multi point objects
 
 
 
@@ -56,7 +56,7 @@ With **Label text is bold** you can display the label for multi point objects in
 
 
 
-## **Single point objects**
+## Single point objects
 
 
 
@@ -107,7 +107,7 @@ With **Use simple status modifier** you can display the status of units, equipme
 
 
 
-## **Example**
+## Example
 
 
 

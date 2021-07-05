@@ -1,4 +1,4 @@
-# **Editing objects on the map**
+# Editing objects on the map
 
 
 
@@ -12,7 +12,7 @@ In ODIN some deviations tending towards MIL-STD 2525D are chosen where MIL-STD 2
 
 
 
-## **General**
+## General
 
 
 
@@ -32,7 +32,7 @@ The second part describes the input options (modifiers according to MIL-STD 2525
 
 
 
-## **Basic procedure for creation**
+## Basic procedure for creation
 
 
 
@@ -50,11 +50,11 @@ The second part describes the input options (modifiers according to MIL-STD 2525
 
 
 
-## **Creation based on geometry of the object**
+## Creation based on geometry of the object
 
 
 
-### **Point objects**
+### Point objects
 
 
 
@@ -79,7 +79,7 @@ To cancel the "Offset Location" **again**, hold down the `ALT` key and **click**
 
 
 
-### **Line objects**
+### Line objects
 
 
 
@@ -105,7 +105,7 @@ To **delete** a single point you have to hold down the `ALT` key and then click 
 
 
 
-### **Surface objects**
+### Surface objects
 
 
 
@@ -133,7 +133,7 @@ To **delete** a **single point** you have to hold down the `ALT` key and then cl
 
 
 
-### **Corridor objects**
+### Corridor objects
 
 
 

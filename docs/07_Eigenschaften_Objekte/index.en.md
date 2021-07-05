@@ -1,4 +1,4 @@
-# **Property windows of objects**
+# Property windows of objects
 
 
 
@@ -11,7 +11,11 @@ We have also included **modifiers**, which are not assigned according to MIL-STD
 As soon as you confirm an entry in the properties window or select another field, the **display** of the entry **immediately** takes place on the **map** (if the modifier is to be displayed on the map according to MIL-STD 2525C).
 
 
-## **Input fields that are the same for different object areas**
+
+
+
+
+## Input fields that are the same for different object areas
 
 
 
@@ -60,7 +64,7 @@ In the **"Operational Conditions"** field, you can select the following informat
 
 
 
-## **Units**
+## Units
 
 
 
@@ -116,7 +120,7 @@ The detailed information about the second section of the properties window can b
 
 
 
-## **Weapons, Vehicles and Equipment**
+## Weapons, Vehicles and Equipment
 
 
 
@@ -158,7 +162,7 @@ The detailed information for the second section of the properties window can be 
 
 
 
-## **Installations**
+## Installations
 
 
 
@@ -197,7 +201,7 @@ The detailed information about the second area of the properties window can be f
 
 
 
-## **Activities**
+## Activities
 
 
 
@@ -230,7 +234,7 @@ The detailed information for the second section of the properties window can be 
 
 
 
-## **Symbols without modifier acc. to MIL-STD 2525C**
+## Symbols without modifier acc. to MIL-STD 2525C
 
 
 
@@ -264,7 +268,7 @@ The detailed information for the second section of the properties window can be 
 
 
 
-## **Tactical Graphics - Point Objects**
+## Tactical Graphics - Point Objects
 
 
 
@@ -294,7 +298,7 @@ The detailed information for the second section of the properties window can be 
 
 
 
-## **Tactical graphics - line objects**
+## Tactical graphics - line objects
 
 
 
@@ -327,7 +331,7 @@ The detailed information for the second section of the properties window can be 
 
 
 
-## **Tactical graphics - line objects (boundaries)**
+## Tactical graphics - line objects (boundaries)
 
 
 
@@ -371,7 +375,7 @@ The detailed information for the second section of the properties window can be 
 
 
 
-## **Tactical graphics - area objects**
+## Tactical graphics - area objects
 
 
 
@@ -414,7 +418,7 @@ The detailed information for the second section of the properties window can be 
 
 
 
-## **Links/weblinks section**
+## Links/weblinks section
 
 
 

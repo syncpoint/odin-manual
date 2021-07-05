@@ -1,4 +1,4 @@
-# **Online maps**
+# Online maps
 
 
 
@@ -10,7 +10,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **Basemap**
+## Basemap
 
 
 
@@ -107,7 +107,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **OpenTopoMap**
+## OpenTopoMap
 
 
 
@@ -125,7 +125,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **OpenSlopeMap**
+## OpenSlopeMap
 
 
 
@@ -143,7 +143,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **OpenFlightMap**
+## OpenFlightMap
 
 
 
@@ -161,7 +161,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **OpenRailwayMap**
+## OpenRailwayMap
 
 
 
@@ -203,7 +203,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **OpenSeaMap**
+## OpenSeaMap
 
 
 
@@ -221,7 +221,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **OpenFireMap**
+## OpenFireMap
 
 
 
@@ -239,7 +239,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **OpenSnowMap**
+## OpenSnowMap
 
 
 
@@ -257,7 +257,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **Stamen**
+## Stamen
 
 
 
@@ -299,7 +299,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **GIS map Burgenland**
+## GIS map Burgenland
 
 
 
@@ -317,7 +317,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **SwissTopo**
+## SwissTopo
 
 
 
@@ -336,7 +336,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **ÖPNV-Map**
+## ÖPNV-Map
 
 
 
@@ -354,7 +354,7 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
-## **WayMarketTrails**
+## WayMarketTrails
 
 
 

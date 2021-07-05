@@ -1,5 +1,7 @@
 # Vorwort
 
+
+
 Wir als Firma Syncpoint <r>GmbH</r> haben uns als Ziel gesetzt, eine Open-Source-Alternative zu industriegeführten, kommerziellen Führungsinformationssystemen zu werden. Wir sind der Meinung, dass es Zeit für einen Paradigmenwechsel ist.
 
 Unsere Erfahrung aus diesem Bereich resultiert aus jahrelanger Erfahrung als Dienstleister für das Österreichische Bundesheer bei der Mitentwicklung des FüIS „PHÖNIX“, sowie aus dem Forschungsprojekt „INTERPRETER“ (Zusammenarbeit von zivilen und militärischen Kräften im Katastrophenfall), bei welchen wir mit renommierten Forschungsinstitutionen wie dem Austrian Institute of Technology (AIT) und Joanneum Research zusammengearbeitet haben.

@@ -1,9 +1,14 @@
-# **Projektverwaltung**
+# Projektverwaltung
+
+
 
 Die Projektverwaltung ist über die „Menüleiste – Register Verwaltung – Projekte“ aufrufbar:
 
-
 ![](images/Projektverwaltung.png)
+
+
+
+
 
 
 ## **Inhalt Projektverwaltung**
@@ -63,7 +68,7 @@ Mit dem Button **„Löschen“** wird das aktuell markierte **Projekt** unwiede
 
 
 
-## **Projekt neu anlegen**
+## Projekt neu anlegen
 
 
 

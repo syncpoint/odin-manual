@@ -1,4 +1,5 @@
-# **User Interface**
+# User Interface
+
 
 
 After starting ODIN for the first time, you will see the following user interface (by default it will open in English):

@@ -1,4 +1,4 @@
-# **Freiformobjekte**
+# Freiformobjekte
 
 
 
@@ -12,7 +12,7 @@ Derzeit sind folgende **Freiformobjekte** in ODIN verfügbar:
 
 
 
-## **Auswahl in der Map-Palette**
+## Auswahl in der Map-Palette
 
 
 
@@ -28,7 +28,7 @@ Um ein **Freiformobjekt erstellen** zu können, müsst Ihr dieses in der **Map-P
 
 
 
-## **Textfeld**
+## Textfeld
 
 
 
@@ -99,7 +99,7 @@ Beim Textfeld sind die gleichen Funktionalitäten wie bei den Punktsymbolen mög
 
 
 
-## **Linie**
+## Linie
 
 
 
@@ -130,7 +130,7 @@ Die Auswahlmöglichkeiten bei der **Farbauswahl** sind **analog** wie beim **Fre
 
 
 
-## **Fläche**
+## Fläche
 
 
 

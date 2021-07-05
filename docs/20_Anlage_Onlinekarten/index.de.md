@@ -1,4 +1,4 @@
-# **Onlinekarten**
+# Onlinekarten
 
 
 
@@ -10,7 +10,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **Basemap**
+## Basemap
 
 
 
@@ -107,7 +107,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **OpenTopoMap**
+## OpenTopoMap
 
 
 
@@ -125,7 +125,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **OpenSlopeMap**
+## OpenSlopeMap
 
 
 
@@ -143,7 +143,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **OpenFlightMap**
+## OpenFlightMap
 
 
 
@@ -161,7 +161,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **OpenRailwayMap**
+## OpenRailwayMap
 
 
 
@@ -203,7 +203,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **OpenSeaMap**
+## OpenSeaMap
 
 
 
@@ -221,7 +221,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **OpenFireMap**
+## OpenFireMap
 
 
 
@@ -239,7 +239,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **OpenSnowMap**
+## OpenSnowMap
 
 
 
@@ -257,7 +257,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **Stamen**
+## Stamen
 
 
 
@@ -299,7 +299,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **GIS-Karte Burgenland**
+## GIS-Karte Burgenland
 
 
 
@@ -317,7 +317,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **SwissTopo**
+## SwissTopo
 
 
 
@@ -336,7 +336,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **ÖPNV-Karte**
+## ÖPNV-Karte
 
 
 
@@ -354,7 +354,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
-## **WayMarketTrails**
+## WayMarketTrails
 
 
 
