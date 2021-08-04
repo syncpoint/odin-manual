@@ -137,5 +137,18 @@ Hier könnt Ihr die Anzeige der Funktionen, Tooltips etc., welche die **Benutzer
 
 
 
-Wenn Ihr Hilfe benötigt, könnt Ihr hier das **Online Benutzerhandbuch von ODIN** aufrufen.
+Wenn Ihr Hilfe bei der Bedienung von ODIN benötigt, könnt Ihr hier zwischen folgenden Unterstützungen wählen:
 
+
+
+Mit der Funktion **Online Benutzerhandbuch** könnt Ihr auf das Benutzerhandbuch der **aktuellen** veröffentlichen **Version** von ODIN zugreifen.
+
+
+
+Mit den Funktionen **Online Unterstützung via Slack** bzw. **Online Unterstützung via E-Mail** könnt Ihr bei einem Problem in ODIN für einen **Support** direkt mit uns via Slack bzw. E-Mail Verbindung aufnehmen.
+
+Im **Slack-Bereich** könnt Ihr uns auch gerne Euer **Feedback** bzw. **Änderungswünsche** zu ODIN mitteilen. Weiters veröffentlichen wir in diesem Bereich auch die jeweiligen **Informationen**, was sich im **jeweiligen Update zu ODIN** gegenüber der Vorgängerversion geändert hat.
+
+
+
+# 

@@ -112,8 +112,7 @@ In the Map Palette area you can select the symbols according to MILSTD-2525C to 
 - <span class="blue">4</span> search in the map palette
 - <span class="blue">5</span> selectable object (with preview of tactical character)
 - <span class="blue">6</span> civilian object (representation already according to MIL-STD 2525D)
-- <span class="blue">7</span> selectable object (without preview of tactical mark)
-- <span class="blue">8</span> currently not supported and therefore not displayable object
+- <span class="blue">7</span> currently not supported and therefore not displayable object
 
 
 
@@ -133,7 +132,7 @@ The following wildcards can be used in the search:
 
 
 
-Symbols have a **symbol preview** before the symbol name and hierarchy path, but not all tactical graphic symbols (*not all preview symbols are available yet*).
+Symbols have a **symbol preview** before the symbol name and hierarchy path.
 
 Those **tactical graphic symbols** according to MIL-STD 2525C, which we have **not yet implemented**, are listed in **red font** and marked **"unsupported"**. There is no selection option with the mouse for these symbols.
 
@@ -199,6 +198,24 @@ The changing of the area is done analogous to the measuring of distance/directio
 
 
 
+## Preferences
+
+
+
+The following functionalities are available in the preferences area:
+
+
+
+![](images/en/Einstellungen.png)
+
+
+
+Due to the scope of the individual functionalities, the **detail description** is made separately in the **chapter "Preferences"**!
+
+
+
+
+
 ## Clipboard
 
 
@@ -233,3 +250,20 @@ This function allows you to export the current map view as a PNG image file to u
 
 After pressing the button **"Export current map section as PNG"** the explorer opens and you can export the map area currently visible on the screen including the location as a PNG image file. However, **open areas** (e.g. Activity Bar, Properties window), as well as the **additional map information** (e.g. date display, coordinates display, scale etc.) **are not "exported"**.
 
+
+
+
+
+## Print to scale
+
+
+
+The following functionalities are available in the print ot scale area:
+
+
+
+![](images/en/Drucken.png)
+
+
+
+Due to the scope of the individual functionalities, the **detail description** is made separately in the **chapter "Print to scale"**!

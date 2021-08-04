@@ -138,9 +138,8 @@ Im Bereich der Map-Palette könnt Ihr die Symbole gemäß MILSTD-2525C auswähle
 
 - <span class="blue">6</span> ziviles Objekt (Darstellung bereits gem. MIL-STD 2525D)
 
-- <span class="blue">7</span> auswählbares Objekt (ohne Vorschau auf taktisches Zeichen)
+- <span class="blue">7</span> dzt. nicht unterstütztes und somit darstellbares Objekt
 
-- <span class="blue">8</span> dzt. nicht unterstütztes und somit darstellbares Objekt
 
 
 
@@ -162,7 +161,7 @@ Bei der Suche können folgende Wildcards (damit nicht nach ganzen Wörtern gesuc
 
 
 
-Bei den Symbolen ist vor dem Symbolnamen und dem Hierachiepfad eine **Symbolvorschau** abgebildet, nicht jedoch bei allen taktischen Grafiksymbolen (*dzt. sind noch nicht alle Vorschausymbole verfügbar*).
+Bei den Symbolen ist vor dem Symbolnamen und dem Hierachiepfad eine **Symbolvorschau** abgebildet.
 
 Jene **taktischen Grafiksymbole** gem. MIL-STD 2525C, die wir noch **nicht umgesetzt** haben, werden in **roter Schrift** und mit **„unsupported“** gekennzeichnet aufgelistet. Bei diesen Symbolen erfolgt keine Auswahlmöglichkeit mittels der Maus.
 
@@ -288,4 +287,24 @@ Diese Funktion ermöglicht es Euch, die aktuelle Kartenansicht als PNG-Bilddatei
 
 
 Nach Drücken des Buttons **„Aktuellen Kartenausschnitt als PNG exportieren“** öffnet sich der Explorer und Ihr könnt den aktuell auf dem Bildschirm sichtbaren Kartenbereich inkl. der Lage als PNG-Bilddatei exportieren. Dabei werden jedoch **geöffnete Bereiche** (z.B. Activity Bar, Eigenschaftsfenster), sowie die **zusätzlichen Kartenangaben** (z.B. Datumsanzeige, Koordinatenanzeige, Maßstab etc.) **nicht „mit exportiert“**.
+
+
+
+
+
+
+
+## Maßstabgerechtes Drucken
+
+
+
+Im Bereich des maßstabgerechten Drucken sind folgende Funktionalitäten verfügbar:
+
+
+
+![](images/Drucken.png)
+
+
+
+Aufgrund des Umfanges erfolgt die **Detailbeschreibung** zu den einzelnen Funktionalitäten im **Kapitel "Maßstabgerechtes Drucken"** gesondert!
 

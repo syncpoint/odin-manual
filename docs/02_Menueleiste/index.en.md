@@ -137,4 +137,15 @@ Here you can switch the display of the functions, tool tips etc., which concern 
 
 
 
-If you need help, you can access the **online user manual of ODIN** here.
+If you need help in using ODIN, you can choose between the following supports here:
+
+
+
+With the function **Online User Manual** you can access the user manual of the **current** published **version** of ODIN.
+
+
+
+With the **Join our Slack channel** or **Get support via e-mail** functions, you can contact us directly via Slack or e-mail for **support** in case of a problem in ODIN.
+
+In the **Slack area** you can also send us your **feedback** or **change requests** to ODIN. Furthermore we publish in this area also the respective **information**, what has changed in the **each update to ODIN** compared to the previous version.
+

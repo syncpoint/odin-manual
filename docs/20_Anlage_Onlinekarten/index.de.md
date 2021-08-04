@@ -427,3 +427,40 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 | **Karteninhalt**:                                     | Einblenden von markierten Wintersportpisten (weltweit).<br/>*Wird ständig erweitert!* |
 |                                                       |                                                              |
 | **Vorschaubild**:                                     | ![](images/MarkedTrails_Slopes.png)                          |
+
+
+
+
+
+## Reit- und Wanderkarte
+
+
+
+| URL:                                                  | http://tiles.topo.wanderreitkarte.de/topo/{z}/{x}/{y}.png    |
+| ----------------------------------------------------- | ------------------------------------------------------------ |
+|                                                       |                                                              |
+| **„Quelle“/Anbieter angeben**:                        | https://www.wanderreitkarte.de                               |
+| Im Schritt 4 bei **Namensnennungen**  hineinkopieren: | `Karte: <a href="https://www.wanderreitkarte.de/licence_de.php"> Nop's Reit- und Wanderkarte</a>` |
+|                                                       |                                                              |
+| **Karteninhalt**:                                     | Reit- und Wanderkarte (mit zusätzlichen Informationen wie Parkplätze, Haltestellen,<br />Wasserfälle, Apotheken, Geldinstitute, Gaststätten, Rastplätzen, Sehenswürdigkeiten etc.) |
+|                                                       |                                                              |
+| **Vorschaubild**:                                     | ![](images/Reit_Wanderkarte.png)                             |
+
+
+
+
+
+## Reliefkarte
+
+
+
+| URL:                                                  | http://maps-for-free.com/layer/relief/z{z}/row{y}/{z}_{x}-{y}.jpg |
+| ----------------------------------------------------- | ------------------------------------------------------------ |
+|                                                       |                                                              |
+| **„Quelle“/Anbieter angeben**:                        | https://maps-for-free.com                                    |
+| Im Schritt 4 bei **Namensnennungen**  hineinkopieren: | `Karte: <a href="https://maps-for-free.com/#openModal"> maps-for-free.com</a>` |
+|                                                       |                                                              |
+| **Karteninhalt**:                                     | Reliefkarte                                                  |
+|                                                       |                                                              |
+| **Vorschaubild**:                                     | ![](images/Reliefkarte.png)                                  |
+

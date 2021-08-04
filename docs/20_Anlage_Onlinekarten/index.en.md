@@ -427,3 +427,40 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 | **Map content**:                                             | Fade in marked winter sports slopes (worldwide)<br/>*Will be extended permanently!* |
 |                                                              |                                                              |
 | **Preview image**:                                           | ![](images/en/MarkedTrails_Slopes.png)                          |
+
+
+
+
+
+## Riding and hiking map
+
+
+
+| URL:                                                         | http://tiles.topo.wanderreitkarte.de/topo/{z}/{x}/{y}.png    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+|                                                              |                                                              |
+| **„Source“/specify provider**:                               | https://www.wanderreitkarte.de                               |
+| In step 4, copy the following text into the field **„Attributions“**: | `Map: <a href="https://www.wanderreitkarte.de/licence_de.php"> Nop's Reit- und Wanderkarte</a>` |
+|                                                              |                                                              |
+| **Map content**:                                             | Riding and hiking map (with additional information such as parking, stops, waterfalls,<br />pharmacies, financial institutions, restaurants, rest areas, places of interest etc.). |
+|                                                              |                                                              |
+| **Preview image**:                                           | ![](images/en/Reit_Wanderkarte.png)                          |
+
+
+
+
+
+## Relief map
+
+
+
+| URL:                                                         | http://maps-for-free.com/layer/relief/z{z}/row{y}/{z}_{x}-{y}.jpg |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+|                                                              |                                                              |
+| **„Source“/specify provider**:                               | https://maps-for-free.com                                    |
+| In step 4, copy the following text into the field **„Attributions“**: | `Map: <a href="https://maps-for-free.com/#openModal"> maps-for-free.com</a>` |
+|                                                              |                                                              |
+| **Map content**:                                             | Relief map                                                   |
+|                                                              |                                                              |
+| **Preview image**:                                           | ![](images/en/Reliefkarte.png)                               |
+
