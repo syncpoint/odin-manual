@@ -140,11 +140,11 @@ Those **tactical graphic symbols** according to MIL-STD 2525C, which we have **n
 
 
 
-## Tools
+## Measurement Tools
 
 
 
-In the tools section the GIS functionalities of ODIN are available:
+In the measurement tools section the GIS functionalities of ODIN are available:
 
 ![](images/en/Werkzeuge.png)
 
@@ -238,7 +238,7 @@ Additionally you can select all objects on the map (even if only parts of a line
 
 
 
-## Export current map section as PNG
+## Export current View as PNG
 
 
 
@@ -248,13 +248,13 @@ This function allows you to export the current map view as a PNG image file to u
 
 
 
-After pressing the button **"Export current map section as PNG"** the explorer opens and you can export the map area currently visible on the screen including the location as a PNG image file. However, **open areas** (e.g. Activity Bar, Properties window), as well as the **additional map information** (e.g. date display, coordinates display, scale etc.) **are not "exported"**.
+After pressing the button **"Export current View as PNG"** the explorer opens and you can export the map area currently visible on the screen including the location as a PNG image file. However, **open areas** (e.g. Activity Bar, Properties window), as well as the **additional map information** (e.g. date display, coordinates display, scale etc.) **are not "exported"**.
 
 
 
 
 
-## Print to scale
+## Print to Scale
 
 
 
@@ -266,4 +266,5 @@ The following functionalities are available in the print ot scale area:
 
 
 
-Due to the scope of the individual functionalities, the **detail description** is made separately in the **chapter "Print to scale"**!
+Due to the scope of the individual functionalities, **detail description** is made separately in **chapter "Print to Scale"**!
+
