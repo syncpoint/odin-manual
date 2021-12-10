@@ -12,11 +12,11 @@ The following functionalities are available in the print to scale area.
 
 
 
-## Paper size
+## Paper Size
 
 
 
-With **Paper size** you can define whether the paper size of the printout should be DIN A4, A3 or A2.
+With **"Paper Size"** you can define whether the paper size of the printout should be DIN A4, A3 or A2.
 
 
 
@@ -30,7 +30,7 @@ With **Paper size** you can define whether the paper size of the printout should
 
 
 
-With **Orientation** you can define whether the printout should be in portrait or landscape format. 
+With **"Orientation"** you can define whether the printout should be in portrait or landscape format. 
 
 
 
@@ -44,7 +44,7 @@ With **Orientation** you can define whether the printout should be in portrait o
 
 
 
-With **scale** you can define in which of the following scales the printout should be made.
+With **"Scale"** you can define in which of the following scales the printout should be made.
 
 
 
@@ -58,7 +58,7 @@ With **scale** you can define in which of the following scales the printout shou
 
 
 
-With **Quality** you can define the quality of the printout.
+With **"Quality"** you can define the quality of the printout.
 
 
 
@@ -67,10 +67,14 @@ With **Quality** you can define the quality of the printout.
 The quality influences both the representation of the objects and the map content itself. Please note the higher the quality, the longer takes the processing time, depending on the equipment used and its system components.
 
 
-## Output format
 
 
-With **Output format** you can specify whether the printout should be a photo (JPEG-image) or a PDF-file.
+
+
+## Output Format
+
+
+With **"Output Format"** you can specify whether the printout should be a photo (JPEG-image) or a PDF-file.
 
 
 
@@ -92,7 +96,7 @@ When printing as a JPEG-file, only the situation image is printed.
 
 
 
-## Start of the print process
+## Start of the Print Process
 
 
 
@@ -100,9 +104,9 @@ By pressing the **button** `CREATE PDF`or `CREATE JPEG` the printing process is 
 
 
 
-| ![](images/Start_Drucken_PDF.png) | ![](images/Start_Drucken_PDF.png) |
-| :-------------------------------: | :-------------------------------: |
-|        (print as PDF-file)        |       (print as JPEG-file)        |
+| ![](images/en/Start_Drucken_PDF.png) | ![](images/en/Start_Drucken_JPEG.png) |
+| :----------------------------------: | :-----------------------------------: |
+|         (print as PDF-file)          |         (print as JPEG-file)          |
 
 
 

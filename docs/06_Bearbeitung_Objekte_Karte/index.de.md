@@ -76,7 +76,9 @@ Um die Darstellung der Lage zu verbessern, könnt Ihr bei den **Punktsymbolen** 
 | ![](images/Punktobjekte_Offset_1.png) | ![](images/Punktobjekte_Offset_2.png) |
 | :-----------------------------------: | :-----------------------------------: |
 
-Die Linie der "Offset Location" könnt Ihr anpassen, indem Ihr das **Objekt markiert** und danach mit der Maus auf die Linie fährt bis ein **blauer Punkt** erscheint. Nun könnt Ihr mit der **Maus** die **Linie verschieben** und einen neuen **Punkt setzen.**
+Die Linie der "Offset Location" könnt Ihr anpassen, indem Ihr das **Objekt markiert** und danach mit der Maus auf die Linie fährt bis ein **roter Kreis** erscheint. Nun könnt Ihr mit der **Maus** die **Linie verschieben** und einen neuen **Punkt setzen.**
+
+Die zweite Möglichkeit ist, das **Objekt markieren**, die **ALT-Taste gedrückt halten** und mit der **Maus** auf die Position in der **Karte klicken**, wo das Objekt dargestellt werden soll.
 
 Um die "Offset Location" **wieder aufzuheben**, hält Ihr die `ALT-Taste` gedrückt und **klickt** dann auf den **"Startpunkt"** der "Offset Location". 
 
@@ -94,7 +96,7 @@ Um die **Position(en)** einer Linie zu **ändern**, markiert Ihr die Linie und m
 
 
 
-Wollt Ihr einen **neuen Punkt setzen**, fährt mit dem Mauszeiger auf die Linie, bis ein blauer Punkt und das **„Hand“-Symbol** erscheint und verschiebt diesen mit der Maus:
+Wollt Ihr einen **neuen Punkt setzen**, fährt mit dem Mauszeiger auf die Linie, bis ein **roter Kreis** erscheint und verschiebt diesen mit der Maus:
 
 ![](images/Linienobjekte_2.png)
 
@@ -120,7 +122,7 @@ Nach der **Auswahl** in der **Map-Palette** und dem **Klick** auf die gewünscht
 
 Um die **Position(en)** einer Fläche zu **ändern**, markiert Ihr die Fläche und wählt einen der „Eck“-Punkte aus und verschiebt diesen mit der Maus.
 
-Wollt Ihr einen **neuen Punkt setzen**, fährt mit dem Mauszeiger auf die Linie, bis ein blauer Punkt und das **„Hand“-Symbol** erscheint und verschiebt diesen mit der Maus:
+Wollt Ihr einen **neuen Punkt setzen**, fährt mit dem Mauszeiger auf die Linie, bis ein **roter Kreis** erscheint und verschiebt diesen mit der Maus:
 
 ![](images/Flaechenobjekte_2.png)
 
@@ -131,6 +133,23 @@ Zum **Verschieben** der **gesamten Fläche** müsst Ihr dabei die `SHIFT-Taste` 
 Um einen **einzelnen Punkt** zu **löschen** müsst Ihr die `ALT-Taste` gedrückt halten und dann den zu löschenden „Eck“-Punkt anklicken.
 
 **Kopieren** (`STRG` + `C`) und **Einfügen** (`STRG` + `V`) verhält sich analog zu den Punktobjekten.
+
+
+
+### Flächenobjekte, rechteckig
+
+
+
+Eine Sonderform bei der Bearbeitung stellt das rechteckige Flächenobjekt dar (z.B. für die Darstellung der Feuerstellungsräume wie ACA, NFA, ZOR etc.).
+
+Nach der **Auswahl** in der **Map-Palette** und dem **Klick** auf die gewünschte **Position** auf der **Karte** erscheint das rechteckige Flächenobjekt. Der ausgewählte Punkt mit der Maus auf der Karte ist immer der **linke obere Eckpunkt** des Rechteckes.
+
+Um die **Größe** des Rechteckes zu **ändern**, markiert Ihr das Rechteck, fährt mit dem Mauszeiger auf einen der Eckpunkte bis ein **roter Kreis** erscheint und verschiebt diesen mit der Maus.
+
+Wenn Ihr die Maus auf einen der **Eckpunkte** bewegt bis der **rote Kreis** erscheint, die `STRG`-Taste gedrückt haltet und die Maus danach bewegt, könnt Ihr das **Rechteck rotieren**.
+
+| ![](images/rechteckige_Flaeche_1.png) | ![](images/rechteckige_Flaeche_2.png) |
+| :-----------------------------------: | :-----------------------------------: |
 
 
 
@@ -146,7 +165,7 @@ Um die **Position(en)** eines Korridores zu **ändern**, markiert Ihr den Korrid
 
 
 
-Wollt Ihr einen **neuen Punkt setzen**, fährt mit dem Mauszeiger auf die rote innere Linie, bis ein blauer Punkt und das **„Hand“-Symbol** erscheint und verschiebt diesen mit der Maus.
+Wollt Ihr einen **neuen Punkt setzen**, fährt mit dem Mauszeiger auf die rote innere Linie, bis ein **roter Kreis** erscheint und verschiebt diesen mit der Maus.
 
 Die **Breite** des Korridors könnt Ihr **ändern**, indem Ihr am Ende des Korridors den seitlichen roten Punkt mit der Maus verschiebt.
 

@@ -64,6 +64,25 @@ Hier sind die typischen Windows Funktionalitäten abgebildet. Diese sind auch ü
 
 
 
+Mit der Funktion **"Koordinaten kopieren"**  (`STRG` + `D`) könnt Ihr die Koordinaten im Format "Longitude/Latitude" (militärisch: Rechtswert/Hochwert) wie folgt kopieren:
+
+- Kein Symbol auf der Karte markiert:	 Koordinate des Mauszeigers;
+- Punktsymbol auf der Karte markiert:	Koordinate des Punktsymbols (= roter Punkt);
+
+- Mehrpunktsymbol (Linie, Raum):			Alle Koordinaten des Mehrpunktsymbols (= vom Benutzer gesetzte Punkte).
+
+
+
+Bei **folgenden Objekten** ist das **Kopieren der Koordinaten nicht möglich**, da aufgrund der komplexen Geometrie es für den Benutzer möglicherweise nicht klar ist, aus welchen Koordinaten die Darstellungsform der Geometrie resultiert:
+
+- Raum, kreisförmig (z.B. ACA, FSA, NFA);
+- taktische Grafiken, 2-Punkt-Fächer (z.B. Occupy, Isolate);
+- taktische Grafiken, 3-Punkt-Fächer (z.B. Bypass, Canalize);
+- taktische Grafiken, Orbit (z.B. Delay, Withdraw);
+- taktische Grafiken, Korridor (z.B. CATK, SAAFR, Main Attack).
+
+
+
 
 
 ## Anzeige
@@ -141,11 +160,11 @@ Wenn Ihr Hilfe bei der Bedienung von ODIN benötigt, könnt Ihr hier zwischen fo
 
 
 
-Mit der Funktion **Online Benutzerhandbuch** könnt Ihr auf das Benutzerhandbuch der **aktuellen** veröffentlichen **Version** von ODIN zugreifen.
+Mit der Funktion **"Online Benutzerhandbuch"** könnt Ihr auf das Benutzerhandbuch der **aktuellen** veröffentlichen **Version** von ODIN zugreifen.
 
 
 
-Mit den Funktionen **Online Unterstützung via Slack** bzw. **Online Unterstützung via E-Mail** könnt Ihr bei einem Problem in ODIN für einen **Support** direkt mit uns via Slack bzw. E-Mail Verbindung aufnehmen.
+Mit den Funktionen **"Online Unterstützung via Slack"** bzw. **"Online Unterstützung via E-Mail"** könnt Ihr bei einem Problem in ODIN für einen **Support** direkt mit uns via Slack bzw. E-Mail Verbindung aufnehmen.
 
 Im **Slack-Bereich** könnt Ihr uns auch gerne Euer **Feedback** bzw. **Änderungswünsche** zu ODIN mitteilen. Weiters veröffentlichen wir in diesem Bereich auch die jeweiligen **Informationen**, was sich im **jeweiligen Update zu ODIN** gegenüber der Vorgängerversion geändert hat.
 
