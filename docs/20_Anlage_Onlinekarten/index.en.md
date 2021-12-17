@@ -1,4 +1,4 @@
-# Online maps
+Online maps
 
 
 
@@ -257,6 +257,24 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
+## OpenCycleMap
+
+
+
+| URL:                                                         | https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png         |
+| ------------------------------------------------------------ | :----------------------------------------------------------- |
+|                                                              |                                                              |
+| **„Source“/specify provider**:                               | [www.thunderforest.com](http://www.thunderforest.com)        |
+| In step 4, copy the following text into the field **„Attributions“**: | `Karte: <a href="https://www.thunderforest.com/terms">Thunderforest</a>  Daten: <a href="https://www.openstreetmap.org/copyright">Open Street Map - Mitwirkende</a>` |
+|                                                              |                                                              |
+| **Map content**:                                             | Map with bike paths, bike sharing, bike stores, free access tool <br />(Europe, North America, Australia, New Zealand, South Korea, Taiwan). |
+|                                                              |                                                              |
+| **Preview image**:                                           | ![](images/en/OpenCycleMap.png)                              |
+
+
+
+
+
 ## Stamen
 
 
@@ -464,3 +482,22 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 |                                                              |                                                              |
 | **Preview image**:                                           | ![](images/en/Reliefkarte.png)                               |
 
+
+
+
+
+## World Imagery Map
+
+
+
+| URL:                                                         | http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Select in step 2:                                            | World_Imagery                                                |
+|                                                              |                                                              |
+| **„Source“/specify provider**:                               | https://www.esri.com/en-us/arcgis/products/arcgis-online/resources |
+| In step 4, copy the following text into the field **„Attributions“**: | `Karte: <a href="https://doc.arcgis.com/de/arcgis-online/reference/terms-of-use.htm">ArcGIS Online</a>` |
+|                                                              |                                                              |
+| **Map content**:                                             | World Satellite Map                                          |
+|                                                              |                                                              |
+| **Preview image**:                                           | ![](images/en/World_Imagery_Map.png)                         |
+|                                                              |                                                              |

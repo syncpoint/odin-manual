@@ -1,4 +1,4 @@
-site_name: ODIN - Manual - 0.15.0
+site_name: ODIN - Manual - 0.16.0
 site_url: https://syncpoint.github.io/odin-manual
 site_author: Syncpoint GmbH
 site_description: >- 
@@ -61,6 +61,10 @@ nav:
   - Preferences: 09_Einstellungen/index.en.md
   - Maßstabsgerechtes Drucken: 10_Maszstabgerechtes_Drucken/index.de.md
   - Print to scale: 10_Maszstabgerechtes_Drucken/index.en.md
+  - Werkzeuge: 11_Werkzeuge/index.de.md
+  - Measurement Tools: 11_Werkzeuge/index.en.md
+  - Taktische Planungstools: 12_taktische_Planungstools/index.de.md
+  - Tactical Planning Tools: 12_taktische_Planungstools/index.en.md
   - Onlinekarten: 20_Anlage_Onlinekarten/index.de.md
   - Online maps: 20_Anlage_Onlinekarten/index.en.md
   - Tastaturkürzel: kb_shortcuts.de.md

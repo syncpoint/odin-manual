@@ -257,6 +257,24 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
+## OpenCycleMap
+
+
+
+| URL:                                                 | https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png         |
+| ---------------------------------------------------- | :----------------------------------------------------------- |
+|                                                      |                                                              |
+| **„Quelle“/Anbieter angeben**:                       | [www.thunderforest.com](http://www.thunderforest.com)        |
+| Im Schritt 4 bei **Namensnennungen** hineinkopieren: | `Karte: <a href="https://www.thunderforest.com/terms">Thunderforest</a>  Daten: <a href="https://www.openstreetmap.org/copyright">Open Street Map - Mitwirkende</a>` |
+|                                                      |                                                              |
+| **Karteninhalt**:                                    | Karte mit Radwegen, Bike-Sharing, Fahrrad-Shops, frei zugängliches Werkzeug <br />(Europa, Nordamerika, Australien, Neuseeland, Südkorea, Taiwan). |
+|                                                      |                                                              |
+| **Vorschaubild**:                                    | ![](images/OpenCycleMap.png)                                 |
+
+
+
+
+
 ## Stamen
 
 
@@ -464,3 +482,22 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 |                                                       |                                                              |
 | **Vorschaubild**:                                     | ![](images/Reliefkarte.png)                                  |
 
+
+
+
+
+## World Imagery Map
+
+
+
+| URL:                                                 | http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml |
+| ---------------------------------------------------- | ------------------------------------------------------------ |
+| im Schritt 2 auswählen:                              | World_Imagery                                                |
+|                                                      |                                                              |
+| **„Quelle“/Anbieter angeben**:                       | https://www.esri.com/en-us/arcgis/products/arcgis-online/resources |
+| Im Schritt 4 bei **Namensnennungen** hineinkopieren: | `Karte: <a href="https://doc.arcgis.com/de/arcgis-online/reference/terms-of-use.htm">ArcGIS Online</a>` |
+|                                                      |                                                              |
+| **Karteninhalt**:                                    | Satellitenweltkarte                                          |
+|                                                      |                                                              |
+| **Vorschaubild:**                                    | ![](images/World_Imagery_Map.png)                            |
+|                                                      |                                                              |

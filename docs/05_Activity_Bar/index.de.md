@@ -175,62 +175,13 @@ Jene **taktischen Grafiksymbole** gem. MIL-STD 2525C, die wir noch **nicht umges
 
 Im Bereich der Werkzeuge sind die GIS-Funktionalitäten von ODIN verfügbar:
 
+
+
 ![](images/Werkzeuge.png)
 
-- <span class="blue">1</span> Bereich der Werkzeuge
-
-- <span class="blue">2</span> verfügbare GIS-Funktionalitäten
 
 
-
-Zu beachten ist, dass die **GIS-Funktionalitäten** in ODIN **nicht gespeichert** werden. Dies bedeutet, dass diese nach einem **Neustart von ODIN nicht mehr verfügbar** sind. Weiters sind die GIS-Funktionalitäten nicht in die „Rückgängig/Wiederherstellen“-Logik mit eingebunden.
-
-
-
-### Entfernung/Richtung messen
-
-
-
-![](images/Entfernung_messen.png)
-
-- <span class="blue">1</span> grüner Punkt = Startpunkt der Streckenberechnung
-
-- <span class="blue">2</span> Distanzangabe in m/km für die Teilstrecke
-
-- <span class="blue">3</span> Winkelangabe für die Teilstrecke in Grad
-
-- <span class="blue">4</span> roter Punkt = Endpunkt der Streckenberechnung
-
-- <span class="blue">5</span> Gesamtlänge der Strecke in m/km
-
-
-
-Mit **Entfernung/Richtung messen** könnt Ihr auf der Karte die Länge einer Strecke messen. Zusätzlich zur Gesamtlänge werden für die Teilstrecken (= die Linie zwischen zwei gesetzten Punkten) auch die Länge und der Winkel dazu angegeben.
-
-Ihr könnt dabei jederzeit die Strecke wie folgt verändern (die Änderung werden sofort mitberücksichtigt):
-
--   Mit der Maus auf die Linie klicken und mit dem Mauszeiger verschieben.
--   Punkte löschen, in dem Ihr die `ALT-Taste` gedrückt hält und mit der **Maus** auf die **gesetzten Punkte** der Linie **klickt**.
-
-
-
-### Fläche messen
-
-
-
-![](images/Flaeche_messen.png)
-
-- <span class="blue">1</span> Distanzangabe in m/km für die Teilstrecke
-
-- <span class="blue">2</span> Gesamtfläche in m²/km²
-
-- <span class="blue">3</span> Umfang der Fläche in m/km
-
-
-
-Mit **Fläche messen** könnt Ihr auf der Karte die Fläche eines Bereiches messen. Zusätzlich zur Gesamtlänge, erfolgt auch hier die Angabe der Länge zu den einzelnen Teilstrecken. In der Mitte der Fläche werden die Gesamtfläche in m²/km² (oben) und der Umfang der Fläche (darunter) angezeigt.
-
-Das Verändern der Fläche erfolgt analog wie bei Entfernung/Richtung messen.
+Aufgrund des Umfanges erfolgt die **Detailbeschreibung** zu den einzelnen Funktionalitäten im **Kapitel "Werkzeuge"** gesondert!
 
 
 
