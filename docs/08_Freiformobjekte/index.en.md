@@ -16,7 +16,7 @@ The following **freeform objects** are available in ODIN:
 
 
 
-To create a **Freeform object** you have to select it in the **Map Palette** first. Enter the term **"Supplemental"** in the search area or use the search terms "**Text**", "**Line**" and "**Polygon**":
+To create a **Freeform Object** you have to select it in the **Map Palette** first. Enter the term **"Supplemental"** in the search area or use the search terms "**Text**", "**Line**" and "**Polygon**":
 
 
 
@@ -30,7 +30,7 @@ To create a **Freeform object** you have to select it in the **Map Palette** fir
 
 
 
-After the **selection** in the **map palette** and the **click** on the desired **position** on the **map** a **"red dot"** appears and the property window opens.
+After the **selection** in the **Map Palette** and the **click** on the desired **position** on the **map** a **"red dot"** appears and the property window opens.
 
 
 
@@ -89,7 +89,7 @@ With the text field the same functionalities are possible as with the point symb
 
 
 
-After the **selection** in the **Map-Palette** and the **clicks** on the desired **positions** on the **map** you finish the input with a **double-click**, after that the property window is opened.
+After the **selection** in the **Map Palette** and the **clicks** on the desired **positions** on the **map** you finish the input with a **double-click**, after that the property window is opened.
 
 
 
@@ -116,7 +116,7 @@ The choices for **color** styling are **analogous** to those for the **width tex
 
 
 
-After the **selection** in the **map palette** and the **clicks** on the desired **positions** on the **map** you finish the input with a **double-click**, then the property window opens.
+After the **selection** in the **Map Palette** and the **clicks** on the desired **positions** on the **map** you finish the input with a **double-click**, then the property window opens.
 
 
 

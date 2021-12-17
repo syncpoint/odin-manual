@@ -148,51 +148,9 @@ In the measurement tools section the GIS functionalities of ODIN are available:
 
 ![](images/en/Werkzeuge.png)
 
-- <span class="blue">1</span> tools area
-- <span class="blue">2</span> available GIS functionalities
 
 
-
-It should be noted that **GIS functionalities** are **not stored** in ODIN. This means that they will not be available** after a **restart of ODIN. Furthermore, the GIS functionalities are not included in the "undo/redo" logic.
-
-
-
-### Measure distance/direction
-
-![](images/en/Entfernung_messen.png)
-
-- <span class="blue">1</span> green point = starting point of the distance calculation
-- <span class="blue">2</span> distance specification in m/km for the partial distance
-- <span class="blue">3</span> angle specification for the partial distance in degrees
-- <span class="blue">4</span> red point = end point of the distance calculation
-- <span class="blue">5</span> total length of the route in m/km
-
-
-
-With **Measure distance/direction** you can measure the length of a route on the map. In addition to the total length, for the partial distances (= the line between two set points) also the length and the angle to it are indicated.
-
-You can change the distance at any time as follows (the change will be taken into account immediately):
-
-- Click with the mouse on the line and move it with the mouse pointer.
-- Delete a point by holding down the 'ALT' key and **clicking** on the point of the line to delete.
-
-
-
-### Measure area
-
-
-
-![](images/en/Flaeche_messen.png)
-
-- <span class="blue">1</span> distance specification in m/km for the partial distance
-- <span class="blue">2</span> total area in m²/km²
-- <span class="blue">3</span> perimeter of the area in m/km
-
-
-
-With **Measure area** you can measure the area of an area on the map. In addition to the total length, the length to the individual sections is also given here. In the center of the area, the total area in m²/km² (above) and the perimeter of the area (below) are displayed.
-
-The changing of the area is done analogous to the measuring of distance/direction.
+Due to the scope of the individual functionalities, the **detail description** is made separately in the **chapter "Measurement Tools"**!
 
 
 

@@ -169,5 +169,3 @@ Mit den Funktionen **"Online Unterstützung via Slack"** bzw. **"Online Unterst�
 Im **Slack-Bereich** könnt Ihr uns auch gerne Euer **Feedback** bzw. **Änderungswünsche** zu ODIN mitteilen. Weiters veröffentlichen wir in diesem Bereich auch die jeweiligen **Informationen**, was sich im **jeweiligen Update zu ODIN** gegenüber der Vorgängerversion geändert hat.
 
 
-
-# 
