@@ -6,7 +6,9 @@ In diesem Kapitel wird die Erstellung und Bearbeitung von Objekten mit verschied
 
 Die **Darstellung** der Objekte auf der Karte erfolgt grundsätzlich gem. **MIL-STD 2525C**. Einen „Vorgriff“ auf den **MIL-STD 2525D** gibt es bei der Darstellung von **zivilen Fahrzeugen & Geräte (Equipments)** mit der **Farbe „rosa“**, sowie bei den **Aktivitäten (Activities)** mit den **vier schwarzen Quadraten** in jeder Ecke des Grundsymbols.
 
-Auch wurden in ODIN **Objekte** dann **anderes umgesetzt** zu den Vorgaben gem. MIL-STD 2525C, wenn diese aus **taktischer Sicher notwendig** bzw. **sinnvoller** erschienen (z.B. Direction of Attack als Mehrpunktlinie anstelle einer „2-Punkt-Linie“; zusätzliche Zuordnung von Modifieren (z.B. bei Naturereignissen, Einrichtungen etc.); Auswahl aller Hositlity Statuse bei taktischen Grafiken - Punktobjekte etc.).
+Mit der Version 0.17.0 wurde begonnen auch die **Mission Task Verbs** aus dem **NATO Standard ATP-112**, sowie **nationale taktische Zeichen** (Effect Verbs, Action Verbs - gekennzeichnet mit "(**AUT only**")) zu implementieren.
+
+Auch wurden in ODIN **Objekte** dann **anderes umgesetzt** zu den Vorgaben gem. MIL-STD 2525C, wenn diese aus **taktischer Sicht notwendig** bzw. **sinnvoller** erschienen (z.B. Direction of Attack als Mehrpunktlinie anstelle einer „2-Punkt-Linie“; zusätzliche Zuordnung von Modifieren (z.B. bei Naturereignissen, Einrichtungen etc.); Auswahl aller Hositlity Statuse bei taktischen Grafiken - Punktobjekte etc.).
 
 
 

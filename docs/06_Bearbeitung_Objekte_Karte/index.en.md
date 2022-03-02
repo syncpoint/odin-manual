@@ -6,6 +6,8 @@ This chapter describes the creation and editing of objects with different geomet
 
 The **representation** of the objects on the map is basically done according to **MIL-STD 2525C**. An "anticipation" of the **MIL-STD 2525D** can be found in the representation of **civilian vehicles & equipment** with the **color "pink"**, as well as in the **activities** with the **four black squares** in each corner of the basic symbol.
 
+With version 0.17.0 the **Mission Task Verbs** from the **NATO Standard ATP-112**, as well as **national tactical symbols** (Effect Verbs, Action Verbs - marked with "(**AUT only**")) were started to be implemented.
+
 In ODIN some deviations tending towards MIL-STD 2525D are chosen where MIL-STD 2525C does not reflect **tactical necessity** and/or **sensible reason** (e.g. Direction of Attack as multi-point line instead of a "2-point line"; additional assignment of modifiers (e.g. with natural events, facilities etc.); selection of all Hostility Status with tactical graphics - point objects etc.)
 
 

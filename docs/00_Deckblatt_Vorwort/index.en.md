@@ -20,10 +20,12 @@ We are aware that there is still a long way to go to fulfill our vision. We are 
 - **Open source product** and therefore usable **free of charge** for everyone (permissive MIT license);
 - use of **various online maps** (incl. their "overlaid" display);
 - user interface in **German** and **English**;
-- **Symbols** according to **MIL-STD 2525C** (approx. 89% are currently implemented - excluding METOC);
+- **symbols** according to **MIL-STD 2525C** (approx. 95% are currently implemented - excluding METOC);
+- **symbols** according to **NATO STANDARD ATP-112**, as well as **national tactical symbols** (Effect Verbs/Action Verbs);
 - executable for the operating systems **Windows**, **Linux** and **macOS **;
 - **project** and **layer management** incl. export/import of data for external dispatch;
 - **GIS tools** (measure distance/area);
+- **print with scale** (PDF and JPEG formats)
 - **free text tool** and **simple display changes** (colors, symbol sizes, line thickness, etc.)
 - **data** is currently **stored locally**;
 - and the most important **ease of use**.

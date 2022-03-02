@@ -39,10 +39,10 @@ Dieses Blatt beschreibt viele nützliche Tastenkombinationen für **ODIN**. Eini
 | <kbd>Strg</kbd>+<kbd>Z</kbd>                   | Rückgängig                    			  |
 | <kbd>Strg</kbd>+<kbd>Schift</kbd>+<kbd>Z</kbd> | Wiederherstellen           			      |
 
-| Verschiedenes                |                                      |
-| ---------------------------- | ------------------------------------ |
-| <kbd>Strg</kbd>+<kbd>M</kbd> | Fenster mimmieren                    |
-| <kbd>Strg</kbd>+<kbd>W</kbd> | Anwendung schließen                  |
+| Verschiedenes                |                     |
+| ---------------------------- | ------------------- |
+| <kbd>Strg</kbd>+<kbd>M</kbd> | Fenster minimieren  |
+| <kbd>Strg</kbd>+<kbd>W</kbd> | Anwendung schließen |
 
 ## Mac OSX
 
@@ -54,8 +54,8 @@ Dieses Blatt beschreibt viele nützliche Tastenkombinationen für **ODIN**. Eini
 
 | Anzeige                           |                                    |
 | --------------------------------- | ---------------------------------- |
-| <kbd>Command</kbd>+<kbd>+</kbd>   | Zoom hinein (vergrößern)          |
-| <kbd>Command</kbd>+<kbd>-</kbd>   | Zoom herraus (verkleinern)         |
+| <kbd>Command</kbd>+<kbd>+</kbd>   | Zoom hinein (vergrößern)           |
+| <kbd>Command</kbd>+<kbd>-</kbd>   | Zoom heraus (verkleinern)          |
 | <kbd>Command</kbd>+<kbd>0</kbd>   | Zoom normal                        |
 | <kbd>Command</kbd>+<kbd>L</kbd>   | Zeige Beschriftung (bis 1:250.000) |
 | <kbd>Command</kbd>+<kbd>1</kbd>   | Kartenwerk 1                       |
@@ -65,7 +65,7 @@ Dieses Blatt beschreibt viele nützliche Tastenkombinationen für **ODIN**. Eini
 | ------------------------------------------------- | ------------------------------- |
 | <kbd>Klick</kbd>                                  | Element auswählen               |
 | <kbd>Ctrl</kbd>+<kbd>Klick</kbd>                  | Punkt löschen                   |
-| <kbd>Command</kbd>+<kbd>A</kbd>                   | Alles auswahlen                 |
+| <kbd>Command</kbd>+<kbd>A</kbd>                   | Alles auswählen                 |
 | <kbd>Command</kbd>+<kbd>C</kbd>                   | Kopieren (Zwischenablage)       |
 | <kbd>Command</kbd>+<kbd>V</kbd>                   | Einfügen (Zwischenablage)       |
 | <kbd>Command</kbd>+<kbd>X</kbd>                   | Ausschneiden   (Zwischenablage) |
