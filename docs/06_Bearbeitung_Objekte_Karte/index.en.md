@@ -24,6 +24,7 @@ The objects are distinguished according to their assignment or their geometries,
 - weapons, vehicles, equipment (Equipments) point objects
 - installations point objects
 - activities point objects
+- "SKKM" AUT national civil point objects
 - tactical Graphics point, line, area and corridor objects
 
 The first part describes the creation of objects on the map based on geometries (point, line, area, corridor).

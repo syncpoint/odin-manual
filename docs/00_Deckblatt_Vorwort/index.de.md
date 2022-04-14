@@ -20,9 +20,9 @@ Wir sind uns bewusst, dass wir noch einen langen Weg vor uns haben, um unsere Vi
 
 -   **Open Source-Produkt** und somit für alle **kostenfrei nutzbar** (MIT-Lizenz);
 -   Nutzung von **verschiedenen Onlinekarten** (inkl. deren „überlagerten“ Darstellung);
--   Benutzeroberfläche in **Deutsch** und **Englisch**;
+-   Benutzeroberfläche in **Deutsch**, **Englisch**, **Französisch** und **Spanisch**;
 -   **Symbole** gem. **MIL-STD 2525C** (ca. 95% sind dzt. umgesetzt – ohne Bereich METOC);
--   **Symbole** gem. **NATO STANDARD ATP-112**, sowie n**ationale taktische Symbole** (Effect Verbs/Action Verbs)
+-   **Symbole** gem. **NATO STANDARD ATP-112**, sowie **nationale taktische Symbole** (Effect Verbs/Action Verbs)
 -   lauffähig für die Betriebssysteme **Windows**, **Linux** und **macOS**;
 -   **Projekt-** und **Layermanagement** inkl. Export/Import von Daten zum externen Versand;
 -   **GIS-Tools** (Strecke/Fläche messen)

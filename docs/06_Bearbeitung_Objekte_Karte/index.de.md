@@ -20,11 +20,12 @@ Auch wurden in ODIN **Objekte** dann **anderes umgesetzt** zu den Vorgaben gem. 
 
 Die Objekte werden hier nach Ihrer Zuordnung bzw. ihrer Geometrien unterschieden, weil die Erstellung und Bearbeitung, sowie die Inhalte des Eigenschaftsfenster sich nach diesen in ODIN ausrichtet:
 
-- Einheiten (Units)											 Punktobjekte
-- Waffen, Fahrzeuge, Gerät (Equipments)    Punktobjekte
-- Einrichtungen (Installations) 					   Punktobjekte
-- Aktivitäten (Activities) 								   Punktobjekte
-- Taktische Grafiken (tactical Graphics) 	   Punkt, Linien-, Flächen- und Korridorobjekte
+- Einheiten (Units)											    	 Punktobjekte
+- Waffen, Fahrzeuge, Gerät (Equipments)            Punktobjekte
+- Einrichtungen (Installations) 					           Punktobjekte
+- Aktivitäten (Activities) 								           Punktobjekte
+- SKKM-Symbole (AUT National Civil Symbols)	Punktobjekte
+- Taktische Grafiken (tactical Graphics) 	           Punkt, Linien-, Flächen- und Korridorobjekte
 
 
 

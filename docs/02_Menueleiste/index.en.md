@@ -142,7 +142,7 @@ With function **"Labels "** you can choose in ODIN if the modifiers should be sh
 
 
 
-Here you can switch the display of the functions, tool tips etc., which concern the **user interface** between **"German "** and **"English "**.
+Here you can switch the display of the functions, tool tips etc., which concern the **user interface** between **"German"**, **"English"**, **"French"** and **"Spanish"**.
 
 
 

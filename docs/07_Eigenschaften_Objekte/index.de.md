@@ -289,6 +289,63 @@ Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr 
 
 
 
+## Zivile SKKM-Symbole
+
+
+
+Um eine **gemeinsame Lagedarstellung** zwischen **militärischen und zivilen Kräften in Österreich** bei Anlassfällen (z.B. Katastrophenfällen, Unglücke im größeren Ausmaß, gemeinsame Übungen etc.) zu ermöglichen, haben wir die grundlegenden nationalen SKKM-Symbole ab der Version 0.18.0 implementiert.
+
+Die SKKM-Symbole können in der Map-Palette am Besten mit dem Suchbegriff **"SKKM"** gefunden werden. Weiters sind diese mit dem Zusatz **"(AUT ONLY)"** gekennzeichnet. Dies dient der Informationen unserer internationalen Benutzer, dass es sich hierbei um rein nationale österreichische Symbole handelt.
+
+
+
+Bei diesen Objekten können derzeit folgende Eigenschaften eingegeben werden:
+
+| ![](images/SKKM_Symbole_Uebersicht_1.png) | ![](images/SKKM_Symbole_Uebersicht_2.png) |
+| ----------------------------------------- | ----------------------------------------- |
+
+- <span class="blue">1</span> markiertes Objekt auf der Karte
+
+- <span class="blue">2</span> aktueller Bereich Eigenschaften
+
+- <span class="blue">3</span> Wechseln zum Bereich für Links/WebLinks
+
+- <span class="blue">4</span> Name des Objektes
+
+- <span class="blue">5</span> eigene Bezeichnung
+
+- <span class="blue">6</span> vorgesetzte Dienststelle(n)                                   (dzt. nur bei Formationen und Person in Kommandantenfunktion verfügbar)
+
+- <span class="blue">7</span> Text im Symbol                                                       (dzt. nur bei Formationen verfügbar)
+
+- <span class="blue">8</span> Größensymbol                                                        (dzt. nur bei Formationen und Person in Kommandantenfunktion verfügbar)
+
+- <span class="blue">9</span> Datum- und Zeitangabe
+
+- <span class="blue">10</span> Geschwindigkeit
+
+- <span class="blue">11</span> Richtung
+
+- <span class="blue">11</span> zusätzliche Informationen
+
+- <span class="blue">12</span> Befehls-/Führungsstelle                                      (dzt. nur bei Formationen verfügbar)
+
+
+
+Die Felder **„Date-Time-Group“**, **„Speed“**, **„Direction“** und **„Additional Information“** sind Freitextfelder.
+
+Mit dem Feld **"Headquarter"** kann bei Formationen angegeben werden, ob es sich hierbei um eine Befehls- bzw. Führungsstelle handelt.
+
+Die Detailinformationen zum zweiten Bereich des Eigenschaftsfensters findet Ihr im Bereich Links/WebLinks.
+
+
+
+Nachstehend eine Übersicht über die dzt. implementierten SKKM-Symbole:
+
+![](images/SKKM_Symbole_Uebersicht_3.png)
+
+
+
 ## Symbole ohne Modifier gem. MIL-STD 2525C
 
 

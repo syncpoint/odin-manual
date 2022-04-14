@@ -317,6 +317,44 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 
 
+## Online maps City of Vienna
+
+
+
+| URL:                                                         | http://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Select in step 2:                                            | select one of the currently 16 available maps                |
+|                                                              |                                                              |
+| **„Source“/specify provider**:                               | https://www.wien.gv.at/                                      |
+| In step 4, copy the following text into the field **„Attributions“**: | `Map: <a href="https://digitales.wien.gv.at/ogd-nutzungsbedingungen/">Datenquelle Stadt Wien - data.wien.gv.at</a>` |
+|                                                              |                                                              |
+| **Map content**:                                             | various maps of Vienna (e.g. labeling city map, dedication/zoning plan, aerial maps, orthophotos, etc.) |
+|                                                              |                                                              |
+| **Preview image**:                                           | ![](images/en/Stadtplaene_Wien.png)                          |
+
+
+
+
+
+## Online maps Norway (GeoNorge/Kartverket)
+
+
+
+| URL:                                                         | http://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?service=WMTS&request=GetCapabilities |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Select in step 2:                                            | select one of the currently 20 available maps                |
+|                                                              |                                                              |
+| **„Source“/specify provider**:                               | https://www.geonorge.no, https://www.kartverket.no           |
+| In step 4, copy the following text into the field **„Attributions“** | `Karte: <a href="https://www.kartverket.no/en/api-and-data/terms-of-use">SSR ©Kartverket</a>` |
+|                                                              |                                                              |
+| **Map content**:                                             | e.g. road network, nautical charts, topo grids, place names etc. |
+|                                                              |                                                              |
+| **Preview image**:                                           | ![](images/en/GeoNorge_Kartverket.png)                       |
+
+
+
+
+
 ## GIS map Burgenland
 
 
@@ -341,14 +379,14 @@ Below you will find the **inputs**, which can be used in **step 1 (enter URL)** 
 
 | URL:                                                         | http://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Select in step 2:                                            | select one of the currently 506 available maps               |
+| Select in step 2:                                            | select one of the currently 571 available maps               |
 |                                                              |                                                              |
 | **„Source“/specify provider**:                               | [www.swisstopo.admin.ch](http://www.swisstopo.admin.ch)      |
 | In step 4, copy the following text into the field **„Attributions“**: | `Map: <a href="https://www.admin.ch/gov/de/start/rechtliches.html">geo.admin.ch</a>` |
 |                                                              |                                                              |
 | **Map content**:                                             | e.g., vegetation, roads, cultural assets, water bodies, administrative boundaries, <br/>cell phone exposure, energy, noise pollution, protected areas, plant distribution, etc.) |
 |                                                              |                                                              |
-| **Preview image**:                                           | ![](images/en/SwissTopo.png)                                    |
+| **Preview image**:                                           | ![](images/en/SwissTopo.png)                                 |
 
 
 
