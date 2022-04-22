@@ -1,0 +1,807 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Manual for ODIN the flexible Open Source Command and Control Information System.">
+      
+      
+        <meta name="author" content="Syncpoint GmbH">
+      
+      
+        <link rel="canonical" href="https://syncpoint.github.io/odin-manual/06_Bearbeitung_Objekte_Karte/index.en/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    
+    
+      
+        <title>Handling Objects/Maps - ODIN - Manual - 0.18.1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.120efc48.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#editing-objects-on-the-map" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ODIN - Manual - 0.18.1" class="md-header__button md-logo" aria-label="ODIN - Manual - 0.18.1" data-md-component="logo">
+      
+  <img src="../../assets/logo-white512.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ODIN - Manual - 0.18.1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Handling Objects/Maps
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Select language">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="../index.de/" hreflang="de" class="md-select__link">
+                    Deutsch
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="./" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/syncpoint/odin" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ODIN - Manual - 0.18.1" class="md-nav__button md-logo" aria-label="ODIN - Manual - 0.18.1" data-md-component="logo">
+      
+  <img src="../../assets/logo-white512.png" alt="logo">
+
+    </a>
+    ODIN - Manual - 0.18.1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/syncpoint/odin" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.en/" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Deckblatt_Vorwort/index.en/" class="md-nav__link">
+        Preface
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Benutzeroberflaeche/index.en/" class="md-nav__link">
+        User Interface
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_Menueleiste/index.en/" class="md-nav__link">
+        Menu bar
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_Projektverwaltung/index.en/" class="md-nav__link">
+        Project management
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Kartenverwaltung/index.en/" class="md-nav__link">
+        Map management
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Activity_Bar/index.en/" class="md-nav__link">
+        Activity Bar
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Handling Objects/Maps
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Handling Objects/Maps
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    General
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-procedure-for-creation" class="md-nav__link">
+    Basic procedure for creation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creation-based-on-geometry-of-the-object" class="md-nav__link">
+    Creation based on geometry of the object
+  </a>
+  
+    <nav class="md-nav" aria-label="Creation based on geometry of the object">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#point-objects" class="md-nav__link">
+    Point objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-objects" class="md-nav__link">
+    Line objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surface-objects" class="md-nav__link">
+    Surface objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surface-area-rectangular" class="md-nav__link">
+    Surface Area, rectangular
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corridor-objects" class="md-nav__link">
+    Corridor objects
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Eigenschaften_Objekte/index.en/" class="md-nav__link">
+        Object properties
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_Freiformobjekte/index.en/" class="md-nav__link">
+        Freeform objects
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_Einstellungen/index.en/" class="md-nav__link">
+        Preferences
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_Maszstabgerechtes_Drucken/index.en/" class="md-nav__link">
+        Print to scale
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_Werkzeuge/index.en/" class="md-nav__link">
+        Measurement Tools
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_taktische_Planungstools/index.en/" class="md-nav__link">
+        Tactical Planning Tools
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../20_Anlage_Onlinekarten/index.en/" class="md-nav__link">
+        Online maps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kb_shortcuts.en/" class="md-nav__link">
+        Keyboard shortcuts
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    General
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-procedure-for-creation" class="md-nav__link">
+    Basic procedure for creation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creation-based-on-geometry-of-the-object" class="md-nav__link">
+    Creation based on geometry of the object
+  </a>
+  
+    <nav class="md-nav" aria-label="Creation based on geometry of the object">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#point-objects" class="md-nav__link">
+    Point objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line-objects" class="md-nav__link">
+    Line objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surface-objects" class="md-nav__link">
+    Surface objects
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#surface-area-rectangular" class="md-nav__link">
+    Surface Area, rectangular
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#corridor-objects" class="md-nav__link">
+    Corridor objects
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<ul>
+<li class="i18n-link i18n-link-found i18n-link-de"><a href="../../06_Bearbeitung_Objekte_Karte/index.de/">Deutsch</a></li>
+</ul>
+<h1 id="editing-objects-on-the-map">Editing objects on the map</h1>
+<p>This chapter describes the creation and editing of objects with different geometries.</p>
+<p>The <strong>representation</strong> of the objects on the map is basically done according to <strong>MIL-STD 2525C</strong>. An "anticipation" of the <strong>MIL-STD 2525D</strong> can be found in the representation of <strong>civilian vehicles &amp; equipment</strong> with the <strong>color "pink"</strong>, as well as in the <strong>activities</strong> with the <strong>four black squares</strong> in each corner of the basic symbol.</p>
+<p>With version 0.17.0 the <strong>Mission Task Verbs</strong> from the <strong>NATO Standard ATP-112</strong>, as well as <strong>national tactical symbols</strong> (Effect Verbs, Action Verbs - marked with "(<strong>AUT only</strong>")) were started to be implemented.</p>
+<p>In ODIN some deviations tending towards MIL-STD 2525D are chosen where MIL-STD 2525C does not reflect <strong>tactical necessity</strong> and/or <strong>sensible reason</strong> (e.g. Direction of Attack as multi-point line instead of a "2-point line"; additional assignment of modifiers (e.g. with natural events, facilities etc.); selection of all Hostility Status with tactical graphics - point objects etc.)</p>
+<h2 id="general">General</h2>
+<p>The objects are distinguished according to their assignment or their geometries, because the creation and editing, as well as the contents of the properties window are aligned according to these in ODIN:</p>
+<ul>
+<li>units point objects</li>
+<li>weapons, vehicles, equipment (Equipments) point objects</li>
+<li>installations point objects</li>
+<li>activities point objects</li>
+<li>"SKKM" AUT national civil point objects</li>
+<li>tactical Graphics point, line, area and corridor objects</li>
+</ul>
+<p>The first part describes the creation of objects on the map based on geometries (point, line, area, corridor).</p>
+<p>The second part describes the input options (modifiers according to MIL-STD 2525C, additional fields, etc.) in the respective property windows of the objects.</p>
+<h2 id="basic-procedure-for-creation">Basic procedure for creation</h2>
+<ul>
+<li>
+<p>The basic procedure in ODIN to create an object is the following:</p>
+<ul>
+<li>
+<p><strong>Set active layer</strong> or set the desired "target layer" as the active layer (double click on the layer name);</p>
+</li>
+<li>
+<p>open the <strong>map palette</strong>;</p>
+</li>
+<li>enter search text (always refers to symbol name and hierarchy path);</li>
+<li>click with the mouse on the desired <strong>symbol</strong> in the area of the map palette;</li>
+<li>click with the mouse on the desired <strong>position(s)</strong> on the <strong>map</strong>;</li>
+<li>fill <strong>property window</strong> (opens automatically).</li>
+</ul>
+</li>
+</ul>
+<h2 id="creation-based-on-geometry-of-the-object">Creation based on geometry of the object</h2>
+<h3 id="point-objects">Point objects</h3>
+<p>After <strong>selection</strong> in <strong>map palette</strong> and <strong>click</strong> on <strong>position</strong> on <strong>map</strong>, the creation process is already completed and properties window opens.</p>
+<p>To <strong>change</strong> the <strong>position</strong> of a point object, you click on it with mouse and move it to new position.</p>
+<p>With <strong>Copy</strong> (<code>STRG</code> + <code>C</code>) and <strong>Paste</strong> (<code>STRG</code> + <code>V</code>) ODIN creates the object again on same position. When you click and move the object, the object is now visible twice on map. When copying, all entries already assigned to the object in properties window will also be copied.</p>
+<p>Note that the copied object is always saved in the active layer (even if the "source" object is saved in another layer).</p>
+<p>To improve the display of location, you can use the <strong>"Offset Location" function</strong> for <strong>point symbols</strong>. To do this, <strong>click</strong> on <strong>object</strong>, hold down the <code>ALT</code> key and then use the <strong>mouse</strong> to move the <strong>object</strong> to the <strong>desired position</strong>:</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img alt="" src="../images/en/Punktobjekte_Offset_1.png" /></th>
+<th align="center"><img alt="" src="../images/en/Punktobjekte_Offset_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>You can adjust the line of "Offset Location" by selecting <strong>object</strong> and then moving mouse over the line until a <strong>red circle</strong> appears. Now you can move the line with <strong>mouse</strong> and set a new <strong>point</strong>.</p>
+<p>The second way is to select the <strong>object</strong>, hold down <code>ALT</code> key and click with <strong>mouse</strong> on position in <strong>map</strong> where object should be displayed.</p>
+<p>To cancel "Offset Location" <strong>again</strong>, hold down <code>ALT</code> key and <strong>click</strong> on <strong>"Start Point"</strong> of "Offset Location".</p>
+<h3 id="line-objects">Line objects</h3>
+<p>After <strong>selection</strong> in <strong>Map Palette</strong> and <strong>click</strong> on desired <strong>position</strong> on <strong>map</strong> you start to enter the line and add a new "section" with each mouse click. With a <strong>double click</strong> on map you <strong>finish</strong> the <strong>entry</strong> of the line object and properties window opens.</p>
+<p>To <strong>change</strong> the <strong>position(s)</strong> of a line, select the line and with select a red point and move it with the mouse:</p>
+<p><img alt="" src="../images/en/Linienobjekte_1.png" /></p>
+<p>If you want to set a <strong>new point</strong>, move the mouse pointer onto the line until a <strong>red circle</strong> appears and move it with the mouse:</p>
+<p><img alt="" src="../images/en/Linienobjekte_2.png" /></p>
+<p>To <strong>move</strong> the <strong>entire line</strong> you have to hold down the <code>SHIFT</code> key.</p>
+<p>To <strong>delete</strong> a single point you have to hold down the <code>ALT</code> key and then click on the red point you want to delete.</p>
+<p><strong>Copy</strong> (<code>CTRL</code> + <code>C</code>) and <strong>Paste</strong> (<code>CTRL</code> + <code>V</code>) behave analogously to the point objects.</p>
+<h3 id="surface-objects">Surface objects</h3>
+<p>After <strong>selecting</strong> in the <strong>Map palette</strong> and <strong>clicking</strong> on the desired <strong>position</strong> on the <strong>map</strong>, you start entering the area and add a new "section" with each mouse click. When drawing the area, this area is highlighted by means of a transparent white representation. With a <strong>double click</strong> on the map you <strong>finish</strong> the <strong>entry</strong> of the surface object and the properties window is opened:</p>
+<p><img alt="" src="../images/en/Flaechenobjekte_1.png" /></p>
+<p>To change the <strong>position(s)</strong> of a surface, select the surface and choose one of the "corner" points and move it with the mouse.</p>
+<p>If you want to set a <strong>new point</strong>, move the mouse pointer onto the line until a <strong>red circle</strong> appears and move it with the mouse:</p>
+<p><img alt="" src="../images/en/Flaechenobjekte_2.png" /></p>
+<p>To <strong>move</strong> the <strong>entire area</strong> you have to hold down the <code>SHIFT</code> key.</p>
+<p>To <strong>delete</strong> a <strong>single point</strong> you have to hold down the <code>ALT</code> key and then click on the "corner" point you want to delete.</p>
+<p><strong>Copy</strong> (<code>STRG</code> + <code>C</code>) and <strong>Paste</strong> (<code>STRG</code> + <code>V</code>) behave analogously to the point objects.</p>
+<h3 id="surface-area-rectangular">Surface Area, rectangular</h3>
+<p>The rectangular surface area object represents a special form of processing (e.g. for the representation of the fire position areas such as ACA, NFA, ZOR, etc.).</p>
+<p>After <strong>selection</strong> in <strong>map palette</strong> and <strong>click</strong> on the desired <strong>position</strong> on <strong>map</strong> the rectangular area object appears. The selected point with mouse on map is always the <strong>left upper corner point</strong> of rectangle.</p>
+<p>To <strong>change</strong> the size of rectangle, select rectangle, move mouse pointer to one of the corner points until a <strong>red circle</strong> appears and move it with the mouse.</p>
+<p>If you move the mouse to one of the <strong>corner points</strong> until the <strong>red circle</strong> appears, hold down the <code>CTRL</code> key and move mouse afterwards, you can rotate the <strong>rectangle</strong>.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img alt="" src="../images/rechteckige_Flaeche_1.png" /></th>
+<th align="center"><img alt="" src="../images/rechteckige_Flaeche_2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="corridor-objects">Corridor objects</h3>
+<p>After <strong>selecting</strong> in the <strong>Map palette</strong> and <strong>clicking</strong> on the desired <strong>position</strong> on the <strong>map</strong>, you start entering the corridor and add a new "section" with each mouse click. With a <strong>double click</strong> on the map you <strong>finish</strong> the <strong>entry</strong> of the corridor object and the properties window opens.</p>
+<p>To <strong>change</strong> the <strong>position(s)</strong> of a corridor, select the corridor, choose a red point and move it with the mouse:</p>
+<p><img alt="" src="../images/en/Korridorobjekte_1.png" /></p>
+<p>If you want to set a <strong>new point</strong>, move the mouse pointer to the red inner line until a <strong>red circle</strong> appear and move it with the mouse.</p>
+<p>You can <strong>change</strong> the <strong>width</strong> of the corridor by moving the red dot on the side at the end of the corridor with the mouse.</p>
+<p>In rare cases, the corridor's geometry might lead to invalid or degenerated visualization.
+In this case the corridor will appear with a yellow-black line and a note indicating that an invalid geometry has been created:</p>
+<p><img alt="" src="../images/en/Korridorobjekte_2.png" /></p>
+<p>You can fix this by making the width of the corridor smaller or by changing the red dots accordingly. Tip: For most corridor types, the last/arrow segment must have a certain length to be correctly displayed.</p>
+<p>To <strong>move</strong> the <strong>entire corridor</strong> you have to hold down the <code>SHIFT</code> key.</p>
+<p>To <strong>delete</strong> a <strong>single point</strong> you have to hold down the <code>ALT</code> key and then click on the red point you want to delete.</p>
+<p><strong>Copy</strong> (<code>CTRL</code> + <code>C</code>) and <strong>Paste</strong> (<code>CTRL</code> + <code>V</code>) behave analogously to the point objects.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2206 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Manual for ODIN the flexible Open Source Command and Control Information System.">
+      
+      
+        <meta name="author" content="Syncpoint GmbH">
+      
+      
+        <link rel="canonical" href="https://syncpoint.github.io/odin-manual/20_Anlage_Onlinekarten/index.de/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    
+    
+      
+        <title>Onlinekarten - ODIN - Manual - 0.18.1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.120efc48.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#onlinekarten" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="ODIN - Manual - 0.18.1" class="md-header__button md-logo" aria-label="ODIN - Manual - 0.18.1" data-md-component="logo">
+      
+  <img src="../../assets/logo-white512.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ODIN - Manual - 0.18.1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Onlinekarten
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <div class="md-header__option">
+        <div class="md-select">
+          
+          <button class="md-header__button md-icon" aria-label="Sprache wechseln">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+          </button>
+          <div class="md-select__inner">
+            <ul class="md-select__list">
+              
+                <li class="md-select__item">
+                  <a href="./" hreflang="de" class="md-select__link">
+                    Deutsch
+                  </a>
+                </li>
+                
+                <li class="md-select__item">
+                  <a href="../index.en/" hreflang="en" class="md-select__link">
+                    English
+                  </a>
+                </li>
+                
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Zurücksetzen" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/syncpoint/odin" title="Quellcode" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ODIN - Manual - 0.18.1" class="md-nav__button md-logo" aria-label="ODIN - Manual - 0.18.1" data-md-component="logo">
+      
+  <img src="../../assets/logo-white512.png" alt="logo">
+
+    </a>
+    ODIN - Manual - 0.18.1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/syncpoint/odin" title="Quellcode" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    syncpoint/odin
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.de/" class="md-nav__link">
+        Start
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Deckblatt_Vorwort/index.de/" class="md-nav__link">
+        Vorwort
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Benutzeroberflaeche/index.de/" class="md-nav__link">
+        Benutzeroberflaeche
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_Menueleiste/index.de/" class="md-nav__link">
+        Menüleiste
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_Projektverwaltung/index.de/" class="md-nav__link">
+        Projektverwaltung
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Kartenverwaltung/index.de/" class="md-nav__link">
+        Kartenverwaltung
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Activity_Bar/index.de/" class="md-nav__link">
+        Activity Bar
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Bearbeitung_Objekte_Karte/index.de/" class="md-nav__link">
+        Bearbeitung Objekte/Karte
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Eigenschaften_Objekte/index.de/" class="md-nav__link">
+        Objekteigenschaften
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_Freiformobjekte/index.de/" class="md-nav__link">
+        Freiformobjekte
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_Einstellungen/index.de/" class="md-nav__link">
+        Einstellungen
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_Maszstabgerechtes_Drucken/index.de/" class="md-nav__link">
+        Maßstabsgerechtes Drucken
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_Werkzeuge/index.de/" class="md-nav__link">
+        Werkzeuge
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../12_taktische_Planungstools/index.de/" class="md-nav__link">
+        Taktische Planungstools
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Onlinekarten
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Onlinekarten
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basemap" class="md-nav__link">
+    Basemap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opentopomap" class="md-nav__link">
+    OpenTopoMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openslopemap" class="md-nav__link">
+    OpenSlopeMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openflightmap" class="md-nav__link">
+    OpenFlightMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openrailwaymap" class="md-nav__link">
+    OpenRailwayMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openseamap" class="md-nav__link">
+    OpenSeaMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openfiremap" class="md-nav__link">
+    OpenFireMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opensnowmap" class="md-nav__link">
+    OpenSnowMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opencyclemap" class="md-nav__link">
+    OpenCycleMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stamen" class="md-nav__link">
+    Stamen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#onlinekarten-stadt-wien" class="md-nav__link">
+    Onlinekarten Stadt Wien
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gis-karte-burgenland" class="md-nav__link">
+    GIS-Karte Burgenland
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#swisstopo" class="md-nav__link">
+    SwissTopo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#onlinekarten-norwegen-geonorgekartverket" class="md-nav__link">
+    Onlinekarten Norwegen (GeoNorge/Kartverket)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opnv-karte" class="md-nav__link">
+    ÖPNV-Karte
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waymarkettrails" class="md-nav__link">
+    WayMarketTrails
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reit-und-wanderkarte" class="md-nav__link">
+    Reit- und Wanderkarte
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reliefkarte" class="md-nav__link">
+    Reliefkarte
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world-imagery-map" class="md-nav__link">
+    World Imagery Map
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kb_shortcuts.de/" class="md-nav__link">
+        Tastaturkürzel
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basemap" class="md-nav__link">
+    Basemap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opentopomap" class="md-nav__link">
+    OpenTopoMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openslopemap" class="md-nav__link">
+    OpenSlopeMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openflightmap" class="md-nav__link">
+    OpenFlightMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openrailwaymap" class="md-nav__link">
+    OpenRailwayMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openseamap" class="md-nav__link">
+    OpenSeaMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openfiremap" class="md-nav__link">
+    OpenFireMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opensnowmap" class="md-nav__link">
+    OpenSnowMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opencyclemap" class="md-nav__link">
+    OpenCycleMap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stamen" class="md-nav__link">
+    Stamen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#onlinekarten-stadt-wien" class="md-nav__link">
+    Onlinekarten Stadt Wien
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gis-karte-burgenland" class="md-nav__link">
+    GIS-Karte Burgenland
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#swisstopo" class="md-nav__link">
+    SwissTopo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#onlinekarten-norwegen-geonorgekartverket" class="md-nav__link">
+    Onlinekarten Norwegen (GeoNorge/Kartverket)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opnv-karte" class="md-nav__link">
+    ÖPNV-Karte
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waymarkettrails" class="md-nav__link">
+    WayMarketTrails
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reit-und-wanderkarte" class="md-nav__link">
+    Reit- und Wanderkarte
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reliefkarte" class="md-nav__link">
+    Reliefkarte
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world-imagery-map" class="md-nav__link">
+    World Imagery Map
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<ul>
+<li class="i18n-link i18n-link-found i18n-link-en"><a href="../../20_Anlage_Onlinekarten/index.en/">English</a></li>
+</ul>
+<h1 id="onlinekarten">Onlinekarten</h1>
+<p>Im Kapitel "<strong>Kartenverwaltung</strong>" ist das Einbinden von Online- und Offlinekarten durch den User beschrieben.</p>
+<p>Nachstehend findet Ihr die <strong>Eingaben</strong>, welche im <strong>Schritt 1 (URL eingeben)</strong> und im <strong>Schritt 4 ("Namensnennungen")</strong> für im Internet <strong>kostenlos verfügbare Onlinekarten</strong> genützt werden können, damit Ihr diese in ODIN einbinden und die "Herkunft" der Karte anzeigen könnt:</p>
+<h2 id="basemap">Basemap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>Geoland Basemap –  Basemap von Österreich in Farbe</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.basemap.at/</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://basemap.at/#lizenz"&gt;basemap.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Österreichkarte in Farbe</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild:</strong></td>
+<td><img alt="" src="../images/Basemap_Farbe.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>Geoland Basemap Overlay –  Basemap von Österreich nur<br/>Beschriftung als transparenter Layer</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.basemap.at/</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://basemap.at/#lizenz"&gt;basemap.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Transparenter Layer mit Bezeichnungen<br/>(z.B. Verwaltungsgrenzen, Orts- und Straßennamen,<br/>Hausnummern, U-Bahnlinien, Gewässerbezeichnungen,<br/>Berggipfel, Denkmäler etc.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Basemap_transparenter_Layer.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>Geoland Basemap –  Basemap von Österreich in Grau</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.basemap.at/</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://basemap.at/#lizenz"&gt;basemap.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Österreichkarte in Grau</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Basemap_Grau.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>Basemap High DPl – Basemap mit 512x512px Kacheln<br/>für Unterstützung von User Endgeräten mit high dpi Display<br/>(iPad retina, Smartphones mit HD Auflösung</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.basemap.at/</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://basemap.at/#lizenz"&gt;basemap.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Österreichkarte in Farbe (HDPI) für Endgeräte mit HDPI-Display</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Basemap_HDPI_Farbe.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>Geoland Basemap Orthofoto – Basemap als farbiges Orthofoto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.basemap.at/</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://basemap.at/#lizenz"&gt;basemap.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Österreichkarte als farbiges Orthofoto</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Basemap_Ortho.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>Geoland Basemap Gelände – Basemap Geländedarstellung<br/> von Österreich in Grau</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.basemap.at/</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://basemap.at/#lizenz"&gt;basemap.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Österreichkarte mit Geländedarstellung (in grau)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Basemap_Gelaende_grau.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>Geoland Basemap Oberfläche – Basemap<br/>Oberflächendarstellung von Österreich in Grau</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.basemap.at/</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://basemap.at/#lizenz"&gt;basemap.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Österreichkarte mit Oberflächendarstellung (in grau)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Basemap_Gelaende_grau.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="opentopomap">OpenTopoMap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://tile.opentopomap.org/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://opentopomap.org/about</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong><br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.opentopomap.org/about"&gt;opentopomap.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Topografische Karte die aus Daten der OpenStreetMap und SRTM-Höhendaten generiert wird</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenTopoMap.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="openslopemap">OpenSlopeMap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://wmts.openslopemap.org/wmts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="https://www.openslopemap.org/">https://www.openslopemap.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  <br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.openslopemap.org/projekt/lizenzen/"&gt;OpenSlopeMap.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>dzt. 26 Kartensätze für verschiedene Gebiete im Alpenraum und die Pyrenäen verfügbar<br/>(Hangneigungen, Höhenschichtlinien)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenSlopeMap.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="openflightmap">OpenFlightMap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://snapshots.openflightmaps.org/live/1712/tiles/world/noninteractive/epsg3857/merged/512/latest/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.openflightmap.org">www.openflightmap.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.openflightmaps.org/"&gt;openflightmap.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden der Luftraumordnung im Europäischen Raum</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenFlightMap.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="openrailwaymap">OpenRailwayMap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.openrailwaymap.org">www.openrailwaymap.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.openrailwaymap.org/imprint-de.html"&gt;openrailwaymap.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von Eisenbahn- und U-Bahn-, S-Bahnlinien, Bahnhöfen, Stationen etc.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenRailwayMap_Standard.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://tiles.openrailwaymap.org/signals/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.openrailwaymap.org">www.openrailwaymap.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.openrailwaymap.org/imprint-de.html"&gt;openrailwaymap.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden der Signalanlagen für den Schienenverkehr</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenRailwayMap_Signals.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://tiles.openrailwaymap.org/maxspeed/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.openrailwaymap.org">www.openrailwaymap.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.openrailwaymap.org/imprint-de.html"&gt;openrailwaymap.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden der Geschwindigkeitsbereiche für den Schienenverkehr</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenRailwayMap_MaxSpeed.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="openseamap">OpenSeaMap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://t1.openseamap.org/seamark/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.openseamap.org">www.openseamap.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  <br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.openseamap.org/index.php?id=imprint"&gt;openseamap.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von maritimen Daten (z.B. Häfen, Leuchtfeuer, Korridore etc.)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenSeaMap.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="openfiremap">OpenFireMap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://openfiremap.org/hytiles/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.openfiremap.org">www.openfiremap.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.openstreetmap.org/copyright"&gt;Open Street Map - Mitwirkende&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von Feuerwehrstützpunkten, Hydranten etc. (sofern in OpenFireMap verfügbar)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenFireMap.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="opensnowmap">OpenSnowMap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://www.opensnowmap.org/pistes/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.opensnowmap.org">www.opensnowmap.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  <br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.openstreetmap.org/copyright"&gt;Open Street Map - Mitwirkende&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von Wintersportanlagen (weltweit)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OpenSnowMap.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="opencyclemap">OpenCycleMap</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th align="left">https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td align="left"><a href="http://www.thunderforest.com">www.thunderforest.com</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td align="left"><code>Karte: &lt;a href="https://www.thunderforest.com/terms"&gt;Thunderforest&lt;/a&gt;  Daten: &lt;a href="https://www.openstreetmap.org/copyright"&gt;Open Street Map - Mitwirkende&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td align="left">Karte mit Radwegen, Bike-Sharing, Fahrrad-Shops, frei zugängliches Werkzeug <br />(Europa, Nordamerika, Australien, Neuseeland, Südkorea, Taiwan).</td>
+</tr>
+<tr>
+<td></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td align="left"><img alt="" src="../images/OpenCycleMap.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="stamen">Stamen</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://tile.stamen.com/toner/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://stamen.com/open-source</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  <br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://stamen.com/privacy-policy"&gt;stamen.com&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Schwarz-Weiß-Karte</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Stamen_Toner.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://stamen.com/open-source</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  <br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://stamen.com/privacy-policy"&gt;stamen.com&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Karte mit Darstellung des Geländes mit <br/>Hügelschattierungen und natürlichen Vegetationsfarben</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Stamen_Terrain.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://stamen.com/open-source</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  <br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://stamen.com/privacy-policy"&gt;stamen.com&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Aquarellkarte mit Rastereffekten</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Stamen_Watercolor.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="onlinekarten-stadt-wien">Onlinekarten Stadt Wien</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>eine von den dzt. 16 verfügbaren Karten auswählen</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.wien.gv.at/</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://digitales.wien.gv.at/ogd-nutzungsbedingungen/"&gt;Datenquelle Stadt Wien - data.wien.gv.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>verschiedene Karten von Wien (z.B. Beschriftung Stadtplan, Widmungs-/Bebauungsplan, Luftbildpläne, Orthofotos etc.)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Stadtplaene_Wien.png" /></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="gis-karte-burgenland">GIS-Karte Burgenland</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://gis.bgld.gv.at/gisbgld/rest/services/Public/Grundkarte/MapServer/WMTS/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://gis.bgld.gv.at</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://geodaten.bgld.gv.at/de/allg-informationen/nutzungsbedingungen.html"“&gt;geodaten.bgld.gv.at&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Karte des Burgenlandes mit Geo-Daten (z.B. Straßen, Gewässer, öffentliche DSt, Grundstücke etc.)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/GIS_Bgld.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="swisstopo">SwissTopo</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>eine von den dzt. 571 verfügbaren Karten auswählen</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.swisstopo.admin.ch">www.swisstopo.admin.ch</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  <br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.admin.ch/gov/de/start/rechtliches.html"&gt;geo.admin.ch&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>z.B. Bewuchs, Straßen, Kulturgüter, Gewässer, Verwaltungsgrenzen,  Mobilfunkbelastung, <br/>Energie, Lärmbelastung, Schutzgebiete, Verbreitung von Pflanzen etc.)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/SwissTopo.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="onlinekarten-norwegen-geonorgekartverket">Onlinekarten Norwegen (GeoNorge/Kartverket)</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?service=WMTS&amp;request=GetCapabilities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>eine von den dzt. 20 verfügbaren Karten auswählen</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.geonorge.no, https://www.kartverket.no</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  <br/>hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.kartverket.no/en/api-and-data/terms-of-use"&gt;SSR ©Kartverket&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>z.B. Straßennetz, Seekarten, Toporaster, Ortsnamen etc.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/GeoNorge_Kartverket.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="opnv-karte">ÖPNV-Karte</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://tile.memomaps.de/tilegen/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>http://www.öpnvkarte.de</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="http://www.öpnvkarte.de"&gt;memomaps.de/Open Street Map - Mitwirkende&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Karte mit Transportwegen (Straßen, Eisenbahn, U-Bahn, Bus, Fähren etc.) sowie von Umstiegpunkten (Flughafen, Haltestellen etc.)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/OEPNV.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="waymarkettrails">WayMarketTrails</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.waymarkedtrails.org">www.waymarkedtrails.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://hiking.waymarkedtrails.org/help/legal"&gt;waymarkedtrails.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von markierten Wanderwegen und Standorten von Wegweisern (SG Europa, einzelne weltweit).<br/><em>Wird ständig erweitert!</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/MarkedTrails_Hiking.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.waymarkedtrails.org">www.waymarkedtrails.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://cycling.waymarkedtrails.org/help/legal"&gt;waymarkedtrails.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von markierten Fahrradwegen/Radrouten (SG Europa, einzelne weltweit).<br/><em>Wird ständig erweitert!</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/MarkedTrails_Cycling.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://tile.waymarkedtrails.org/mtb/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.waymarkedtrails.org">www.waymarkedtrails.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://mtb.waymarkedtrails.org/help/legal"&gt;waymarkedtrails.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von markierten Mountainbike-Routen (noch nicht viele weltweit).<br/><em>Wird ständig erweitert!</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/MarkedTrails_MTB.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://tile.waymarkedtrails.org/riding/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.waymarkedtrails.org">www.waymarkedtrails.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://riding.waymarkedtrails.org/help/legal"&gt;waymarkedtrails.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von ausgeschilderten Reitwegen/-routen (noch nicht viele weltweit).<br/><em>Wird ständig erweitert!</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/MarkedTrails_Riding.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://tile.waymarkedtrails.org/skating/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.waymarkedtrails.org">www.waymarkedtrails.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://skating.waymarkedtrails.org/help/legal"&gt;waymarkedtrails.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von markierten Routen für Inline-Skating  (dzt. nur wenige in der Schweiz).<br/><em>Wird ständig erweitert!</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/MarkedTrails_Skating.png" /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>https://tile.waymarkedtrails.org/slopes/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td><a href="http://www.waymarkedtrails.org">www.waymarkedtrails.org</a></td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://slopes.waymarkedtrails.org/help/legal"&gt;waymarkedtrails.org&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Einblenden von markierten Wintersportpisten (weltweit).<br/><em>Wird ständig erweitert!</em></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/MarkedTrails_Slopes.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="reit-und-wanderkarte">Reit- und Wanderkarte</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://tiles.topo.wanderreitkarte.de/topo/{z}/{x}/{y}.png</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.wanderreitkarte.de</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://www.wanderreitkarte.de/licence_de.php"&gt; Nop's Reit- und Wanderkarte&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Reit- und Wanderkarte (mit zusätzlichen Informationen wie Parkplätze, Haltestellen,<br />Wasserfälle, Apotheken, Geldinstitute, Gaststätten, Rastplätzen, Sehenswürdigkeiten etc.)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Reit_Wanderkarte.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="reliefkarte">Reliefkarte</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://maps-for-free.com/layer/relief/z{z}/row{y}/{z}_{x}-{y}.jpg</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://maps-for-free.com</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong>  hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://maps-for-free.com/#openModal"&gt; maps-for-free.com&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Reliefkarte</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild</strong>:</td>
+<td><img alt="" src="../images/Reliefkarte.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="world-imagery-map">World Imagery Map</h2>
+<table>
+<thead>
+<tr>
+<th>URL:</th>
+<th>http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>im Schritt 2 auswählen:</td>
+<td>World_Imagery</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>„Quelle“/Anbieter angeben</strong>:</td>
+<td>https://www.esri.com/en-us/arcgis/products/arcgis-online/resources</td>
+</tr>
+<tr>
+<td>Im Schritt 4 bei <strong>Namensnennungen</strong> hineinkopieren:</td>
+<td><code>Karte: &lt;a href="https://doc.arcgis.com/de/arcgis-online/reference/terms-of-use.htm"&gt;ArcGIS Online&lt;/a&gt;</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Karteninhalt</strong>:</td>
+<td>Satellitenweltkarte</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Vorschaubild:</strong></td>
+<td><img alt="" src="../images/World_Imagery_Map.png" /></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Zurück zum Seitenanfang
+          </a>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.tracking", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      
+    
+  </body>
+</html>
