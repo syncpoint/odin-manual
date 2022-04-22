@@ -114,7 +114,7 @@ With the modifiers **"None"** (normal strength), **"(+)"** (reinforced), **"(-)"
 
 ![](images/en/Einheiten_Verstaerkung.png)
 
-The detailed information about the second section of the properties window can be found in the links/weblinks section.
+Detailed information about the second section of the properties window can be found in the links/weblinks section.
 
 
 
@@ -156,7 +156,7 @@ In the **"Mobility"** field, you can select the following information for the ob
 
 The fields **"Quantity"**, **"Type"**, **"Date-Time-Group"**, **"Speed"**, **"Direction"**, **"Staff Comments"** and **"Additional Information"** are free text fields.
 
-The detailed information for the second section of the properties window can be found in the links/weblinks section.
+Detailed information for the second section of the properties window can be found in the links/weblinks section.
 
 
 
@@ -195,7 +195,7 @@ You can use the **"Special C2 HQ"** field to represent facilities whose designat
 
 The fields **"Date-Time-Group"**, **"Staff Comments"** and **"Additional Information"** are free text fields.
 
-The detailed information about the second area of the properties window can be found in the links/weblinks section.
+Detailed information about the second area of the properties window can be found in the links/weblinks section.
 
 
 
@@ -228,11 +228,59 @@ The following properties can be entered for the activities:
 
 The fields **"Date-Time-Group"**, **"Speed"**, **"Direction"**, **"Staff Comments"** and **"Additional Information"** are free text fields.
 
-The detailed information for the second section of the properties window can be found in the links/weblinks section.
+Detailed information for the second section of the properties window can be found in the links/weblinks section.
 
 
 
 
+
+## Civil SKKM symbols (AUT ONLY)
+
+
+
+In order to enable a **Joint Common Operational Picture** between **military and civilian forces in Austria** in occasion cases (e.g. disaster cases, accidents on a larger scale, joint exercises etc.), we have implemented the basic national SKKM symbols as of version 0.18.0.
+
+The SKKM symbols can be found in map palette best with the search term **"SKKM "**. Furthermore they are marked with the addition **"(AUT ONLY) "**. This serves information of our international users that these are purely national Austrian symbols.
+
+
+
+The following properties can currently be entered for these objects:
+
+| ![](images/en/SKKM_Symbole_Uebersicht_1.png) | ![](images/en/SKKM_Symbole_Uebersicht_2.png) |
+| -------------------------------------------- | -------------------------------------------- |
+
+- <span class="blue">1</span> marked object on the map
+
+- <span class="blue">2</span> current area properties
+- <span class="blue">3</span> switch to the links/weblinks area
+- <span class="blue">4</span> name of the object
+- <span class="blue">5</span> own name
+- <span class="blue">6</span> superior department(s)                                         (currently only available for formations and person in commander function)
+
+- <span class="blue">7</span> text iin symbol                                                        (currently only available for formations)
+
+- <span class="blue">8</span> echelon                                                                    (currently only available for formations and person in commander function)
+
+- <span class="blue">9</span> date and time information
+
+- <span class="blue">10</span> speed
+- <span class="blue">11</span> direction
+- <span class="blue">12</span> additional information
+- <span class="blue">13</span> Headquarter                                                          (currently only available for formations)
+
+
+
+The fields **"Date-Time-Group "**, **"Speed "**, **"Direction "** and **"Additional Information "** are free text fields.
+
+The field **"Headquarter "** can be used to indicate whether a formation is a command or control center.
+
+Detailed information about the second section of the properties window can be found in the Links/WebLinks section.
+
+
+
+Below is an overview of the currently implemented SKKM symbols:
+
+![](images/en/SKKM_Symbole_Uebersicht_3.png)
 
 ## Symbols without modifier acc. to MIL-STD 2525C
 
@@ -262,7 +310,7 @@ The following properties can be entered for these objects:
 
 The fields **"Quantity"**, **"Date-Time-Group"**, **"Speed"**, **"Direction"**, **"Staff Comments"** and **"Additional Information"** are free text fields.
 
-The detailed information for the second section of the properties window can be found in the links/weblinks section.
+Detailed information for the second section of the properties window can be found in the links/weblinks section.
 
 
 
@@ -292,7 +340,7 @@ The following properties can be entered for the tactical graphics - point object
 
 The fields **"Date-Time-Group"**, **"Staff Comments"**, **"Additional Information"** and **"Height/Depth"** are free text fields.
 
-The detailed information for the second section of the properties window can be found in the links/weblinks section.
+Detailed information for the second section of the properties window can be found in the links/weblinks section.
 
 
 
@@ -325,7 +373,7 @@ The fields **"Additional Information"**, **"Effective (from)"**, **"Effective (t
 
 For **line objects**, which currently **cannot** be displayed on the **map** in ODIN, the **hierarchy path is marked in red** and with the word **"(unsupported)"**.
 
-The detailed information for the second section of the properties window can be found in the links/weblinks section.
+Detailed information for the second section of the properties window can be found in the links/weblinks section.
 
 
 
@@ -369,7 +417,7 @@ In the **"Label Placement"** field, you can **shift** the display of the **size 
 
 The fields **"Additional Information"**, **"Effective (from)"**, **"Effective (to)"**, **"Altitude (from)"** and **"Altitude (to)"** are free text fields.
 
-The detailed information for the second section of the properties window can be found in the links/weblinks section.
+Detailed information for the second section of the properties window can be found in the links/weblinks section.
 
 
 
@@ -412,7 +460,7 @@ For those area objects (e.g., airspaces) to which the **Effective (from)** (modi
 
 For **area objects** that **cannot** be displayed on the **map** in ODIN at the moment, the **hierarchy path is marked in red font** and with the word **"(unsupported)"**.
 
-The detailed information for the second section of the properties window can be found in the links/weblinks section.
+Detailed information for the second section of the properties window can be found in the links/weblinks section.
 
 
 

@@ -19,7 +19,7 @@ We are aware that there is still a long way to go to fulfill our vision. We are 
 
 - **Open source product** and therefore usable **free of charge** for everyone (permissive MIT license);
 - use of **various online maps** (incl. their "overlaid" display);
-- user interface in **German** and **English**;
+- user interface in **German**, **English**, **French** and **Spanish**;
 - **symbols** according to **MIL-STD 2525C** (approx. 95% are currently implemented - excluding METOC);
 - **symbols** according to **NATO STANDARD ATP-112**, as well as **national tactical symbols** (Effect Verbs/Action Verbs);
 - executable for the operating systems **Windows**, **Linux** and **macOS **;

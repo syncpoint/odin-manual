@@ -317,6 +317,26 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 
 
+## Onlinekarten Stadt Wien
+
+
+
+| URL:                                                  | http://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml       |
+| ----------------------------------------------------- | ------------------------------------------------------------ |
+| im Schritt 2 auswählen:                               | eine von den dzt. 16 verfügbaren Karten auswählen            |
+|                                                       |                                                              |
+| **„Quelle“/Anbieter angeben**:                        | https://www.wien.gv.at/                                      |
+| Im Schritt 4 bei **Namensnennungen**  hineinkopieren: | `Karte: <a href="https://digitales.wien.gv.at/ogd-nutzungsbedingungen/">Datenquelle Stadt Wien - data.wien.gv.at</a>` |
+|                                                       |                                                              |
+| **Karteninhalt**:                                     | verschiedene Karten von Wien (z.B. Beschriftung Stadtplan, Widmungs-/Bebauungsplan, Luftbildpläne, Orthofotos etc.) |
+|                                                       |                                                              |
+| **Vorschaubild**:                                     | ![](images/Stadtplaene_Wien.png)                             |
+|                                                       |                                                              |
+
+
+
+
+
 ## GIS-Karte Burgenland
 
 
@@ -341,7 +361,7 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 
 | URL:                                                       | http://wmts.geo.admin.ch/1.0.0/WMTSCapabilities.xml          |
 | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| im Schritt 2 auswählen:                                    | eine von den dzt. 506 verfügbaren Karten auswählen           |
+| im Schritt 2 auswählen:                                    | eine von den dzt. 571 verfügbaren Karten auswählen           |
 |                                                            |                                                              |
 | **„Quelle“/Anbieter angeben**:                             | [www.swisstopo.admin.ch](http://www.swisstopo.admin.ch)      |
 | Im Schritt 4 bei **Namensnennungen**  <br/>hineinkopieren: | `Karte: <a href="https://www.admin.ch/gov/de/start/rechtliches.html">geo.admin.ch</a>` |
@@ -349,6 +369,27 @@ Nachstehend findet Ihr die **Eingaben**, welche im **Schritt 1 (URL eingeben)** 
 | **Karteninhalt**:                                          | z.B. Bewuchs, Straßen, Kulturgüter, Gewässer, Verwaltungsgrenzen,  Mobilfunkbelastung, <br/>Energie, Lärmbelastung, Schutzgebiete, Verbreitung von Pflanzen etc.) |
 |                                                            |                                                              |
 | **Vorschaubild**:                                          | ![](images/SwissTopo.png)                                    |
+
+
+
+
+
+## Onlinekarten Norwegen (GeoNorge/Kartverket)
+
+
+
+| URL:                                                       | http://opencache.statkart.no/gatekeeper/gk/gk.open_wmts?service=WMTS&request=GetCapabilities |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| im Schritt 2 auswählen:                                    | eine von den dzt. 20 verfügbaren Karten auswählen            |
+|                                                            |                                                              |
+| **„Quelle“/Anbieter angeben**:                             | https://www.geonorge.no, https://www.kartverket.no           |
+| Im Schritt 4 bei **Namensnennungen**  <br/>hineinkopieren: | `Karte: <a href="https://www.kartverket.no/en/api-and-data/terms-of-use">SSR ©Kartverket</a>` |
+|                                                            |                                                              |
+| **Karteninhalt**:                                          | z.B. Straßennetz, Seekarten, Toporaster, Ortsnamen etc.      |
+|                                                            |                                                              |
+| **Vorschaubild**:                                          | ![](images/GeoNorge_Kartverket.png)                          |
+
+
 
 
 

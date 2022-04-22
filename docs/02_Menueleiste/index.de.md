@@ -142,7 +142,7 @@ Mit der Funktion **„Labels“** könnt Ihr in ODIN  wählen, ob die Modifier b
 
 
 
-Hier könnt Ihr die Anzeige der Funktionen, Tooltips etc., welche die **Benutzeroberfläche** betreffen zwischen **„Deutsch“** und **„Englisch“** umschalten.
+Hier könnt Ihr die Anzeige der Funktionen, Tooltips etc., welche die **Benutzeroberfläche** betreffen zwischen **„Deutsch“**, **„Englisch“**, **"Französisch"** und **"Spanisch"** umschalten.
 
 
 
@@ -167,5 +167,4 @@ Mit der Funktion **"Online Benutzerhandbuch"** könnt Ihr auf das Benutzerhandbu
 Mit den Funktionen **"Online Unterstützung via Slack"** bzw. **"Online Unterstützung via E-Mail"** könnt Ihr bei einem Problem in ODIN für einen **Support** direkt mit uns via Slack bzw. E-Mail Verbindung aufnehmen.
 
 Im **Slack-Bereich** könnt Ihr uns auch gerne Euer **Feedback** bzw. **Änderungswünsche** zu ODIN mitteilen. Weiters veröffentlichen wir in diesem Bereich auch die jeweiligen **Informationen**, was sich im **jeweiligen Update zu ODIN** gegenüber der Vorgängerversion geändert hat.
-
 
